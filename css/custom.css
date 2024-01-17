@@ -33,3 +33,7 @@ a.eduact-btn.eduact-btn-second,
 a.eduact-btn {
   font-size: 0.95rem !important;
 }
+
+.service-three__wrapper {
+  height: 330px;
+}
