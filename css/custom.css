@@ -1,0 +1,35 @@
+:root {
+  --red: red;
+  --white: white;
+  --gray: #666666;
+  --baseColor: #20419a;
+}
+
+body {
+  background-color: var(--red);
+}
+
+.container a.main-menu__login {
+  color: var(--white) !important;
+}
+.sticky-header__content a.main-menu__login {
+  color: var(--gray) !important;
+}
+.main-menu__right .eduact-btn {
+  background-color: var(--baseColor) !important;
+}
+
+/* .main-menu__logo a.custom-logo { */
+a.custom-logo {
+  color: white;
+  font-size: 2rem !important;
+}
+
+.sticky-header__content .main-menu__logo a.custom-logo {
+  color: var(--baseColor);
+}
+
+a.eduact-btn.eduact-btn-second,
+a.eduact-btn {
+  font-size: 0.95rem !important;
+}

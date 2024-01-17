@@ -1,0 +1,795 @@
+<!DOCTYPE html><html lang="en-US"><head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="profile" href="https://gmpg.org/xfn/11">
+
+	<title>Page not found – Eduact</title>
+<meta name="robots" content="max-image-preview:large">
+<link rel="dns-prefetch" href="//cdnjs.cloudflare.com">
+<link rel="dns-prefetch" href="//fonts.googleapis.com">
+<link rel="alternate" type="application/rss+xml" title="Eduact » Feed" href="https://bracketweb.com/eduactwp/feed/">
+<link rel="alternate" type="application/rss+xml" title="Eduact » Comments Feed" href="https://bracketweb.com/eduactwp/comments/feed/">
+<script>
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/bracketweb.com\/eduactwp\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.4.2"}};
+/*! This file is auto-generated */
+!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\uddfa\ud83c\uddf3","\ud83c\uddfa\u200b\ud83c\uddf3")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!n(e,"\ud83e\udef1\ud83c\udffb\u200d\ud83e\udef2\ud83c\udfff","\ud83e\udef1\ud83c\udffb\u200b\ud83e\udef2\ud83c\udfff")}return!1}function f(e,t,n){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement("canvas"),a=r.getContext("2d",{willReadFrequently:!0}),o=(a.textBaseline="top",a.font="600 32px Arial",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement("script");t.src=e,t.defer=!0,i.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",s=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"}),a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
+</script>
+<style id="wp-emoji-styles-inline-css">
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+</style>
+<link rel="stylesheet" id="wp-block-library-css" href="../css/style.min.css" media="all">
+<style id="classic-theme-styles-inline-css">
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+</style>
+<style id="global-styles-inline-css">
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}body .is-layout-grid{display: grid;}body .is-layout-grid > *{margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+.wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+.wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel="stylesheet" id="contact-form-7-css" href="../css/styles.css" media="all">
+<link rel="stylesheet" id="layerdrops-toolbar-css-css" href="../css/layerdrops-toolbar_3.css" media="all">
+<link rel="stylesheet" id="tutor-icon-css" href="../css/tutor-icon.min.css" media="all">
+<link rel="stylesheet" id="tutor-css" href="../css/tutor.min.css" media="all">
+<link rel="stylesheet" id="tutor-frontend-css" href="../css/tutor-front.min.css" media="all">
+<style id="tutor-frontend-inline-css">
+.mce-notification.mce-notification-error{display: none !important;}
+:root{--tutor-color-primary:#f57005;--tutor-color-primary-rgb:245, 112, 5;--tutor-color-primary-hover:#395bca;--tutor-color-primary-hover-rgb:57, 91, 202;--tutor-body-color:#212327;--tutor-body-color-rgb:33, 35, 39;--tutor-border-color:#cdcfd5;--tutor-border-color-rgb:205, 207, 213;--tutor-color-gray:#e3e5eb;--tutor-color-gray-rgb:227, 229, 235;}
+</style>
+<style id="woocommerce-inline-inline-css">
+.woocommerce form .form-row .required { visibility: visible; }
+</style>
+<link rel="stylesheet" id="animate-css" href="../css/animate.min.css" media="all">
+<link rel="stylesheet" id="custom-animate-css" href="../css/custom-animate.css" media="all">
+<link rel="stylesheet" id="bootstrap-select-css" href="../css/bootstrap-select.min.css" media="all">
+<link rel="stylesheet" id="bxslider-css" href="../css/jquery.bxslider.css" media="all">
+<link rel="stylesheet" id="jarallax-css" href="../css/jarallax.css" media="all">
+<link rel="stylesheet" id="jquery-magnific-popup-css" href="../css/jquery.magnific-popup.css" media="all">
+<link rel="stylesheet" id="odometer-css" href="../css/odometer.min.css" media="all">
+<link rel="stylesheet" id="owl-carousel-css" href="../css/owl.carousel.min.css" media="all">
+<link rel="stylesheet" id="owl-theme-css" href="../css/owl.theme.default.min.css" media="all">
+<link rel="stylesheet" id="reey-font-css" href="../css/stylesheet.css" media="all">
+<link rel="stylesheet" id="alagambe-font-css" href="../css/stylesheet_1.css" media="all">
+<link rel="stylesheet" id="swiper-css" href="../css/swiper.min.css" media="all">
+<link rel="stylesheet" id="timepicker-css" href="../css/timePicker.css" media="all">
+<link rel="stylesheet" id="jquery-ui-css" href="../css/jquery-ui.css" media="all">
+<link rel="stylesheet" id="eduact-addon-style-css" href="../css/eduact-addon.css" media="all">
+<link rel="stylesheet" id="slick-css" href="../css/slick.css" media="all">
+<link rel="stylesheet" id="perfect-scrollbar-css" href="../css/perfect-scrollbar.min.css" media="all">
+<link rel="stylesheet" id="perfect-scrollbar-wpc-css" href="../css/custom-theme.css" media="all">
+<link rel="stylesheet" id="magnific-popup-css" href="../css/magnific-popup.css" media="all">
+<link rel="stylesheet" id="woosq-feather-css" href="../css/feather.css" media="all">
+<link rel="stylesheet" id="woosq-icons-css" href="../css/icons.css" media="all">
+<link rel="stylesheet" id="woosq-frontend-css" href="../css/frontend.css" media="all">
+<link rel="stylesheet" id="woosw-icons-css" href="../css/icons_1.css" media="all">
+<link rel="stylesheet" id="woosw-frontend-css" href="../css/frontend_1.css" media="all">
+<style id="woosw-frontend-inline-css">
+.woosw-popup .woosw-popup-inner .woosw-popup-content .woosw-popup-content-bot .woosw-notice { background-color: #5fbd74; } .woosw-popup .woosw-popup-inner .woosw-popup-content .woosw-popup-content-bot .woosw-popup-content-bot-inner a:hover { color: #5fbd74; border-color: #5fbd74; } 
+</style>
+<link rel="stylesheet" id="eduact-fonts-css" href="../css/css.css" media="all">
+<link rel="stylesheet" id="flaticons-css" href="../css/flaticon.css" media="all">
+<link rel="stylesheet" id="eduact-icons-css" href="../css/style.css" media="all">
+<link rel="stylesheet" id="bootstrap-css" href="../css/bootstrap.min.css" media="all">
+<link rel="stylesheet" id="fontawesome-css" href="../css/all.min.css" media="all">
+<link rel="stylesheet" id="eduact-style-css" href="../css/style_5.css" media="all">
+<style id="eduact-style-inline-css">
+:root {
+
+			--eduact-base: #4F5DE4;
+			--eduact-base-rgb: 79, 93, 228;
+
+			--eduact-secondary: #F57005;
+			--eduact-secondary-rgb: 245, 112, 5;
+
+			--eduact-white: #ffffff;
+			--eduact-white-rgb: 255, 255, 255;
+
+			--eduact-black: #2A254D;
+			--eduact-black-rgb: 42, 37, 77;
+
+			--eduact-black2: #000000;
+			--eduact-black2-rgb: 0, 0, 0;
+
+			--eduact-text: #697585;
+			--eduact-text-rgb: 105, 117, 133;
+
+			--eduact-text2: #B3ADE1;
+			--eduact-text2-rgb: 179, 173, 225;
+
+			--eduact-grey: #B7B0B4;
+			--eduact-grey-rgb: 183, 176, 180;
+		}.page-header__bg { background-image: url(page-header-bg-1-2.jpg); } .preloader .preloader__image { background-image: url(loader.png); } 
+@font-face {
+			font-family: "star";
+			src: url("../fonts/star.eot");
+			src: url("../fonts/star.eot#iefix") format("embedded-opentype"),
+				url("../fonts/star.woff") format("woff"),
+				url("../fonts/star.ttf") format("truetype"),
+				url("../fonts/star.svg#star") format("svg");
+			font-weight: normal;
+			font-style: normal;
+		}
+</style>
+<link rel="stylesheet" id="slick-css-css" href="../css/slick.min.css" media="all">
+<link rel="stylesheet" id="slick-theme-css-css" href="../css/slick-theme.css" media="all">
+<link rel="stylesheet" id="tutor-elementor-css-css" href="../css/tutor-elementor.min.css" media="all">
+<script type="text/template" id="tmpl-variation-template">
+	<div class="woocommerce-variation-description">{{{ data.variation.variation_description }}}</div>
+	<div class="woocommerce-variation-price">{{{ data.variation.price_html }}}</div>
+	<div class="woocommerce-variation-availability">{{{ data.variation.availability_html }}}</div>
+</script>
+<script type="text/template" id="tmpl-unavailable-variation-template">
+	<p>Sorry, this product is unavailable. Please choose a different combination.</p>
+</script><script src="../js/jquery.min.js" id="jquery-core-js"></script>
+<script src="../js/jquery-migrate.min.js" id="jquery-migrate-js"></script>
+<script src="../js/slick.min.js" id="etlms-slick-library-js"></script>
+<script id="tutor-elementor-js-js-extra">
+var tutorElementorData = {"is_sidebar_sticky":""};
+</script>
+<script id="tutor-elementor-js-js-before">
+const etlmsUtility = {"is_editor_mode":false}
+</script>
+<script src="../js/tutor-elementor.js" id="tutor-elementor-js-js"></script>
+<link rel="https://api.w.org/" href="https://bracketweb.com/eduactwp/wp-json/"><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://bracketweb.com/eduactwp/xmlrpc.php?rsd">
+<meta name="generator" content="WordPress 6.4.2">
+<meta name="generator" content="TutorLMS 2.3.0">
+<meta name="generator" content="WooCommerce 8.2.0">
+	<noscript><style>.woocommerce-product-gallery{ opacity: 1 !important; }</style></noscript>
+	<meta name="generator" content="Elementor 3.16.5; features: e_dom_optimization, e_optimized_assets_loading, e_optimized_css_loading, additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-swap">
+<link rel="icon" href="favicon-32x32-1.png" sizes="32x32">
+<link rel="icon" href="favicon-32x32-1.png" sizes="192x192">
+<link rel="apple-touch-icon" href="favicon-32x32-1.png">
+<meta name="msapplication-TileImage" content="https://bracketweb.com/eduactwp/wp-content/uploads/2023/09/favicon-32x32-1.png">
+</head>
+
+<body class="error404 theme-eduact tutor-lms woocommerce-no-js hfeed custom-cursor woocommerce-active elementor-default elementor-kit-6">
+	            <div class="custom-cursor__cursor"></div>
+            <div class="custom-cursor__cursor-two"></div>
+
+				<!-- Preloader -->
+		<div class="preloader">
+			<div class="preloader__image"></div>
+		</div>
+		<!-- /.preloader -->
+
+	<div id="page" class="site page-wrapper">
+		<a class="skip-link screen-reader-text" href="#primary">Skip to content</a>
+
+		
+	
+                    <!-- the loop -->
+                            		<div data-elementor-type="wp-post" data-elementor-id="984" class="elementor elementor-984">
+									<section class="elementor-section elementor-top-section elementor-element elementor-element-0a8429a elementor-section-full_width elementor-section-height-default elementor-section-height-default" data-id="0a8429a" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-no">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-56aa38d" data-id="56aa38d" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-cbfe087 elementor-widget elementor-widget-eduact-header" data-id="cbfe087" data-element_type="widget" data-widget_type="eduact-header.default">
+				<div class="elementor-widget-container">
+			
+	<header class="main-header-two">
+		<nav class="main-menu">
+			<div class="container">
+				<div class="main-menu__logo logo-retina">
+					<a href="https://bracketweb.com/eduactwp/">
+						<img decoding="async" width="183" height="48" src="eduAct.png" alt="Eduact">
+					</a>
+				</div><!-- /.main-menu__logo -->
+				<div class="main-menu__nav">
+					<div class="menu-main-menu-2-container"><ul id="menu-main-menu-2" class="main-menu__list"><li id="menu-item-1297" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home megamenu megamenu-style-alt menu-item-has-children  megamenu-clickable megamenu-clickable--toggler is-new-menu menu-item-1297"><a href="https://bracketweb.com/eduactwp/" onclick="return true">Demos</a><ul class="sub-menu"><li>		<div data-elementor-type="wp-post" data-elementor-id="1225" class="elementor elementor-1225">
+									<section class="elementor-section elementor-top-section elementor-element elementor-element-cf9a8df elementor-section-full_width elementor-section-height-default elementor-section-height-default" data-id="cf9a8df" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-no">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-f19a4be" data-id="f19a4be" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-5d6b51a elementor-widget elementor-widget-eduact-home-showcase-box" data-id="5d6b51a" data-element_type="widget" data-widget_type="eduact-home-showcase-box.default">
+				<div class="elementor-widget-container">
+			    <div class="megamenu-popup">
+        <a href="#" class="megamenu-clickable--close"><span class="icon-close"></span></a><!-- /.megamenu-clickable--close -->
+        <div class="megamenu-popup__content">
+            <div class="demos-one">
+                <div class="container">
+                    <div class="row">
+                                                    <div class="col-md-6 col-lg-4">
+                                <div class="demos-one__single">
+                                    <div class="demos-one__image">
+                                        <img decoding="async" src="popup-menu-1-1.jpg" alt="alt" title="popup-menu-1-1">                                        <div class="demos-one__buttons">
+                                                                                            <a href="https://bracketweb.com/eduactwp/" class="eduact-btn">
+                                                    <span class="eduact-btn__shape"></span><span class="eduact-btn__shape"></span><span class="eduact-btn__shape"></span><span class="eduact-btn__shape"></span>
+                                                    <span class="eduact-btn__text">Multi Page</span>
+                                                </a>
+                                                                                                                                        <a href="https://bracketweb.com/eduactwp/one-page-home-one/" class="eduact-btn">
+                                                    <span class="eduact-btn__shape"></span><span class="eduact-btn__shape"></span><span class="eduact-btn__shape"></span><span class="eduact-btn__shape"></span>
+                                                    <span class="eduact-btn__text">One Page</span>
+                                                </a>
+                                                                                    </div>
+                                        <!-- /.demos-one__buttons -->
+                                    </div><!-- /.demos-one__image -->
+                                    <div class="demos-one__text">
+                                        <h3 class="demos-one__text__title">Home Page 01</h3>                                    </div><!-- /.demos-one__text -->
+                                </div><!-- /.demos-one__single -->
+                            </div><!-- /.col-md-6 -->
+                                                    <div class="col-md-6 col-lg-4">
+                                <div class="demos-one__single">
+                                    <div class="demos-one__image">
+                                        <img decoding="async" src="popup-menu-1-2.jpg" alt="alt" title="popup-menu-1-2">                                        <div class="demos-one__buttons">
+                                                                                            <a href="https://bracketweb.com/eduactwp/home-two/" class="eduact-btn">
+                                                    <span class="eduact-btn__shape"></span><span class="eduact-btn__shape"></span><span class="eduact-btn__shape"></span><span class="eduact-btn__shape"></span>
+                                                    <span class="eduact-btn__text">Multi Page</span>
+                                                </a>
+                                                                                                                                        <a href="https://bracketweb.com/eduactwp/one-page-home-two/" class="eduact-btn">
+                                                    <span class="eduact-btn__shape"></span><span class="eduact-btn__shape"></span><span class="eduact-btn__shape"></span><span class="eduact-btn__shape"></span>
+                                                    <span class="eduact-btn__text">One Page</span>
+                                                </a>
+                                                                                    </div>
+                                        <!-- /.demos-one__buttons -->
+                                    </div><!-- /.demos-one__image -->
+                                    <div class="demos-one__text">
+                                        <h3 class="demos-one__text__title demos-one__text__title">Home Page 02</h3>                                    </div><!-- /.demos-one__text -->
+                                </div><!-- /.demos-one__single -->
+                            </div><!-- /.col-md-6 -->
+                                                    <div class="col-md-6 col-lg-4">
+                                <div class="demos-one__single">
+                                    <div class="demos-one__image">
+                                        <img decoding="async" src="popup-menu-1-3.jpg" alt="alt" title="popup-menu-1-3">                                        <div class="demos-one__buttons">
+                                                                                            <a href="https://bracketweb.com/eduactwp/home-three/" class="eduact-btn">
+                                                    <span class="eduact-btn__shape"></span><span class="eduact-btn__shape"></span><span class="eduact-btn__shape"></span><span class="eduact-btn__shape"></span>
+                                                    <span class="eduact-btn__text">Multi Page</span>
+                                                </a>
+                                                                                                                                        <a href="https://bracketweb.com/eduactwp/one-page-home-three/" class="eduact-btn">
+                                                    <span class="eduact-btn__shape"></span><span class="eduact-btn__shape"></span><span class="eduact-btn__shape"></span><span class="eduact-btn__shape"></span>
+                                                    <span class="eduact-btn__text">One Page</span>
+                                                </a>
+                                                                                    </div>
+                                        <!-- /.demos-one__buttons -->
+                                    </div><!-- /.demos-one__image -->
+                                    <div class="demos-one__text">
+                                        <h3 class="demos-one__text__title demos-one__text__title demos-one__text__title">Home Page 03</h3>                                    </div><!-- /.demos-one__text -->
+                                </div><!-- /.demos-one__single -->
+                            </div><!-- /.col-md-6 -->
+                                                    <div class="col-md-6 col-lg-4">
+                                <div class="demos-one__single">
+                                    <div class="demos-one__image">
+                                        <img decoding="async" src="popup-menu-1-4.jpg" alt="alt" title="popup-menu-1-4">                                        <div class="demos-one__buttons">
+                                                                                            <a href="https://bracketweb.com/eduactwp/dark-home/" class="eduact-btn">
+                                                    <span class="eduact-btn__shape"></span><span class="eduact-btn__shape"></span><span class="eduact-btn__shape"></span><span class="eduact-btn__shape"></span>
+                                                    <span class="eduact-btn__text">View Page</span>
+                                                </a>
+                                                                                                                                </div>
+                                        <!-- /.demos-one__buttons -->
+                                    </div><!-- /.demos-one__image -->
+                                    <div class="demos-one__text">
+                                        <h3 class="demos-one__text__title demos-one__text__title demos-one__text__title demos-one__text__title">Home Page Dark</h3>                                    </div><!-- /.demos-one__text -->
+                                </div><!-- /.demos-one__single -->
+                            </div><!-- /.col-md-6 -->
+                                                    <div class="col-md-6 col-lg-4">
+                                <div class="demos-one__single">
+                                    <div class="demos-one__image">
+                                        <img decoding="async" src="popup-menu-1-5.jpg" alt="alt" title="popup-menu-1-5">                                        <div class="demos-one__buttons">
+                                                                                            <a href="https://bracketweb.com/eduactwp/?boxed_mode=yes" class="eduact-btn">
+                                                    <span class="eduact-btn__shape"></span><span class="eduact-btn__shape"></span><span class="eduact-btn__shape"></span><span class="eduact-btn__shape"></span>
+                                                    <span class="eduact-btn__text">View Page</span>
+                                                </a>
+                                                                                                                                </div>
+                                        <!-- /.demos-one__buttons -->
+                                    </div><!-- /.demos-one__image -->
+                                    <div class="demos-one__text">
+                                        <h3 class="demos-one__text__title demos-one__text__title demos-one__text__title demos-one__text__title demos-one__text__title">Home Page Boxed</h3>                                    </div><!-- /.demos-one__text -->
+                                </div><!-- /.demos-one__single -->
+                            </div><!-- /.col-md-6 -->
+                                                    <div class="col-md-6 col-lg-4">
+                                <div class="demos-one__single">
+                                    <div class="demos-one__image">
+                                        <img decoding="async" src="popup-menu-1-6.jpg" alt="alt" title="popup-menu-1-6">                                        <div class="demos-one__buttons">
+                                                                                            <a href="https://bracketweb.com/eduactwp/home-rtl/?rtl_mode=yes#googtrans(en%7car)" class="eduact-btn">
+                                                    <span class="eduact-btn__shape"></span><span class="eduact-btn__shape"></span><span class="eduact-btn__shape"></span><span class="eduact-btn__shape"></span>
+                                                    <span class="eduact-btn__text">View Page</span>
+                                                </a>
+                                                                                                                                </div>
+                                        <!-- /.demos-one__buttons -->
+                                    </div><!-- /.demos-one__image -->
+                                    <div class="demos-one__text">
+                                        <h3 class="demos-one__text__title demos-one__text__title demos-one__text__title demos-one__text__title demos-one__text__title demos-one__text__title">HOME PAGE RTL</h3>                                    </div><!-- /.demos-one__text -->
+                                </div><!-- /.demos-one__single -->
+                            </div><!-- /.col-md-6 -->
+                                            </div><!-- /.row -->
+                </div><!-- /.container -->
+            </div><!-- /.demos-one -->
+        </div><!-- /.megamenu-popup__content -->
+    </div><!-- /.megamenu-popup -->
+		</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+							</div>
+		</li></ul></li>
+<li id="menu-item-1298" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children megamenu-hide menu-item-1298"><a href="#" onclick="return true">Pages</a>
+<ul class="sub-menu">
+	<li id="menu-item-1299" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1299"><a href="https://bracketweb.com/eduactwp/about/" onclick="return true">About</a></li>
+	<li id="menu-item-1300" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1300"><a href="https://bracketweb.com/eduactwp/our-teacher/" onclick="return true">Our Teacher</a></li>
+	<li id="menu-item-1301" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1301"><a href="https://bracketweb.com/eduactwp/teacher-carousel/" onclick="return true">Teacher Carousel</a></li>
+	<li id="menu-item-1302" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1302"><a href="https://bracketweb.com/eduactwp/become-teacher/" onclick="return true">Become Teacher</a></li>
+	<li id="menu-item-1303" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1303"><a href="https://bracketweb.com/eduactwp/teacher-details/" onclick="return true">Teacher Details</a></li>
+	<li id="menu-item-1304" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1304"><a href="https://bracketweb.com/eduactwp/gallery/" onclick="return true">Gallery</a></li>
+	<li id="menu-item-1305" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1305"><a href="https://bracketweb.com/eduactwp/gallery-carousel/" onclick="return true">Gallery Carousel</a></li>
+	<li id="menu-item-1306" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1306"><a href="https://bracketweb.com/eduactwp/pricing/" onclick="return true">Pricing</a></li>
+	<li id="menu-item-1307" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1307"><a href="https://bracketweb.com/eduactwp/faq/" onclick="return true">Faq</a></li>
+	<li id="menu-item-1308" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1308"><a href="https://bracketweb.com/eduactwp/login/" onclick="return true">Login</a></li>
+	<li id="menu-item-1309" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1309"><a href="https://bracketweb.com/eduactwp/error-page/" onclick="return true">Error Page</a></li>
+</ul>
+</li>
+<li id="menu-item-1310" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children megamenu-hide menu-item-1310"><a href="https://bracketweb.com/eduactwp/course-page/" onclick="return true">Course</a>
+<ul class="sub-menu">
+	<li id="menu-item-1311" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1311"><a href="https://bracketweb.com/eduactwp/course-page/" onclick="return true">Course Grid</a></li>
+	<li id="menu-item-1480" class="menu-item menu-item-type-post_type menu-item-object-page megamenu-hide menu-item-1480"><a href="https://bracketweb.com/eduactwp/course-list/" onclick="return true">Course List</a></li>
+	<li id="menu-item-1312" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1312"><a href="https://bracketweb.com/eduactwp/course-carousel/" onclick="return true">Course Carousel</a></li>
+	<li id="menu-item-1340" class="menu-item menu-item-type-post_type menu-item-object-courses megamenu-hide menu-item-1340"><a href="https://bracketweb.com/eduactwp/courses/management-consultants-in-competitive-markets/" onclick="return true">Management Consultants</a></li>
+	<li id="menu-item-1341" class="menu-item menu-item-type-post_type menu-item-object-courses megamenu-hide menu-item-1341"><a href="https://bracketweb.com/eduactwp/courses/the-ultimate-developer-course-for-future-learner/" onclick="return true">Developer Course</a></li>
+	<li id="menu-item-1342" class="menu-item menu-item-type-post_type menu-item-object-courses megamenu-hide menu-item-1342"><a href="https://bracketweb.com/eduactwp/courses/the-special-html-css-bootcamp-edition/" onclick="return true">HTML &amp; CSS Bootcamp</a></li>
+	<li id="menu-item-1343" class="menu-item menu-item-type-post_type menu-item-object-courses megamenu-hide menu-item-1343"><a href="https://bracketweb.com/eduactwp/courses/building-responsive-user-interfaces-to-implementing/" onclick="return true">Building Responsive User</a></li>
+	<li id="menu-item-1344" class="menu-item menu-item-type-post_type menu-item-object-courses megamenu-hide menu-item-1344"><a href="https://bracketweb.com/eduactwp/courses/sales-and-marketing-for-online-businesses/" onclick="return true">Sales and Marketing</a></li>
+	<li id="menu-item-1345" class="menu-item menu-item-type-post_type menu-item-object-courses megamenu-hide menu-item-1345"><a href="https://bracketweb.com/eduactwp/courses/ultimate-photoshop-training-from-beginner-to-pro/" onclick="return true">Photography Crash Course</a></li>
+</ul>
+</li>
+<li id="menu-item-1313" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children megamenu-hide menu-item-1313"><a href="https://bracketweb.com/eduactwp/educat-shop/" onclick="return true">Shop</a>
+<ul class="sub-menu">
+	<li id="menu-item-1314" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1314"><a href="https://bracketweb.com/eduactwp/educat-shop/" onclick="return true">Product</a>
+	<ul class="sub-menu">
+		<li id="menu-item-1315" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1315"><a href="https://bracketweb.com/eduactwp/educat-shop/?sidebar=full-width&amp;column=4&amp;product_per_page=8" onclick="return true">No Sidebar</a></li>
+		<li id="menu-item-1316" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1316"><a href="https://bracketweb.com/eduactwp/educat-shop/?sidebar=left-align" onclick="return true">Left Sidebar</a></li>
+		<li id="menu-item-1317" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1317"><a href="https://bracketweb.com/eduactwp/educat-shop/?sidebar=right-align" onclick="return true">Right Sidebar</a></li>
+	</ul>
+</li>
+	<li id="menu-item-1318" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1318"><a href="https://bracketweb.com/eduactwp/product-carousel/" onclick="return true">Product Carousel</a></li>
+	<li id="menu-item-1319" class="menu-item menu-item-type-post_type menu-item-object-product menu-item-1319"><a href="https://bracketweb.com/eduactwp/product/boss-chair/" onclick="return true">Product Details</a></li>
+	<li id="menu-item-1352" class="menu-item menu-item-type-custom menu-item-object-custom megamenu-hide menu-item-1352"><a href="https://bracketweb.com/eduactwp/educat-cart/?auto_cart=boss%20chair" onclick="return true">Cart</a></li>
+	<li id="menu-item-1353" class="menu-item menu-item-type-custom menu-item-object-custom megamenu-hide menu-item-1353"><a href="https://bracketweb.com/eduactwp/educat-checkout/?auto_cart=boss%20chair" onclick="return true">Checkout</a></li>
+</ul>
+</li>
+<li id="menu-item-1322" class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-has-children megamenu-hide menu-item-1322"><a href="https://bracketweb.com/eduactwp/blog/" onclick="return true">Blog</a>
+<ul class="sub-menu">
+	<li id="menu-item-1323" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1323"><a href="https://bracketweb.com/eduactwp/blog-grid-no-sidebar/" onclick="return true">Blog Grid</a>
+	<ul class="sub-menu">
+		<li id="menu-item-1324" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1324"><a href="https://bracketweb.com/eduactwp/blog-grid-no-sidebar/" onclick="return true">No Sidebar</a></li>
+		<li id="menu-item-1325" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1325"><a href="https://bracketweb.com/eduactwp/blog-grid-left-sidebar/" onclick="return true">Left Sidebar</a></li>
+		<li id="menu-item-1326" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1326"><a href="https://bracketweb.com/eduactwp/blog-grid-right-sidebar/" onclick="return true">Right Sidebar</a></li>
+	</ul>
+</li>
+	<li id="menu-item-1327" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1327"><a href="https://bracketweb.com/eduactwp/blog/" onclick="return true">Blog List</a>
+	<ul class="sub-menu">
+		<li id="menu-item-1328" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1328"><a href="https://bracketweb.com/eduactwp/blog/?sidebar=full-width" onclick="return true">No Sidebar</a></li>
+		<li id="menu-item-1329" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1329"><a href="https://bracketweb.com/eduactwp/blog/?sidebar=left-align" onclick="return true">Left Sidebar</a></li>
+		<li id="menu-item-1330" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1330"><a href="https://bracketweb.com/eduactwp/blog/?sidebar=right-align" onclick="return true">Right Sidebar</a></li>
+	</ul>
+</li>
+	<li id="menu-item-1331" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1331"><a href="https://bracketweb.com/eduactwp/blog-carousel/" onclick="return true">Blog Carousel</a></li>
+	<li id="menu-item-1332" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-has-children menu-item-1332"><a href="https://bracketweb.com/eduactwp/top-10-rules-of-running-web-agency-business-solution/" onclick="return true">Blog Details</a>
+	<ul class="sub-menu">
+		<li id="menu-item-1333" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1333"><a href="https://bracketweb.com/eduactwp/top-10-rules-of-running-web-agency-business-solution/?sidebar=full-width" onclick="return true">No Sidebar</a></li>
+		<li id="menu-item-1334" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1334"><a href="https://bracketweb.com/eduactwp/top-10-rules-of-running-web-agency-business-solution/?sidebar=left-align" onclick="return true">Left Sidebar</a></li>
+		<li id="menu-item-1335" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1335"><a href="https://bracketweb.com/eduactwp/top-10-rules-of-running-web-agency-business-solution/?sidebar=right-align" onclick="return true">Right Sidebar</a></li>
+	</ul>
+</li>
+</ul>
+</li>
+<li id="menu-item-1336" class="menu-item menu-item-type-post_type menu-item-object-page megamenu-hide menu-item-1336"><a href="https://bracketweb.com/eduactwp/contact/" onclick="return true">Contact</a></li>
+</ul></div>				</div><!-- /.main-menu__nav -->
+				<div class="main-menu__right">
+					<a href="#" class="main-menu__toggler mobile-nav__toggler">
+						<i class="fa fa-bars"></i>
+					</a><!-- /.mobile menu btn -->
+											<a href="#" class="main-menu__search search-toggler">
+							<i class="icon-Search"></i>
+						</a><!-- /.search btn -->
+																<a href="https://bracketweb.com/eduactwp/login/" class="main-menu__login">
+							<i aria-hidden="true" class="  icon-account-1"></i>						</a><!-- /.login btn -->
+										<div class="main-menu__info">
+						<span aria-hidden="true" class="  icon-Call"></span>						<a href="tel:3035550105">(303) 555-0105</a>
+						Call to Questions					</div>
+					<!-- /.info -->
+				</div><!-- /.main-menu__right -->
+			</div><!-- /.container -->
+		</nav>
+		<!-- /.main-menu -->
+	</header><!-- /.main-header-two -->
+			<div class="stricky-header stricked-menu main-menu main-header-two">
+			<div class="sticky-header__content"></div><!-- /.sticky-header__content -->
+		</div><!-- /.stricky-header -->
+	
+
+
+
+<div class="mobile-nav__wrapper">
+	<div class="mobile-nav__overlay mobile-nav__toggler"></div>
+	<!-- /.mobile-nav__overlay -->
+	<div class="mobile-nav__content">
+		<span class="mobile-nav__close mobile-nav__toggler"><i class="fa fa-times"></i></span>
+
+		<div class="logo-box">
+			<a href="https://bracketweb.com/eduactwp/" aria-label="logo image">
+				<img decoding="async" width="183" height="48" src="eduAct-2.png" alt="Eduact">
+			</a>
+		</div>
+		<!-- /.logo-box -->
+		<div class="mobile-nav__container"></div>
+		<!-- /.mobile-nav__container -->
+		<ul class="mobile-nav__contact list-unstyled ml-0">
+							<li>
+					<i class="fa fa-envelope"></i>
+					<a href="mailto:needhelp@company.com">needhelp@company.com</a>
+				</li>
+										<li>
+					<i class="fa fa-phone-alt"></i>
+					<a href="tel:http://+92-(3680)---9850">
+						+92 (3680) - 9850					</a>
+				</li>
+					</ul><!-- /.mobile-nav__contact -->
+		<div class="mobile-nav__top">
+			<div class="mobile-nav__social">
+									<a href="https://www.facebook.com/" class="fab fa-facebook-f"></a>
+									<a href="https://www.twitter.com/" class="fab fa-twitter"></a>
+									<a href="https://www.pinterest.com/" class="fab fa-pinterest"></a>
+									<a href="https://www.instagram.com/" class="fab fa-instagram"></a>
+							</div><!-- /.mobile-nav__social -->
+		</div><!-- /.mobile-nav__top -->
+
+	</div>
+	<!-- /.mobile-nav__content -->
+</div>
+
+
+
+<div class="search-popup">
+	<div class="search-popup__overlay search-toggler"></div>
+	<!-- /.search-popup__overlay -->
+	<div class="search-popup__content">
+		<form role="search" method="get" class="search-popup__form" action="https://bracketweb.com/eduactwp/">
+			<input type="text" name="s" id="search" placeholder="Search Here...">
+			<button type="submit" class="eduact-btn"><span class="eduact-btn__curve"></span><i class="icon-Search"></i></button>
+		</form>
+	</div>
+	<!-- /.search-popup__content -->
+</div>
+<!-- /.search-popup -->
+
+
+	<!-- back-to-top-start -->
+	<a href="#" class="scroll-top">
+		<svg class="scroll-top__circle" width="100%" height="100%" viewBox="-1 -1 102 102">
+			<path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"></path>
+		</svg>
+	</a>
+		</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+							</div>
+		                        <!-- end of the loop -->
+
+            
+        
+		
+						<section class="page-header page-header--bg-two " data-jarallax="" data-speed="0.3" data-imgposition="50% -100%">
+		<div class="page-header__bg jarallax-img"></div><!-- /.page-header-bg -->
+		<div class="page-header__overlay"></div><!-- /.page-header-overlay -->
+		<div class="container text-center">
+						<h2 class="page-header__title">
+									Page not found							</h2><!-- /.page-title -->
+
+										<ul class="page-header__breadcrumb list-unstyled">
+					<!-- Breadcrumb NavXT 7.2.0 -->
+<li class="home"><span property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" title="Go to Eduact." href="https://bracketweb.com/eduactwp" class="home"><span property="name">Eduact</span></a><meta property="position" content="1"></span></li>
+<li class="404 current-item"><span property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" title="Go to 404." href="" class="404 current-item" aria-current="page"><span property="name">404</span></a><meta property="position" content="2"></span></li>
+				</ul><!-- /.page-breadcrumb list-unstyled -->
+					</div><!-- /.container -->
+	</section><!-- /.page-header -->
+		
+    <main id="primary" class="site-main">
+        <!-- Error Start -->
+        <section class="error-page default">
+            <div class="container">
+                <div class="error-page__content">
+                    <h1 class="error-page__404-title">404</h1>
+                    <h4 class="error-page__title">Oops! Page not Found</h4><!-- 404-title -->
+                    <p class="error-page__text">The page you are looking for is not exist.</p><!-- 404-content -->
+                    <form class="error-page__form" method="get" action="https://bracketweb.com/eduactwp">
+                        <div class="error-page__form-input">
+                            <input type="search" placeholder="Type Here">
+                            <button type="submit"><i class="icon-Search"></i></button>
+                        </div>
+                    </form><!-- 404-search-form -->
+                    <a href="https://bracketweb.com/eduactwp/" class="eduact-btn eduact-btn-second"><span class="eduact-btn__curve"></span>
+                        Back to Home <i class="icon-arrow"></i></a><!-- 404-btn -->
+                </div><!-- 404-info -->
+            </div>
+        </section>
+        <!-- Error End -->
+    </main><!-- #main -->
+
+
+
+
+</div><!-- #page -->
+
+<div class="footer-wrapper">
+	
+
+
+
+    
+                    <!-- the loop -->
+                            		<div data-elementor-type="wp-post" data-elementor-id="1032" class="elementor elementor-1032">
+									<section class="elementor-section elementor-top-section elementor-element elementor-element-1735f5d elementor-section-full_width main-footer-two elementor-section-height-default elementor-section-height-default" data-id="1735f5d" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-no">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-7c2a9db3" data-id="7c2a9db3" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-13d75162 elementor-widget elementor-widget-eduact-shape" data-id="13d75162" data-element_type="widget" data-widget_type="eduact-shape.default">
+				<div class="elementor-widget-container">
+			    <div class="main-footer-two__bg" style="background-image: url(footer-bg-2.png);"></div>
+		</div>
+				</div>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-19b893e4 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="19b893e4" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-5237e4bc" data-id="5237e4bc" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-2bb261d1 elementor-widget elementor-widget-footer-about" data-id="2bb261d1" data-element_type="widget" data-widget_type="footer-about.default">
+				<div class="elementor-widget-container">
+			    <div class="main-footer-two__about logo-retina">
+        <a href="https://bracketweb.com/eduactwp/">
+            <img loading="lazy" decoding="async" src="eduAct-3.png" width="160" height="40" alt="Eduact">
+        </a>
+        <ul class="main-footer-two__info-list">
+                            <li>
+                    <span aria-hidden="true" class="   icon-Location"></span> 6391 Elgin St. Celina, Delaware 10299                </li>
+                            <li>
+                    <span aria-hidden="true" class="   icon-Telephone"></span> <a href="tel:3035550105">(303) 555-0105</a>                </li>
+                            <li>
+                    <span aria-hidden="true" class="   icon-Email"></span> <a href="mailto:michael.mitc@example.com">michael.mitc@example.com</a>                </li>
+                    </ul>
+                    <div class="main-footer-two__social">
+                                    <a href="https://www.facebook.com/">
+                        <i aria-hidden="true" class="  fab fa-facebook-f"></i>                    </a>
+                                    <a href="https://www.twitter.com/">
+                        <i aria-hidden="true" class="  fab fa-twitter"></i>                    </a>
+                                    <a href="https://www.linkedin.com/">
+                        <i aria-hidden="true" class="  fab fa-linkedin-in"></i>                    </a>
+                                    <a href="https://www.youtube.com/">
+                        <i aria-hidden="true" class="  fab fa-youtube"></i>                    </a>
+                            </div><!-- /.footer-social -->
+            </div><!-- footer-top -->
+		</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-1614affd" data-id="1614affd" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-ba66af1 elementor-widget elementor-widget-footer-nav-menu" data-id="ba66af1" data-element_type="widget" data-widget_type="footer-nav-menu.default">
+				<div class="elementor-widget-container">
+			    <div class="main-footer-two__navmenu main-footer-two__widget01">
+
+        <h3 class="main-footer-two__title">
+            Quick Links        </h3>
+
+                    <div class="menu-quick-links-container"><ul id="menu-quick-links" class="ml-0"><li id="menu-item-1014" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1014"><a href="https://bracketweb.com/eduactwp/course-page/" onclick="return true">Latest Courses</a></li>
+<li id="menu-item-1015" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1015"><a href="https://bracketweb.com/eduactwp/about/" onclick="return true">Mission &amp; Vision</a></li>
+<li id="menu-item-1016" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1016"><a href="https://bracketweb.com/eduactwp/about/" onclick="return true">Our Approach</a></li>
+<li id="menu-item-1017" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1017"><a href="https://bracketweb.com/eduactwp/our-teacher/" onclick="return true">Exclusive Advisors</a></li>
+<li id="menu-item-1018" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1018"><a href="https://bracketweb.com/eduactwp/become-teacher/" onclick="return true">Join A Carrer</a></li>
+</ul></div>            </div><!-- /.footer-menu -->
+		</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-17a8756" data-id="17a8756" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-4000abd0 elementor-widget elementor-widget-footer-nav-menu" data-id="4000abd0" data-element_type="widget" data-widget_type="footer-nav-menu.default">
+				<div class="elementor-widget-container">
+			    <div class="main-footer-two__navmenu main-footer-two__widget01">
+
+        <h3 class="main-footer-two__title">
+            Explore        </h3>
+
+                    <div class="menu-explore-container"><ul id="menu-explore" class="ml-0"><li id="menu-item-1019" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1019"><a href="https://bracketweb.com/eduactwp/about/" onclick="return true">About Us</a></li>
+<li id="menu-item-1020" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1020"><a href="https://bracketweb.com/eduactwp/course-page/" onclick="return true">Upcoming Events</a></li>
+<li id="menu-item-1021" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1021"><a href="https://bracketweb.com/eduactwp/blog-grid-right-sidebar/" onclick="return true">Blog &amp; News</a></li>
+<li id="menu-item-1022" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1022"><a href="https://bracketweb.com/eduactwp/faq/" onclick="return true">FAQ Question</a></li>
+<li id="menu-item-1023" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1023"><a href="https://bracketweb.com/eduactwp/about/" onclick="return true">Testimonial</a></li>
+<li id="menu-item-1024" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1024"><a href="https://bracketweb.com/eduactwp/contact/" onclick="return true">Privacy Policy</a></li>
+</ul></div>            </div><!-- /.footer-menu -->
+		</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-3ecdd87f" data-id="3ecdd87f" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-5ff787a2 elementor-widget elementor-widget-footer-gallery" data-id="5ff787a2" data-element_type="widget" data-widget_type="footer-gallery.default">
+				<div class="elementor-widget-container">
+			    <div class="main-footer-two__gallery">
+        <h3 class="main-footer-two__title">
+            Gallery        </h3>
+        <div class="main-footer-two__galleries">
+                            <a class="img-popup" href="https://bracketweb.com/eduactwp/wp-content/uploads/2023/09/fg-1.jpg">
+                    <img decoding="async" src="fg-1.jpg" alt="alt" title="fg-1">                </a>
+                            <a class="img-popup" href="https://bracketweb.com/eduactwp/wp-content/uploads/2023/09/fg-2.jpg">
+                    <img decoding="async" src="fg-2.jpg" alt="alt" title="fg-2">                </a>
+                            <a class="img-popup" href="https://bracketweb.com/eduactwp/wp-content/uploads/2023/09/fg-3.jpg">
+                    <img decoding="async" src="fg-3.jpg" alt="alt" title="fg-3">                </a>
+                            <a class="img-popup" href="https://bracketweb.com/eduactwp/wp-content/uploads/2023/09/fg-4.jpg">
+                    <img decoding="async" src="fg-4.jpg" alt="alt" title="fg-4">                </a>
+                            <a class="img-popup" href="https://bracketweb.com/eduactwp/wp-content/uploads/2023/09/fg-5.jpg">
+                    <img decoding="async" src="fg-5.jpg" alt="alt" title="fg-5">                </a>
+                            <a class="img-popup" href="https://bracketweb.com/eduactwp/wp-content/uploads/2023/09/gallery-6-3.jpg">
+                    <img decoding="async" src="gallery-6-3.jpg" alt="alt" title="gallery-6">                </a>
+            
+        </div>
+    </div><!-- /.gallery -->
+		</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-742047c elementor-section-full_width elementor-section-height-default elementor-section-height-default" data-id="742047c" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-no">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-6e68a4d6" data-id="6e68a4d6" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-10802f96 elementor-widget elementor-widget-footer-copyright" data-id="10802f96" data-element_type="widget" data-widget_type="footer-copyright.default">
+				<div class="elementor-widget-container">
+			    <section class="copyright text-center">
+        <div class="container wow fadeInUp" data-wow-delay="400ms">
+            <p class="copyright__text">© Copyright <span class="dynamic-year">2023</span><!-- /.dynamic-year --> by <a href="#">Eduact WordPress Theme</a></p>
+        </div><!-- /.container -->
+    </section><!-- /.copyright -->
+		</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+							</div>
+		                        <!-- end of the loop -->
+
+            
+        </div><!-- /.footer-wrapper -->
+
+    <div id="eduact-popup" class="eduact-popup">
+        <div class="popup-content">
+            <p>Please <a href="https://bracketweb.com/eduactwp/login/">Login</a> To Add Wishlist</p>
+        </div>
+    </div>
+<div id="woosw_wishlist" class="woosw-popup woosw-popup-center"></div>	<script type="text/javascript">
+		(function () {
+			var c = document.body.className;
+			c = c.replace(/woocommerce-no-js/, 'woocommerce-js');
+			document.body.className = c;
+		})();
+	</script>
+	<link rel="stylesheet" id="elementor-frontend-css" href="../css/frontend-lite.min.css" media="all">
+<link rel="stylesheet" id="elementor-post-1032-css" href="../css/post-1032.css" media="all">
+<link rel="stylesheet" id="elementor-icons-css" href="../css/elementor-icons.min.css" media="all">
+<link rel="stylesheet" id="elementor-post-6-css" href="../css/post-6.css" media="all">
+<link rel="stylesheet" id="elementor-global-css" href="../css/global.css" media="all">
+<link rel="stylesheet" id="google-fonts-1-css" href="../css/css_1.css" media="all">
+<link rel="stylesheet" id="elementor-icons-shared-1-css" href="../css/style_1.css" media="all">
+<link rel="stylesheet" id="elementor-icons-shared-0-css" href="../css/fontawesome.min.css" media="all">
+<link rel="stylesheet" id="elementor-icons-fa-brands-css" href="../css/brands.min.css" media="all">
+<script src="../js/index_1.js" id="swv-js"></script>
+<script id="contact-form-7-js-extra">
+var wpcf7 = {"api":{"root":"https:\/\/bracketweb.com\/eduactwp\/wp-json\/","namespace":"contact-form-7\/v1"}};
+</script>
+<script src="../js/index.js" id="contact-form-7-js"></script>
+<script src="../js/js.cookie.min_3.js" id="js-cookie-js"></script>
+<script src="../js/jQuery.style.switcher.min_3.js" id="jquery-style-switcher-js"></script>
+<script src="../js/color-switcher_3.js" id="layerdrops-toolbar-color-switcher-js"></script>
+<script src="../js/wp-polyfill-inert.min.js" id="wp-polyfill-inert-js"></script>
+<script src="../js/regenerator-runtime.min.js" id="regenerator-runtime-js"></script>
+<script src="../js/wp-polyfill.min.js" id="wp-polyfill-js"></script>
+<script src="../js/hooks.min.js" id="wp-hooks-js"></script>
+<script src="../js/i18n.min.js" id="wp-i18n-js"></script>
+<script id="wp-i18n-js-after">
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+</script>
+<script id="tutor-script-js-extra">
+var _tutorobject = {"ajaxurl":"https:\/\/bracketweb.com\/eduactwp\/wp-admin\/admin-ajax.php","home_url":"https:\/\/bracketweb.com\/eduactwp","site_title":"Eduact","base_path":"\/eduactwp\/","tutor_url":"https:\/\/bracketweb.com\/eduactwp\/wp-content\/plugins\/tutor\/","tutor_pro_url":null,"nonce_key":"_tutor_nonce","_tutor_nonce":"57567aff82","loading_icon_url":"https:\/\/bracketweb.com\/eduactwp\/wp-admin\/images\/wpspin_light.gif","placeholder_img_src":"https:\/\/bracketweb.com\/eduactwp\/wp-content\/plugins\/tutor\/assets\/images\/placeholder.svg","enable_lesson_classic_editor":"","tutor_frontend_dashboard_url":"https:\/\/bracketweb.com\/eduactwp\/dashboard\/","wp_date_format":"MMMM d, yyyy","is_admin":"","is_admin_bar_showing":"","addons_data":[{"name":"Course Bundle","description":"Group multiple courses to sell together.","url":"https:\/\/bracketweb.com\/eduactwp\/wp-content\/plugins\/tutor\/assets\/addons\/course-bundle\/thumbnail.svg"},{"name":"Social Login","description":"Let users register & login through social network like Facebook, Google, etc.","url":"https:\/\/bracketweb.com\/eduactwp\/wp-content\/plugins\/tutor\/assets\/addons\/social-login\/thumbnail.svg"},{"name":"Content Drip","description":"Unlock lessons by schedule or when the student meets specific condition.","url":"https:\/\/bracketweb.com\/eduactwp\/wp-content\/plugins\/tutor\/assets\/addons\/content-drip\/thumbnail.png"},{"name":"Tutor Multi Instructors","description":"Start a course with multiple instructors by Tutor Multi Instructors","url":"https:\/\/bracketweb.com\/eduactwp\/wp-content\/plugins\/tutor\/assets\/addons\/tutor-multi-instructors\/thumbnail.png"},{"name":"Tutor Assignments","description":"Tutor assignments is a great way to assign tasks to students.","url":"https:\/\/bracketweb.com\/eduactwp\/wp-content\/plugins\/tutor\/assets\/addons\/tutor-assignments\/thumbnail.png"},{"name":"Tutor Course Preview","description":"Unlock some lessons for students before enrollment.","url":"https:\/\/bracketweb.com\/eduactwp\/wp-content\/plugins\/tutor\/assets\/addons\/tutor-course-preview\/thumbnail.png"},{"name":"Tutor Course Attachments","description":"Add unlimited attachments\/ private files to any Tutor course","url":"https:\/\/bracketweb.com\/eduactwp\/wp-content\/plugins\/tutor\/assets\/addons\/tutor-course-attachments\/thumbnail.png"},{"name":"Tutor Google Meet Integration","description":"Connect Tutor LMS with Google Meet to host live online classes. Students can attend live classes right from the lesson page.","url":"https:\/\/bracketweb.com\/eduactwp\/wp-content\/plugins\/tutor\/assets\/addons\/google-meet\/thumbnail.png"},{"name":"Tutor Report","description":"Check your course performance through Tutor Report stats.","url":"https:\/\/bracketweb.com\/eduactwp\/wp-content\/plugins\/tutor\/assets\/addons\/tutor-report\/thumbnail.png"},{"name":"Tutor E-Mail","description":"Send email on various tutor events","url":"https:\/\/bracketweb.com\/eduactwp\/wp-content\/plugins\/tutor\/assets\/addons\/tutor-email\/thumbnail.png"},{"name":"Calendar","description":"Allow students to see everything in a calendar view in the front dashboard.","url":"https:\/\/bracketweb.com\/eduactwp\/wp-content\/plugins\/tutor\/assets\/images\/tutor-plugin.png"},{"name":"Notifications","description":"Get On Site and Push Notifications on specified tutor events.","url":"https:\/\/bracketweb.com\/eduactwp\/wp-content\/plugins\/tutor\/assets\/addons\/tutor-notifications\/thumbnail.png"},{"name":"Google Classroom Integration","description":"Helps connect Google Classrooms with Tutor LMS courses, allowing you to use features like Classroom streams and files directly from the Tutor LMS course.","url":"https:\/\/bracketweb.com\/eduactwp\/wp-content\/plugins\/tutor\/assets\/addons\/google-classroom\/thumbnail.png"},{"name":"Tutor Zoom Integration","description":"Connect Tutor LMS with Zoom to host live online classes. Students can attend live classes right from the lesson page.","url":"https:\/\/bracketweb.com\/eduactwp\/wp-content\/plugins\/tutor\/assets\/addons\/tutor-zoom\/thumbnail.png"},{"name":"Quiz Export\/Import","description":"Save time by exporting\/importing quiz data with easy options.","url":"https:\/\/bracketweb.com\/eduactwp\/wp-content\/plugins\/tutor\/assets\/addons\/quiz-import-export\/thumbnail.png"},{"name":"Enrollment","description":"Take advanced control on enrollment. Enroll the student manually.","url":"https:\/\/bracketweb.com\/eduactwp\/wp-content\/plugins\/tutor\/assets\/addons\/enrollments\/thumbnail.png"},{"name":"Tutor Certificate","description":"Students will be able to download a certificate after course completion.","url":"https:\/\/bracketweb.com\/eduactwp\/wp-content\/plugins\/tutor\/assets\/addons\/tutor-certificate\/thumbnail.png"},{"name":"Gradebook","description":"Shows student progress from assignment and quiz","url":"https:\/\/bracketweb.com\/eduactwp\/wp-content\/plugins\/tutor\/assets\/addons\/gradebook\/thumbnail.png"},{"name":"Tutor Prerequisites","description":"Specific course you must complete before you can enroll new course by Tutor Prerequisites","url":"https:\/\/bracketweb.com\/eduactwp\/wp-content\/plugins\/tutor\/assets\/addons\/tutor-prerequisites\/thumbnail.png"},{"name":"BuddyPress","description":"Discuss about course and share your knowledge with your friends through BuddyPress","url":"https:\/\/bracketweb.com\/eduactwp\/wp-content\/plugins\/tutor\/assets\/addons\/buddypress\/thumbnail.png"},{"name":"WooCommerce Subscriptions","description":"Capture Residual Revenue with Recurring Payments.","url":"https:\/\/bracketweb.com\/eduactwp\/wp-content\/plugins\/tutor\/assets\/addons\/wc-subscriptions\/thumbnail.png"},{"name":"Paid Memberships Pro","description":"Maximize revenue by selling membership access to all of your courses.","url":"https:\/\/bracketweb.com\/eduactwp\/wp-content\/plugins\/tutor\/assets\/addons\/pmpro\/thumbnail.png"},{"name":"Restrict Content Pro","description":"Unlock Course depending on Restrict Content Pro Plugin Permission.","url":"https:\/\/bracketweb.com\/eduactwp\/wp-content\/plugins\/tutor\/assets\/addons\/restrict-content-pro\/thumbnail.png"},{"name":"Weglot","description":"Translate & manage multilingual courses for global reach with full edit control.","url":"https:\/\/bracketweb.com\/eduactwp\/wp-content\/plugins\/tutor\/assets\/addons\/tutor-weglot\/thumbnail.png"},{"name":"WPML Multilingual CMS","description":"Create multilingual courses, lessons, dashboard and more for a global audience.","url":"https:\/\/bracketweb.com\/eduactwp\/wp-content\/plugins\/tutor\/assets\/addons\/tutor-wpml\/thumbnail.png"}],"current_user":{"data":{},"ID":0,"caps":[],"cap_key":null,"roles":[],"allcaps":[],"filter":null},"content_change_event":"tutor_content_changed_event","is_tutor_course_edit":"","assignment_max_file_allowed":"0","current_page":"","quiz_answer_display_time":"2000","is_ssl":"1","course_list_page_url":"https:\/\/bracketweb.com\/eduactwp\/wp-admin\/admin.php?page=tutor","course_post_type":"courses"};
+</script>
+<script src="../js/tutor.min.js" id="tutor-script-js"></script>
+<script id="quicktags-js-extra">
+var quicktagsL10n = {"closeAllOpenTags":"Close all open tags","closeTags":"close tags","enterURL":"Enter the URL","enterImageURL":"Enter the URL of the image","enterImageDescription":"Enter a description of the image","textdirection":"text direction","toggleTextdirection":"Toggle Editor Text Direction","dfw":"Distraction-free writing mode","strong":"Bold","strongClose":"Close bold tag","em":"Italic","emClose":"Close italic tag","link":"Insert link","blockquote":"Blockquote","blockquoteClose":"Close blockquote tag","del":"Deleted text (strikethrough)","delClose":"Close deleted text tag","ins":"Inserted text","insClose":"Close inserted text tag","image":"Insert image","ul":"Bulleted list","ulClose":"Close bulleted list tag","ol":"Numbered list","olClose":"Close numbered list tag","li":"List item","liClose":"Close list item tag","code":"Code","codeClose":"Close code tag","more":"Insert Read More tag"};
+</script>
+<script src="../js/quicktags.min.js" id="quicktags-js"></script>
+<script src="../js/core.min.js" id="jquery-ui-core-js"></script>
+<script src="../js/mouse.min.js" id="jquery-ui-mouse-js"></script>
+<script src="../js/sortable.min.js" id="jquery-ui-sortable-js"></script>
+<script src="../js/jquery.ui.touch-punch.js" id="jquery-touch-punch-js"></script>
+<script src="../js/SocialShare.min.js" id="tutor-social-share-js"></script>
+<script id="tutor-frontend-js-extra">
+var _tutorobject = {"ajaxurl":"https:\/\/bracketweb.com\/eduactwp\/wp-admin\/admin-ajax.php","home_url":"https:\/\/bracketweb.com\/eduactwp","site_title":"Eduact","base_path":"\/eduactwp\/","tutor_url":"https:\/\/bracketweb.com\/eduactwp\/wp-content\/plugins\/tutor\/","tutor_pro_url":null,"nonce_key":"_tutor_nonce","_tutor_nonce":"57567aff82","loading_icon_url":"https:\/\/bracketweb.com\/eduactwp\/wp-admin\/images\/wpspin_light.gif","placeholder_img_src":"https:\/\/bracketweb.com\/eduactwp\/wp-content\/plugins\/tutor\/assets\/images\/placeholder.svg","enable_lesson_classic_editor":"","tutor_frontend_dashboard_url":"https:\/\/bracketweb.com\/eduactwp\/dashboard\/","wp_date_format":"MMMM d, yyyy","is_admin":"","is_admin_bar_showing":"","addons_data":[{"name":"Course Bundle","description":"Group multiple courses to sell together.","url":"https:\/\/bracketweb.com\/eduactwp\/wp-content\/plugins\/tutor\/assets\/addons\/course-bundle\/thumbnail.svg"},{"name":"Social Login","description":"Let users register & login through social network like Facebook, Google, etc.","url":"https:\/\/bracketweb.com\/eduactwp\/wp-content\/plugins\/tutor\/assets\/addons\/social-login\/thumbnail.svg"},{"name":"Content Drip","description":"Unlock lessons by schedule or when the student meets specific condition.","url":"https:\/\/bracketweb.com\/eduactwp\/wp-content\/plugins\/tutor\/assets\/addons\/content-drip\/thumbnail.png"},{"name":"Tutor Multi Instructors","description":"Start a course with multiple instructors by Tutor Multi Instructors","url":"https:\/\/bracketweb.com\/eduactwp\/wp-content\/plugins\/tutor\/assets\/addons\/tutor-multi-instructors\/thumbnail.png"},{"name":"Tutor Assignments","description":"Tutor assignments is a great way to assign tasks to students.","url":"https:\/\/bracketweb.com\/eduactwp\/wp-content\/plugins\/tutor\/assets\/addons\/tutor-assignments\/thumbnail.png"},{"name":"Tutor Course Preview","description":"Unlock some lessons for students before enrollment.","url":"https:\/\/bracketweb.com\/eduactwp\/wp-content\/plugins\/tutor\/assets\/addons\/tutor-course-preview\/thumbnail.png"},{"name":"Tutor Course Attachments","description":"Add unlimited attachments\/ private files to any Tutor course","url":"https:\/\/bracketweb.com\/eduactwp\/wp-content\/plugins\/tutor\/assets\/addons\/tutor-course-attachments\/thumbnail.png"},{"name":"Tutor Google Meet Integration","description":"Connect Tutor LMS with Google Meet to host live online classes. Students can attend live classes right from the lesson page.","url":"https:\/\/bracketweb.com\/eduactwp\/wp-content\/plugins\/tutor\/assets\/addons\/google-meet\/thumbnail.png"},{"name":"Tutor Report","description":"Check your course performance through Tutor Report stats.","url":"https:\/\/bracketweb.com\/eduactwp\/wp-content\/plugins\/tutor\/assets\/addons\/tutor-report\/thumbnail.png"},{"name":"Tutor E-Mail","description":"Send email on various tutor events","url":"https:\/\/bracketweb.com\/eduactwp\/wp-content\/plugins\/tutor\/assets\/addons\/tutor-email\/thumbnail.png"},{"name":"Calendar","description":"Allow students to see everything in a calendar view in the front dashboard.","url":"https:\/\/bracketweb.com\/eduactwp\/wp-content\/plugins\/tutor\/assets\/images\/tutor-plugin.png"},{"name":"Notifications","description":"Get On Site and Push Notifications on specified tutor events.","url":"https:\/\/bracketweb.com\/eduactwp\/wp-content\/plugins\/tutor\/assets\/addons\/tutor-notifications\/thumbnail.png"},{"name":"Google Classroom Integration","description":"Helps connect Google Classrooms with Tutor LMS courses, allowing you to use features like Classroom streams and files directly from the Tutor LMS course.","url":"https:\/\/bracketweb.com\/eduactwp\/wp-content\/plugins\/tutor\/assets\/addons\/google-classroom\/thumbnail.png"},{"name":"Tutor Zoom Integration","description":"Connect Tutor LMS with Zoom to host live online classes. Students can attend live classes right from the lesson page.","url":"https:\/\/bracketweb.com\/eduactwp\/wp-content\/plugins\/tutor\/assets\/addons\/tutor-zoom\/thumbnail.png"},{"name":"Quiz Export\/Import","description":"Save time by exporting\/importing quiz data with easy options.","url":"https:\/\/bracketweb.com\/eduactwp\/wp-content\/plugins\/tutor\/assets\/addons\/quiz-import-export\/thumbnail.png"},{"name":"Enrollment","description":"Take advanced control on enrollment. Enroll the student manually.","url":"https:\/\/bracketweb.com\/eduactwp\/wp-content\/plugins\/tutor\/assets\/addons\/enrollments\/thumbnail.png"},{"name":"Tutor Certificate","description":"Students will be able to download a certificate after course completion.","url":"https:\/\/bracketweb.com\/eduactwp\/wp-content\/plugins\/tutor\/assets\/addons\/tutor-certificate\/thumbnail.png"},{"name":"Gradebook","description":"Shows student progress from assignment and quiz","url":"https:\/\/bracketweb.com\/eduactwp\/wp-content\/plugins\/tutor\/assets\/addons\/gradebook\/thumbnail.png"},{"name":"Tutor Prerequisites","description":"Specific course you must complete before you can enroll new course by Tutor Prerequisites","url":"https:\/\/bracketweb.com\/eduactwp\/wp-content\/plugins\/tutor\/assets\/addons\/tutor-prerequisites\/thumbnail.png"},{"name":"BuddyPress","description":"Discuss about course and share your knowledge with your friends through BuddyPress","url":"https:\/\/bracketweb.com\/eduactwp\/wp-content\/plugins\/tutor\/assets\/addons\/buddypress\/thumbnail.png"},{"name":"WooCommerce Subscriptions","description":"Capture Residual Revenue with Recurring Payments.","url":"https:\/\/bracketweb.com\/eduactwp\/wp-content\/plugins\/tutor\/assets\/addons\/wc-subscriptions\/thumbnail.png"},{"name":"Paid Memberships Pro","description":"Maximize revenue by selling membership access to all of your courses.","url":"https:\/\/bracketweb.com\/eduactwp\/wp-content\/plugins\/tutor\/assets\/addons\/pmpro\/thumbnail.png"},{"name":"Restrict Content Pro","description":"Unlock Course depending on Restrict Content Pro Plugin Permission.","url":"https:\/\/bracketweb.com\/eduactwp\/wp-content\/plugins\/tutor\/assets\/addons\/restrict-content-pro\/thumbnail.png"},{"name":"Weglot","description":"Translate & manage multilingual courses for global reach with full edit control.","url":"https:\/\/bracketweb.com\/eduactwp\/wp-content\/plugins\/tutor\/assets\/addons\/tutor-weglot\/thumbnail.png"},{"name":"WPML Multilingual CMS","description":"Create multilingual courses, lessons, dashboard and more for a global audience.","url":"https:\/\/bracketweb.com\/eduactwp\/wp-content\/plugins\/tutor\/assets\/addons\/tutor-wpml\/thumbnail.png"}],"current_user":{"data":{},"ID":0,"caps":[],"cap_key":null,"roles":[],"allcaps":[],"filter":null},"content_change_event":"tutor_content_changed_event","is_tutor_course_edit":"","assignment_max_file_allowed":"0","current_page":"","quiz_answer_display_time":"2000","is_ssl":"1","course_list_page_url":"https:\/\/bracketweb.com\/eduactwp\/wp-admin\/admin.php?page=tutor","course_post_type":"courses"};
+</script>
+<script src="../js/tutor-front.min.js" id="tutor-frontend-js"></script>
+<script src="../js/datepicker.min.js" id="jquery-ui-datepicker-js"></script>
+<script id="jquery-ui-datepicker-js-after">
+jQuery(function(jQuery){jQuery.datepicker.setDefaults({"closeText":"Close","currentText":"Today","monthNames":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthNamesShort":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"nextText":"Next","prevText":"Previous","dayNames":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"dayNamesShort":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],"dayNamesMin":["S","M","T","W","T","F","S"],"dateFormat":"MM d, yy","firstDay":1,"isRTL":false});});
+</script>
+<script src="../js/jquery.blockUI.min.js" id="jquery-blockui-js"></script>
+<script id="wc-add-to-cart-js-extra">
+var wc_add_to_cart_params = {"ajax_url":"\/eduactwp\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/eduactwp\/?wc-ajax=%%endpoint%%","i18n_view_cart":"View cart","cart_url":"https:\/\/bracketweb.com\/eduactwp\/educat-cart\/","is_cart":"","cart_redirect_after_add":"no"};
+</script>
+<script src="../js/add-to-cart.min.js" id="wc-add-to-cart-js"></script>
+<script id="woocommerce-js-extra">
+var woocommerce_params = {"ajax_url":"\/eduactwp\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/eduactwp\/?wc-ajax=%%endpoint%%"};
+</script>
+<script src="../js/woocommerce.min.js" id="woocommerce-js"></script>
+<script src="../js/bootstrap.min.js" id="bootstrap-js"></script>
+<script src="../js/bootstrap-select.min.js" id="bootstrap-select-js"></script>
+<script src="../js/jquery.bxslider.min.js" id="jquery-bxslider-js"></script>
+<script src="../js/countdown.min.js" id="countdown-js"></script>
+<script src="../js/jarallax.min.js" id="jarallax-js"></script>
+<script src="../js/jquery.ajaxchimp.min.js" id="jquery-ajaxchimp-js"></script>
+<script src="../js/jquery.appear.min.js" id="jquery-appear-js"></script>
+<script src="../js/jquery.magnific-popup.min.js" id="jquery-magnific-popup-js"></script>
+<script src="../js/odometer.min.js" id="odometer-js"></script>
+<script src="../js/owl.carousel.min.js" id="owl-carousel-js"></script>
+<script src="../js/jquery.circle-progress.min.js" id="jquery-circle-progress-js"></script>
+<script src="../js/swiper.min.js" id="swiper-js"></script>
+<script src="../js/wow.js" id="wow-js"></script>
+<script src="../js/sharer.min.js" id="sharer-js"></script>
+<script src="../js/timePicker.js" id="timepicker-js"></script>
+<script src="../js/jquery.circleType.js" id="circletype-js"></script>
+<script src="../js/jquery.lettering.min.js" id="circleletter-js"></script>
+<script id="eduact-addon-script-js-extra">
+var eduact_login_object = {"ajaxurl":"https:\/\/bracketweb.com\/eduactwp\/wp-admin\/admin-ajax.php","login_redirect_url":"https:\/\/bracketweb.com\/eduactwp\/dashboard\/","registration_redirect_url":"https:\/\/bracketweb.com\/eduactwp\/dashboard\/","message":"<strong>Error:<\/strong>Please use valid userName or password","check_login":"no","str_login":"Please login to add favorite!"};
+</script>
+<script src="../js/eduact-addon.js" id="eduact-addon-script-js"></script>
+<script src="../js/underscore.min.js" id="underscore-js"></script>
+<script id="wp-util-js-extra">
+var _wpUtilSettings = {"ajax":{"url":"\/eduactwp\/wp-admin\/admin-ajax.php"}};
+</script>
+<script src="../js/wp-util.min.js" id="wp-util-js"></script>
+<script id="wc-add-to-cart-variation-js-extra">
+var wc_add_to_cart_variation_params = {"wc_ajax_url":"\/eduactwp\/?wc-ajax=%%endpoint%%","i18n_no_matching_variations_text":"Sorry, no products matched your selection. Please choose a different combination.","i18n_make_a_selection_text":"Please select some product options before adding this product to your cart.","i18n_unavailable_text":"Sorry, this product is unavailable. Please choose a different combination."};
+</script>
+<script src="../js/add-to-cart-variation.min.js" id="wc-add-to-cart-variation-js"></script>
+<script src="../js/slick.min_1.js" id="slick-js"></script>
+<script src="../js/perfect-scrollbar.jquery.min.js" id="perfect-scrollbar-js"></script>
+<script src="../js/jquery.magnific-popup.min_1.js" id="magnific-popup-js"></script>
+<script id="woosq-frontend-js-extra">
+var woosq_vars = {"ajax_url":"https:\/\/bracketweb.com\/eduactwp\/wp-admin\/admin-ajax.php","nonce":"b225d779a5","view":"popup","effect":"mfp-3d-unfold","scrollbar":"yes","auto_close":"yes","hashchange":"no","cart_redirect":"no","cart_url":"https:\/\/bracketweb.com\/eduactwp\/educat-cart\/","close":"Close (Esc)","next":"Next (Right arrow key)","prev":"Previous (Left arrow key)","thumbnails_effect":"no","related_slick_params":"{\"slidesToShow\":2,\"slidesToScroll\":2,\"dots\":true,\"arrows\":false,\"adaptiveHeight\":true,\"rtl\":false}","thumbnails_slick_params":"{\"slidesToShow\":1,\"slidesToScroll\":1,\"dots\":true,\"arrows\":true,\"adaptiveHeight\":false,\"rtl\":false}","thumbnails_zoom_params":"{\"duration\":120,\"magnify\":1}","quick_view":"0"};
+</script>
+<script src="../js/frontend_1.js" id="woosq-frontend-js"></script>
+<script id="woosw-frontend-js-extra">
+var woosw_vars = {"ajax_url":"https:\/\/bracketweb.com\/eduactwp\/wp-admin\/admin-ajax.php","nonce":"b79688d49a","menu_action":"open_page","perfect_scrollbar":"yes","wishlist_url":"https:\/\/bracketweb.com\/eduactwp\/wishlist\/","button_action":"list","message_position":"right-top","button_action_added":"popup","empty_confirm":"This action cannot be undone. Are you sure?","delete_confirm":"This action cannot be undone. Are you sure?","copied_text":"Copied the wishlist link:","menu_text":"Wishlist","button_text":"Add to wishlist","button_text_added":"Browse wishlist","button_normal_icon":"woosw-icon-5","button_added_icon":"woosw-icon-8","button_loading_icon":"woosw-icon-4"};
+</script>
+<script src="../js/frontend.js" id="woosw-frontend-js"></script>
+<script src="../js/isotope.js" id="isotope-js"></script>
+<script src="../js/imagesloaded.min.js" id="imagesloaded-js"></script>
+<script src="../js/eduact-theme_3.js" id="eduact-theme-js"></script>
+<script src="../js/webpack.runtime.min.js" id="elementor-webpack-runtime-js"></script>
+<script src="../js/frontend-modules.min.js" id="elementor-frontend-modules-js"></script>
+<script src="../js/waypoints.min.js" id="elementor-waypoints-js"></script>
+<script id="elementor-frontend-js-before">
+var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false,"isScriptDebug":false},"i18n":{"shareOnFacebook":"Share on Facebook","shareOnTwitter":"Share on Twitter","pinIt":"Pin it","download":"Download","downloadImage":"Download image","fullscreen":"Fullscreen","zoom":"Zoom","share":"Share","playVideo":"Play Video","previous":"Previous","next":"Next","close":"Close","a11yCarouselWrapperAriaLabel":"Carousel | Horizontal scrolling: Arrow Left & Right","a11yCarouselPrevSlideMessage":"Previous slide","a11yCarouselNextSlideMessage":"Next slide","a11yCarouselFirstSlideMessage":"This is the first slide","a11yCarouselLastSlideMessage":"This is the last slide","a11yCarouselPaginationBulletMessage":"Go to slide"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"responsive":{"breakpoints":{"mobile":{"label":"Mobile Portrait","value":767,"default_value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Mobile Landscape","value":880,"default_value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Tablet Portrait","value":1024,"default_value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet Landscape","value":1200,"default_value":1200,"direction":"max","is_enabled":false},"laptop":{"label":"Laptop","value":1366,"default_value":1366,"direction":"max","is_enabled":false},"widescreen":{"label":"Widescreen","value":2400,"default_value":2400,"direction":"min","is_enabled":false}}},"version":"3.16.5","is_static":false,"experimentalFeatures":{"e_dom_optimization":true,"e_optimized_assets_loading":true,"e_optimized_css_loading":true,"additional_custom_breakpoints":true,"e_swiper_latest":true,"landing-pages":true,"e_global_styleguide":true},"urls":{"assets":"https:\/\/bracketweb.com\/eduactwp\/wp-content\/plugins\/elementor\/assets\/"},"swiperClass":"swiper","settings":{"editorPreferences":[]},"kit":{"active_breakpoints":["viewport_mobile","viewport_tablet"],"global_image_lightbox":"yes","lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description"},"post":{"id":0,"title":"Page not found &#8211; Eduact","excerpt":""}};
+</script>
+<script src="../js/frontend.min.js" id="elementor-frontend-js"></script>
+
+
+
+</body></html>
