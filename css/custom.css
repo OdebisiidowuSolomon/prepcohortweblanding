@@ -37,3 +37,25 @@ a.eduact-btn {
 .service-three__wrapper {
   height: 330px;
 }
+
+div#powered-div {
+  margin-top: 5rem;
+}
+
+div#powered-div p {
+  font-size: 24px;
+  color: var(--white);
+}
+
+.hero-banner {
+  padding-bottom: 0px !important;
+}
+
+.about-one__thumb__one::after {
+  display: none !important;
+}
+
+.about-one .container .row .col-xl-6 {
+  display: flex;
+  align-items: center !important;
+}
