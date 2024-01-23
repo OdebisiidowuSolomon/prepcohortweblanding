@@ -59,3 +59,41 @@ div#powered-div p {
   display: flex;
   align-items: center !important;
 }
+
+.row.d-flex.align-items-center {
+  justify-content: center;
+}
+.row.d-flex.align-items-center .centerDiv {
+  text-align: center;
+}
+
+section.about-one {
+  padding: 50px 0;
+}
+div.about-one__box {
+  margin-bottom: 20px;
+  width: 90%;
+}
+
+div.about-one__box__wrapper {
+  padding: 1rem;
+  padding-left: 100px;
+}
+
+div.about-one__box__icon {
+  height: 50px;
+  width: 50px;
+  font-size: 24px;
+}
+
+div.about-one__box__icon h4 {
+  font-size: 18px;
+  margin-bottom: 3px;
+}
+
+/* .about-one__box__wrapper {
+  border-radius: 23px;
+  padding: 18px 32px 23px 130px;
+  width: 100%;
+  background-color: var(--eduact-white);
+} */
