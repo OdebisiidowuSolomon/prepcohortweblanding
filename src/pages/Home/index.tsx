@@ -1,10 +1,9 @@
-import React from "react";
 import HeroBanner from "./components/HeroBanner";
 import OurGoals from "./components/OurGoals";
 import PlungeIntoPracticeMode from "./components/PlungeIntoPracticeMode";
-import OurAmazingSection from "./components/OurAmazingSection";
+import OurAmazingSection from "./components/OurAmazingSection/index";
 import MoreAmazingSection from "./components/MoreAmazingSection";
-import MultipleExamPlatform from "./components/MultipleExamPlatform";
+import MultipleExamPlatform from "./components/MultipleExamPlatform/index";
 import WhyStudyWithUs from "./components/WhyStudyWithUs";
 import OurCategories from "./components/OurCategories";
 import ProvenStatistics from "./components/ProvenStatistics";
@@ -12,6 +11,7 @@ import InterwovenPractice from "./components/InterwovenPractice";
 import QualifiedInstructor from "./components/QualifiedInstructor";
 import AbundantQuestionBank from "./components/AbundantQuestionBank";
 import Testimonials from "./components/Testimonials";
+import DownloadMobileVersion from "./components/DownloadMobileVersion";
 
 export default function HomePage() {
   return (
@@ -198,16 +198,17 @@ export default function HomePage() {
         <HeroBanner />
         <OurGoals />
         <PlungeIntoPracticeMode />
-        <OurAmazingSection/>
-        <MoreAmazingSection/>
-        <MultipleExamPlatform/>
-        <WhyStudyWithUs/>
-        <OurCategories/>
-        <ProvenStatistics/>
-        <InterwovenPractice/>
-        <QualifiedInstructor/>
-        <AbundantQuestionBank/>
-        <Testimonials/>
+        <OurAmazingSection />
+        <MoreAmazingSection />
+        <DownloadMobileVersion />
+        <MultipleExamPlatform />
+        <WhyStudyWithUs />
+        <OurCategories />
+        <ProvenStatistics />
+        <InterwovenPractice />
+        <QualifiedInstructor />
+        <AbundantQuestionBank />
+        <Testimonials />
       </div>
     </div>
   );
