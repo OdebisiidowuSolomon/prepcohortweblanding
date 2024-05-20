@@ -1,0 +1,99 @@
+:root {
+  --red: red;
+  --white: white;
+  --gray: #666666;
+  --baseColor: #20419a;
+}
+
+body {
+  background-color: var(--red);
+}
+
+.container a.main-menu__login {
+  color: var(--white) !important;
+}
+.sticky-header__content a.main-menu__login {
+  color: var(--gray) !important;
+}
+.main-menu__right .eduact-btn {
+  background-color: var(--baseColor) !important;
+}
+
+/* .main-menu__logo a.custom-logo { */
+a.custom-logo {
+  color: white;
+  font-size: 2rem !important;
+}
+
+.sticky-header__content .main-menu__logo a.custom-logo {
+  color: var(--baseColor);
+}
+
+a.eduact-btn.eduact-btn-second,
+a.eduact-btn {
+  font-size: 0.95rem !important;
+}
+
+.service-three__wrapper {
+  height: 330px;
+}
+
+div#powered-div {
+  margin-top: 5rem;
+}
+
+div#powered-div p {
+  font-size: 24px;
+  color: var(--white);
+}
+
+.hero-banner {
+  padding-bottom: 0px !important;
+}
+
+.about-one__thumb__one::after {
+  display: none !important;
+}
+
+.about-one .container .row .col-xl-6 {
+  display: flex;
+  align-items: center !important;
+}
+
+.row.d-flex.align-items-center {
+  justify-content: center;
+}
+.row.d-flex.align-items-center .centerDiv {
+  text-align: center;
+}
+
+section.about-one {
+  padding: 50px 0;
+}
+div.about-one__box {
+  margin-bottom: 20px;
+  width: 90%;
+}
+
+div.about-one__box__wrapper {
+  padding: 1rem;
+  padding-left: 100px;
+}
+
+div.about-one__box__icon {
+  height: 50px;
+  width: 50px;
+  font-size: 24px;
+}
+
+div.about-one__box__icon h4 {
+  font-size: 18px;
+  margin-bottom: 3px;
+}
+
+/* .about-one__box__wrapper {
+  border-radius: 23px;
+  padding: 18px 32px 23px 130px;
+  width: 100%;
+  background-color: var(--eduact-white);
+} */
