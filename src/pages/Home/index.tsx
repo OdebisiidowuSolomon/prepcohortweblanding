@@ -12,6 +12,7 @@ import QualifiedInstructor from "./components/QualifiedInstructor";
 import AbundantQuestionBank from "./components/AbundantQuestionBank";
 import Testimonials from "./components/Testimonials";
 import DownloadMobileVersion from "./components/DownloadMobileVersion";
+import AiAcademicSupport from "./components/AiAcademicSupport";
 
 export default function HomePage() {
   return (
@@ -49,7 +50,7 @@ export default function HomePage() {
                       <nav className="main-menu">
                         <div className="container">
                           <div className="main-menu__logo logo-retina">
-                            <a href="#" className="custom-logo">
+                            <a href="#" className="custom-logo" id="black">
                               {/* <!-- src="/images/eduAct-2.png" --> */}
                               {/* <!-- <img
                             decoding="async"
@@ -62,7 +63,7 @@ export default function HomePage() {
                               <span>
                                 <b>Prep</b>
                               </span>
-                              Chort
+                              Cohort
                             </a>
                           </div>
                           {/* <!-- /.main-menu__nav --> */}
@@ -80,7 +81,8 @@ export default function HomePage() {
                             <a
                               href="#"
                               className="main-menu__login"
-                              style={{ fontSize: "16px", color: "#666666" }}
+                              style={{ fontSize: "16px", color: "black" }}
+                              id="black"
                             >
                               For Schools{" "}
                             </a>
@@ -121,7 +123,7 @@ export default function HomePage() {
                         <div className="logo-box">
                           <a
                             href="#"
-                            className="custom-logo"
+                            className="custom-logo !text-[#1F4497]"
                             aria-label="logo image"
                           >
                             {/* <!-- <img
@@ -135,7 +137,7 @@ export default function HomePage() {
                             <span>
                               <b>Prep</b>
                             </span>
-                            Chort
+                            Cohort
                           </a>
                         </div>
                         {/* <!-- /.logo-box --> */}
@@ -144,13 +146,19 @@ export default function HomePage() {
                         <ul className="mobile-nav__contact list-unstyled ml-0">
                           <li>
                             <i className="fa fa-envelope"></i>
-                            <a href="mailto:needhelp@company.com">
+                            <a
+                              href="mailto:needhelp@company.com"
+                              className="text-black"
+                            >
                               needhelp@company.com
                             </a>
                           </li>
                           <li>
                             <i className="fa fa-phone-alt"></i>
-                            <a href="tel:http://+92-(3680)---9850">
+                            <a
+                              href="tel:http://+92-(3680)---9850"
+                              className="text-black"
+                            >
                               +92 (3680) - 9850
                             </a>
                           </li>
@@ -199,7 +207,7 @@ export default function HomePage() {
         <OurGoals />
         <PlungeIntoPracticeMode />
         <OurAmazingSection />
-        <MoreAmazingSection />
+        {/* <MoreAmazingSection /> */}
         <DownloadMobileVersion />
         <MultipleExamPlatform />
         <WhyStudyWithUs />
@@ -208,6 +216,7 @@ export default function HomePage() {
         <InterwovenPractice />
         <QualifiedInstructor />
         <AbundantQuestionBank />
+        <AiAcademicSupport />
         <Testimonials />
       </div>
     </div>

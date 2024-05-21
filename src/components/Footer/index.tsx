@@ -58,7 +58,7 @@ export default function Footer() {
                                   <span>
                                     <b style={{ color: "white" }}>Prep</b>
                                   </span>
-                                  Chort
+                                  Cohort
                                 </a>
                                 <ul className="main-footer-two__info-list">
                                   <li>
@@ -152,7 +152,7 @@ export default function Footer() {
                           <p className="copyright__text">
                             © Copyright{" "}
                             <span className="dynamic-year">2024</span>
-                            <a href="#">PrepCohort</a> |
+                            <a href="#"> PrepCohort</a> |
                             <a href="https://study4as.com/">
                               POWERED By Study4A
                             </a>

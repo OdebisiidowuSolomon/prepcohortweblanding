@@ -1,6 +1,6 @@
 import React from "react";
 
-function QualifiedInstructor() {
+function AiAcademicSupport() {
   return (
     <>
       <section
@@ -40,7 +40,8 @@ function QualifiedInstructor() {
                               {/* <!-- src="/images/about-1-1.png" --> */}
                               <img
                                 decoding="async"
-                                src="/images/Group10632.png"
+                                // src="/images/Group10632.png"
+                                src="/images/AiSupportImg.png"
                                 alt="alt"
                                 title="about-1-1"
                               />
@@ -78,7 +79,7 @@ function QualifiedInstructor() {
                                 className="section-title__tagline"
                                 style={{ padding: "0px" }}
                               >
-                                Qualified Instructors
+                                AI Academic Support
                                 <svg
                                   xmlns="http://www.w3.org/2000/svg"
                                   viewBox="0 0 133 13"
@@ -132,12 +133,11 @@ function QualifiedInstructor() {
                               className="about-one__content__text"
                               style={{ width: "80%" }}
                             >
-                              Learn from experienced professionals across
-                              different schools who bring expertise and
-                              real-world insights to your virtual classroom,
-                              guaranteeing a high-quality and enriching learning
-                              experience. You can join the community for up
-                              close mentorship.
+                              Fine-tune your learning experience with our
+                              artificial intelligence powered system. With it
+                              you can generated related questions, lessons
+                              content in your learning style and recommendations
+                              based on your learning progress.
                             </p>
                             <a href="#" className="eduact-btn">
                               <span className="eduact-btn__curve"></span>Start
@@ -160,4 +160,4 @@ function QualifiedInstructor() {
   );
 }
 
-export default QualifiedInstructor;
+export default AiAcademicSupport;

@@ -1,3 +1,13 @@
 #amazingFeaturesId {
   align-items: start !important;
+  flex-direction: column;
+}
+
+div.p-change p {
+  margin: 0;
+  padding: 0;
+}
+
+#black {
+  color: black !important;
 }
