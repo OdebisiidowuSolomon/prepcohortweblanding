@@ -154,7 +154,7 @@ export default function Footer() {
                             <span className="dynamic-year">2024</span>
                             <a href="#"> PrepCohort</a> |
                             <a href="https://study4as.com/">
-                              POWERED By Study4A
+                              POWERED By Study4AS
                             </a>
                           </p>
                         </div>

@@ -71,12 +71,12 @@ export default function HomePage() {
                             className="main-menu__right"
                             style={{ marginLeft: "auto" }}
                           >
-                            <a
+                            {/* <a
                               href="#"
                               className="main-menu__toggler mobile-nav__toggler"
                             >
                               <i className="fa fa-bars"></i>{" "}
-                            </a>
+                            </a> */}
                             {/* <!-- /.mobile menu btn --> */}
                             <a
                               href="#"
@@ -147,19 +147,19 @@ export default function HomePage() {
                           <li>
                             <i className="fa fa-envelope"></i>
                             <a
-                              href="mailto:needhelp@company.com"
+                              href="mailto:info@prepcohort.com"
                               className="text-black"
                             >
-                              needhelp@company.com
+                              info@prepcohort.com
                             </a>
                           </li>
                           <li>
                             <i className="fa fa-phone-alt"></i>
                             <a
-                              href="tel:http://+92-(3680)---9850"
+                              href="tel:09033746143"
                               className="text-black"
                             >
-                              +92 (3680) - 9850
+                              +(234) 903-374-6143
                             </a>
                           </li>
                         </ul>
@@ -208,7 +208,6 @@ export default function HomePage() {
         <PlungeIntoPracticeMode />
         <OurAmazingSection />
         {/* <MoreAmazingSection /> */}
-        <DownloadMobileVersion />
         <MultipleExamPlatform />
         <WhyStudyWithUs />
         <OurCategories />
@@ -218,6 +217,7 @@ export default function HomePage() {
         <AbundantQuestionBank />
         <AiAcademicSupport />
         <Testimonials />
+        <DownloadMobileVersion />
       </div>
     </div>
   );
