@@ -13,6 +13,8 @@ import AbundantQuestionBank from "./components/AbundantQuestionBank";
 import Testimonials from "./components/Testimonials";
 import DownloadMobileVersion from "./components/DownloadMobileVersion";
 import AiAcademicSupport from "./components/AiAcademicSupport";
+import OurCourses from "./components/OurCourses";
+import QuestionBankSlider from "./components/QuestionBankSlider";
 
 export default function HomePage() {
   return (
@@ -204,6 +206,8 @@ export default function HomePage() {
         <OurGoals />
         <PlungeIntoPracticeMode />
         <OurAmazingSection />
+        <OurCourses />
+        <QuestionBankSlider />
         {/* <MoreAmazingSection /> */}
         <MultipleExamPlatform />
         <WhyStudyWithUs />
