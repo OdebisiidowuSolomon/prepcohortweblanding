@@ -139,7 +139,7 @@ function QualifiedInstructor() {
                               experience. You can join the community for up
                               close mentorship.
                             </p>
-                            <a href="#" className="eduact-btn">
+                            <a href="https://s4a-web-next-ten.vercel.app/explore" className="eduact-btn">
                               <span className="eduact-btn__curve"></span>Start
                               Learning Now
                             </a>

@@ -143,7 +143,7 @@ function InterwovenPractice() {
                               courses and related practice questions with ease
                             </p>
                             <a
-                              href="#"
+                              href="https://s4a-web-next-ten.vercel.app/explore"
                               className="eduact-btn eduact-btn-second"
                             >
                               <span className="eduact-btn__curve"></span>Start
