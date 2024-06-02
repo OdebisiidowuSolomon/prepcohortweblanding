@@ -40,22 +40,30 @@ export const AmazingFeatures = () => {
             />
             <AmazingFeaturesItem
               title="Integrated Polls"
-              subtitle="Integrated Polls"
+              subtitle="Polls enable you to share your opinion on different issues, topics etc. from which decisions can be made"
               icon="fa fa-poll"
             />
           </>
         ) : (
           <>
             <AmazingFeaturesItem
-              title="Question and Answer"
-              subtitle="You can ask questions and relevant answers from your colleague under
-          the teacher's moderation."
+              title="Quizzes and Exam"
+              subtitle="These are challenges or tests on our platform that help you learn faster by providing you practice questions on what you’ve studied"
               icon="fa fa-question-circle"
             />
             <AmazingFeaturesItem
-              title="Question and Answer"
-              subtitle="You can ask questions and relevant answers from your colleague under
-          the teacher's moderation."
+              title="Grading"
+              subtitle="Your quizzes and exams gets evaluated after practice. you get scores and feedback on how well you’ve performed"
+              icon="fa fa-question-circle"
+            />
+            <AmazingFeaturesItem
+              title="Scaled Reports"
+              subtitle="Status updates on your performances in your course is made available to you on weekly basis. You also see how you are ranking with other student’s on board"
+              icon="fa fa-question-circle"
+            />
+            <AmazingFeaturesItem
+              title="Feedback"
+              subtitle="Receive valuable and informative feedback on your performance. AI recommendation is also at your beckon"
               icon="fa fa-question-circle"
             />
           </>
@@ -109,7 +117,7 @@ const AmazingFeaturesItem = ({
       </div>
       <div
         className="px-3 py-[10px] m-1 bg-[#1F44971F] rounded-lg"
-        style={{ color: "#1F4497", fontSize:26 }}
+        style={{ color: "#1F4497", fontSize: 26 }}
       >
         <span aria-hidden="true" className={`${icon}`}></span>
       </div>
