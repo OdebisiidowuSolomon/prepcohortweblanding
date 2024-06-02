@@ -58,10 +58,9 @@ function PlungeIntoPracticeMode() {
                               margin: "2rem 0",
                             }}
                           >
-                            Access diverse question bank that provides a wide
+                            Access diverse question bank that provides a wide{" "}
                             <br />
-                            range of practice questions to reinforce your
-                            <br />
+                            range of practice questions to reinforce your <br />
                             understanding and prepare you thoroughly for exams
                           </h6>
                           <a

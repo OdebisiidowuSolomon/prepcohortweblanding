@@ -14,7 +14,7 @@ export const QuestionBankItem = ({
   label: string;
 }) => {
   return (
-    <div className="item bg-white w-[300px] rounded-md overflow-hidden">
+    <div className="item bg-white max-w-[80%] min-w-[300px] rounded-md overflow-hidden">
       <div className="category-one__item">
         <div className="w-full h-[150px] bg-[#1F4497] flex-col p-4 justify-center items-center box-border">
           <div className="rounded-full w-[85px] h-[85px] mx-auto flex justify-center items-center bg-white mb-2">

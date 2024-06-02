@@ -16,7 +16,7 @@ export const AmazingFeatures = () => {
         <AmazingFeaturesTopBtn
           isActive={!showingAmazingFeatures}
           onPress={() => setShowingAmazingFeatures(false)}
-          label="More amazing Features"
+          label="More Amazing Features"
         />
       </div>
       <div>
@@ -86,13 +86,13 @@ const AmazingFeaturesTopBtn = ({
     <div
       className={`${
         isActive ? "bg-[#1F4497]" : "bg-[#EBF1FF]"
-      } rounded-2xl px-4 py-3 mr-3 cursor-pointer`}
+      } rounded-2xl px-4 py-3 mr-3 cursor-pointer max-sm:!py-4 max-sm:!px-2`}
       onClick={onPress}
     >
       <p
         className={`${
           isActive ? "text-white" : "text-black"
-        } text-xl font-semibold p-0 m-0`}
+        } text-xl font-semibold p-0 m-0 max-sm:!text-sm`}
       >
         {label}
       </p>

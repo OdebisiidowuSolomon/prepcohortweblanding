@@ -54,7 +54,7 @@ function OurGoals() {
                               </svg>
                             </h5>
                             <h2 className="section-title__title">
-                              Ensuring your Excellence
+                              Ensuring your Excellence{' '}
                               <br />
                               with Guiding Tools
                             </h2>
