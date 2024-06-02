@@ -55,6 +55,17 @@ export default function Footer() {
                             <div className="elementor-widget-container">
                               <div className="main-footer-two__about logo-retina">
                                 <a href="#" className="custom-logo">
+                                  <img
+                                    decoding="async"
+                                    width="50"
+                                    height="50"
+                                    alt="Eduact"
+                                    src="/images/PClogo.png"
+                                    style={{
+                                      height: "50px",
+                                      objectFit: "contain",
+                                    }}
+                                  />
                                   <span>
                                     <b style={{ color: "white" }}>Prep</b>
                                   </span>
@@ -151,9 +162,12 @@ export default function Footer() {
                         >
                           <p className="copyright__text">
                             © Copyright{" "}
-                            <span className="dynamic-year">2024</span>
+                            <span className="dynamic-year">
+                              {new Date().getFullYear()}
+                            </span>
                             <a href="#"> PrepCohort</a> |
                             <a href="https://study4as.com/">
+                              {" "}
                               POWERED By Study4AS
                             </a>
                           </p>

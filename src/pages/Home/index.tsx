@@ -52,14 +52,14 @@ export default function HomePage() {
                           <div className="main-menu__logo logo-retina">
                             <a href="#" className="custom-logo" id="black">
                               {/* <!-- src="/images/eduAct-2.png" --> */}
-                              {/* <!-- <img
-                            decoding="async"
-                            width="183"
-                            height="48"
-                            alt="Eduact"
-                            src="/images/PClogo.png"
-                            style="height: 48px; object-fit: contain"
-                          /> --> */}
+                              <img
+                                decoding="async"
+                                width="50"
+                                height="50"
+                                alt="Eduact"
+                                src="/images/PClogo.png"
+                                style={{ height: "50px", objectFit: "contain" }}
+                              />
                               <span>
                                 <b>Prep</b>
                               </span>
@@ -126,14 +126,14 @@ export default function HomePage() {
                             className="custom-logo !text-[#1F4497]"
                             aria-label="logo image"
                           >
-                            {/* <!-- <img
-                          decoding="async"
-                          width="183"
-                          height="48"
-                          src="/images/PClogo.png"
-                          alt="Eduact"
-                          style="height: 48px; object-fit: contain"
-                        /> --> */}
+                            <img
+                              decoding="async"
+                              width="183"
+                              height="48"
+                              src="/images/PClogo.png"
+                              alt="Eduact"
+                              style={{ height: "48px", objectFit: "contain" }}
+                            />
                             <span>
                               <b>Prep</b>
                             </span>
@@ -155,10 +155,7 @@ export default function HomePage() {
                           </li>
                           <li>
                             <i className="fa fa-phone-alt"></i>
-                            <a
-                              href="tel:09033746143"
-                              className="text-black"
-                            >
+                            <a href="tel:09033746143" className="text-black">
                               +(234) 903-374-6143
                             </a>
                           </li>
