@@ -1,28 +1,20 @@
 import HeroBanner from "./components/HeroBanner";
-import OurGoals from "./components/OurGoals";
-import PlungeIntoPracticeMode from "./components/PlungeIntoPracticeMode";
-import OurAmazingSection from "./components/OurAmazingSection/index";
-import MoreAmazingSection from "./components/MoreAmazingSection";
-import MultipleExamPlatform from "./components/MultipleExamPlatform/index";
-import WhyStudyWithUs from "./components/WhyStudyWithUs";
-import OurCategories from "./components/OurCategories";
-import ProvenStatistics from "./components/ProvenStatistics";
 import InterwovenPractice from "./components/InterwovenPractice";
-import QualifiedInstructor from "./components/QualifiedInstructor";
-import AbundantQuestionBank from "./components/AbundantQuestionBank";
+import FacilitatedTeaching from "./components/FacilitatedTeaching";
+import AccessibleOnMultipleDevices from "./components/AccessibleOnMultipleDevices";
+import StaffAppointment from "./components/StaffAppointment";
+import ReachMoreStudents from "./components/ReachMoreStudents";
+import EffortlessGradingSystem from "./components/EffortlessGradingSystem";
+import AITeachingSupport from "./components/AITeachingSupport";
 import Testimonials from "./components/Testimonials";
-import DownloadMobileVersion from "./components/DownloadMobileVersion";
-import AiAcademicSupport from "./components/AiAcademicSupport";
-import OurCourses from "./components/OurCourses";
-import QuestionBankSlider from "./components/QuestionBankSlider";
+import WhatWeOffer from "./components/WhatWeOffer/index";
+import WhyPrepCohort from "./components/WhyPrepCohort";
+import MultipleExamPlatform from "./components/MultipleExamPlatform";
+import ProvenStatistics from "./components/ProvenStatistics";
 
-export default function HomePage() {
+export default function SchoolPage() {
   return (
     <div id="page" className="site page-wrapper">
-      <a className="skip-link screen-reader-text" href="#primary">
-        Skip to content
-      </a>
-
       {/* <!-- the loop --> */}
       <div
         data-elementor-type="wp-post"
@@ -81,20 +73,20 @@ export default function HomePage() {
                             </a> */}
                             {/* <!-- /.mobile menu btn --> */}
                             <a
-                              href="/school"
+                              href="/"
                               className="main-menu__login"
                               style={{ fontSize: "16px", color: "black" }}
                               id="black"
                             >
-                              For Schools{" "}
+                              For Students{" "}
                             </a>
                             {/* <!-- /.login btn --> */}
                             <a
-                              href="https://s4a-web-next-ten.vercel.app/"
+                              href="https://console.prepcohort.com/"
                               className="eduact-btn"
                             >
                               <span className="eduact-btn__curve"></span> Join
-                              for Free
+                              now
                             </a>
                             {/* ><!-- /.contact btn --> */}
                           </div>
@@ -124,7 +116,7 @@ export default function HomePage() {
 
                         <div className="logo-box">
                           <a
-                            href="#"
+                            href="/"
                             className="custom-logo !text-[#1F4497]"
                             aria-label="logo image"
                           >
@@ -203,22 +195,29 @@ export default function HomePage() {
         className="elementor elementor-1135"
       >
         <HeroBanner />
-        <OurGoals />
-        <PlungeIntoPracticeMode />
-        <OurAmazingSection />
-        <OurCourses />
-        <QuestionBankSlider />
-        {/* <MoreAmazingSection /> */}
-        <MultipleExamPlatform />
-        <WhyStudyWithUs />
-        <OurCategories />
-        <ProvenStatistics />
+        <WhatWeOffer />
+        <FacilitatedTeaching />
         <InterwovenPractice />
-        <QualifiedInstructor />
-        <AbundantQuestionBank />
-        <AiAcademicSupport />
+        <AccessibleOnMultipleDevices />
+        <WhyPrepCohort />
+        <ProvenStatistics />
+        <MultipleExamPlatform />
+        <StaffAppointment />
+        <ReachMoreStudents />
+        <EffortlessGradingSystem />
+        <AITeachingSupport />
+        {/* <OurGoals /> */}
+        {/* <PlungeIntoPracticeMode /> */}
+        {/* <OurAmazingSection /> */}
+        {/* <OurCourses /> */}
+        {/* <QuestionBankSlider /> */}
+        {/* <WhyStudyWithUs /> */}
+        {/* <OurCategories /> */}
+        {/* <QualifiedInstructor /> */}
+        {/* <AbundantQuestionBank /> */}
+        {/* <AiAcademicSupport /> */}
         <Testimonials />
-        <DownloadMobileVersion />
+        {/* <DownloadMobileVersion /> */}
       </div>
     </div>
   );

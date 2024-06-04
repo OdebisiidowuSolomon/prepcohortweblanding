@@ -1,5 +1,3 @@
-import React from "react";
-
 function HeroBanner() {
   return (
     <>
@@ -28,7 +26,7 @@ function HeroBanner() {
                     className="hero-banner"
                     style={{
                       backgroundImage: "url(images/banner-bg-1.png)",
-                      background: "#F4F4F4",
+                      background: "#EDF1FA",
                     }}
                   >
                     <div className="container">
@@ -44,21 +42,19 @@ function HeroBanner() {
                               </div>
                             </div>
                             <h2
-                              className="hero-banner__title wow fadeInUp text-black"
+                              className="hero-banner__title wow fadeInUp text-[#0B1F55]"
                               data-wow-delay="400ms"
                             >
-                              Access expert guidance <br />
-                              and tailored resources for exam success
+                              Join Prepcohort and take charge of your own
+                              virtual school
                             </h2>
                             <p
                               className="hero-banner__text wow fadeInUp text-black"
                               data-wow-delay="500ms"
                             >
-                              Empower your future through education!
-                              <br />
-                              Join thousands learning together on Prepcohort.
-                              <br />
-                              Practice along as you study,
+                              Connect with a larger student base and also bring
+                              your students onboard and provide quality
+                              education to diverse learners
                               <img
                                 decoding="async"
                                 src="/images/banner-1-shape-1.png"
@@ -71,26 +67,16 @@ function HeroBanner() {
                               data-wow-delay="600ms"
                             >
                               <a
-                                href="https://s4a-web-next-ten.vercel.app/explore?"
+                                href="https://console.prepcohort.com/"
                                 className="eduact-btn eduact-btn-second"
                               >
-                                <span className="eduact-btn__curve"></span>Start
-                                Practicing<i className="icon-arrow"></i>
-                              </a>
-                              <a
-                                href="https://s4a-web-next-ten.vercel.app/"
-                                className="eduact-btn text-black hover:text-[#1F4497]"
-                              >
-                                <span className="eduact-btn__curve"></span>Join
-                                a School<i className="icon-arrow"></i>
+                                <span className="eduact-btn__curve"></span>
+                                Register Now<i className="icon-arrow"></i>
                               </a>
                             </div>
                             <a
                               href="https://study4as.com/"
-                              style={{
-                                position: "relative",
-                                zIndex: 10000000,
-                              }}
+                              style={{ position: "relative", zIndex: 10000000 }}
                             >
                               <div id="powered-div">
                                 <p className="!text-[#1F4497]">
@@ -102,34 +88,37 @@ function HeroBanner() {
                                 </p>
                               </div>
                             </a>
+
                             {/* <!-- banner-btn --> */}
                           </div>
                           {/* <!-- banner-content --> */}
                         </div>
                         <div className="col-lg-6">
                           <div
-                            className="hero-banner__thumb wow fadeInUp"
+                            className="hero-banner__thum relative wow fadeInUp"
                             data-wow-delay="700ms"
                           >
                             <img
                               decoding="async"
                               // src="/images/banner-1-1.png"
-                              src="/images/ForPrepCohort1.png"
+                              // src="/images/ForPrepCohort1.png"
+                              src="/images/BannerImg.png"
                               alt="alt"
                               title="banner-1-1"
                             />
-                            <div
+                            {/* <div
                               className="hero-banner__cap wow slideInDown"
                               data-wow-delay="800ms"
+                              style={{ bottom: 10 }}
                             >
                               <img
                                 decoding="async"
                                 src="/images/banner-cap.png"
                                 alt="alt"
                               />
-                            </div>
+                            </div> */}
                             {/* <!-- banner-cap --> */}
-                            <div
+                            {/* <div
                               className="hero-banner__star wow slideInDown"
                               data-wow-delay="850ms"
                             >
@@ -138,9 +127,9 @@ function HeroBanner() {
                                 src="/images/banner-star.png"
                                 alt=""
                               />
-                            </div>
+                            </div> */}
                             {/* <!-- banner-star --> */}
-                            <div
+                            {/* <div
                               className="hero-banner__map wow slideInDown"
                               data-wow-delay="900ms"
                             >
@@ -149,11 +138,11 @@ function HeroBanner() {
                                 src="/images/banner-map.png"
                                 alt="alt"
                               />
-                            </div>
+                            </div> */}
                             {/* <!-- banner-map --> */}
 
                             {/* <!-- banner-video --> */}
-                            <div
+                            {/* <div
                               className="hero-banner__book wow slideInUp"
                               data-wow-delay="1000ms"
                             >
@@ -162,7 +151,7 @@ function HeroBanner() {
                                 src="/images/banner-book.png"
                                 alt=""
                               />
-                            </div>
+                            </div> */}
                             {/* <!-- banner-book --> */}
                             <div
                               className="hero-banner__star2 wow slideInUp"
@@ -177,17 +166,6 @@ function HeroBanner() {
                           </div>
                         </div>
                       </div>
-                      {/* <a
-                        href="https://study4as.com/"
-                        style={{ position: "relative", zIndex: 10000000 }}
-                      >
-                        <div id="powered-div">
-                          <p className="!text-[#1F4497]">
-                            Powered by
-                            <span style={{ color: "#1F4497" }}> Study4AS</span>
-                          </p>
-                        </div>
-                      </a> */}
                     </div>
                     <div
                       className="hero-banner__border wow fadeInUp"

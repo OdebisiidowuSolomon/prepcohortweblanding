@@ -26,10 +26,7 @@ function HeroBanner() {
                   {/* <!--Hero Banner Start--> */}
                   <section
                     className="hero-banner"
-                    style={{
-                      backgroundImage: "url(images/banner-bg-1.png)",
-                      background: "#F4F4F4",
-                    }}
+                    style={{ backgroundImage: "url(images/banner-bg-1.png)" }}
                   >
                     <div className="container">
                       <div className="row">
@@ -44,14 +41,14 @@ function HeroBanner() {
                               </div>
                             </div>
                             <h2
-                              className="hero-banner__title wow fadeInUp text-black"
+                              className="hero-banner__title wow fadeInUp"
                               data-wow-delay="400ms"
                             >
                               Access expert guidance <br />
                               and tailored resources for exam success
                             </h2>
                             <p
-                              className="hero-banner__text wow fadeInUp text-black"
+                              className="hero-banner__text wow fadeInUp"
                               data-wow-delay="500ms"
                             >
                               Empower your future through education!
@@ -79,29 +76,12 @@ function HeroBanner() {
                               </a>
                               <a
                                 href="https://s4a-web-next-ten.vercel.app/"
-                                className="eduact-btn text-black hover:text-[#1F4497]"
+                                className="eduact-btn"
                               >
                                 <span className="eduact-btn__curve"></span>Join
                                 a School<i className="icon-arrow"></i>
                               </a>
                             </div>
-                            <a
-                              href="https://study4as.com/"
-                              style={{
-                                position: "relative",
-                                zIndex: 10000000,
-                              }}
-                            >
-                              <div id="powered-div">
-                                <p className="!text-[#1F4497]">
-                                  Powered by
-                                  <span style={{ color: "#1F4497" }}>
-                                    {" "}
-                                    Study4AS
-                                  </span>
-                                </p>
-                              </div>
-                            </a>
                             {/* <!-- banner-btn --> */}
                           </div>
                           {/* <!-- banner-content --> */}
@@ -177,17 +157,17 @@ function HeroBanner() {
                           </div>
                         </div>
                       </div>
-                      {/* <a
-                        href="https://study4as.com/"
-                        style={{ position: "relative", zIndex: 10000000 }}
-                      >
-                        <div id="powered-div">
-                          <p className="!text-[#1F4497]">
-                            Powered by
-                            <span style={{ color: "#1F4497" }}> Study4AS</span>
-                          </p>
-                        </div>
-                      </a> */}
+                      <div id="powered-div">
+                        <p>
+                          Powered by
+                          <a
+                            href="https://study4as.com/"
+                            style={{ color: "white" }}
+                          >
+                            Study4AS
+                          </a>
+                        </p>
+                      </div>
                     </div>
                     <div
                       className="hero-banner__border wow fadeInUp"
