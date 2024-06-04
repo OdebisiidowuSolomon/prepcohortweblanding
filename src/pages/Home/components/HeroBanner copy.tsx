@@ -164,7 +164,7 @@ function HeroBanner() {
                             href="https://study4as.com/"
                             style={{ color: "white" }}
                           >
-                            Study4A
+                            Study4AS
                           </a>
                         </p>
                       </div>

@@ -41,7 +41,7 @@ function AiAcademicSupport() {
                               <img
                                 decoding="async"
                                 // src="/images/Group10632.png"
-                                src="/images/AiSupportImg.png"
+                                src="/images/AISupportImg.png"
                                 alt="alt"
                                 title="about-1-1"
                               />
@@ -139,7 +139,10 @@ function AiAcademicSupport() {
                               content in your learning style and recommendations
                               based on your learning progress.
                             </p>
-                            <a href="#" className="eduact-btn">
+                            <a
+                              href="https://s4a-web-next-ten.vercel.app/explore"
+                              className="eduact-btn"
+                            >
                               <span className="eduact-btn__curve"></span>Start
                               Learning Now
                             </a>

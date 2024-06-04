@@ -13,6 +13,8 @@ import AbundantQuestionBank from "./components/AbundantQuestionBank";
 import Testimonials from "./components/Testimonials";
 import DownloadMobileVersion from "./components/DownloadMobileVersion";
 import AiAcademicSupport from "./components/AiAcademicSupport";
+import OurCourses from "./components/OurCourses";
+import QuestionBankSlider from "./components/QuestionBankSlider";
 
 export default function HomePage() {
   return (
@@ -52,14 +54,14 @@ export default function HomePage() {
                           <div className="main-menu__logo logo-retina">
                             <a href="#" className="custom-logo" id="black">
                               {/* <!-- src="/images/eduAct-2.png" --> */}
-                              {/* <!-- <img
-                            decoding="async"
-                            width="183"
-                            height="48"
-                            alt="Eduact"
-                            src="/images/PClogo.png"
-                            style="height: 48px; object-fit: contain"
-                          /> --> */}
+                              <img
+                                decoding="async"
+                                width="50"
+                                height="50"
+                                alt="Eduact"
+                                src="/images/PClogo.png"
+                                style={{ height: "50px", objectFit: "contain" }}
+                              />
                               <span>
                                 <b>Prep</b>
                               </span>
@@ -71,12 +73,12 @@ export default function HomePage() {
                             className="main-menu__right"
                             style={{ marginLeft: "auto" }}
                           >
-                            <a
+                            {/* <a
                               href="#"
                               className="main-menu__toggler mobile-nav__toggler"
                             >
                               <i className="fa fa-bars"></i>{" "}
-                            </a>
+                            </a> */}
                             {/* <!-- /.mobile menu btn --> */}
                             <a
                               href="#"
@@ -126,14 +128,14 @@ export default function HomePage() {
                             className="custom-logo !text-[#1F4497]"
                             aria-label="logo image"
                           >
-                            {/* <!-- <img
-                          decoding="async"
-                          width="183"
-                          height="48"
-                          src="/images/PClogo.png"
-                          alt="Eduact"
-                          style="height: 48px; object-fit: contain"
-                        /> --> */}
+                            <img
+                              decoding="async"
+                              width="183"
+                              height="48"
+                              src="/images/PClogo.png"
+                              alt="Eduact"
+                              style={{ height: "48px", objectFit: "contain" }}
+                            />
                             <span>
                               <b>Prep</b>
                             </span>
@@ -147,19 +149,16 @@ export default function HomePage() {
                           <li>
                             <i className="fa fa-envelope"></i>
                             <a
-                              href="mailto:needhelp@company.com"
+                              href="mailto:info@prepcohort.com"
                               className="text-black"
                             >
-                              needhelp@company.com
+                              info@prepcohort.com
                             </a>
                           </li>
                           <li>
                             <i className="fa fa-phone-alt"></i>
-                            <a
-                              href="tel:http://+92-(3680)---9850"
-                              className="text-black"
-                            >
-                              +92 (3680) - 9850
+                            <a href="tel:09033746143" className="text-black">
+                              +(234) 903-374-6143
                             </a>
                           </li>
                         </ul>
@@ -207,8 +206,9 @@ export default function HomePage() {
         <OurGoals />
         <PlungeIntoPracticeMode />
         <OurAmazingSection />
+        <OurCourses />
+        <QuestionBankSlider />
         {/* <MoreAmazingSection /> */}
-        <DownloadMobileVersion />
         <MultipleExamPlatform />
         <WhyStudyWithUs />
         <OurCategories />
@@ -218,6 +218,7 @@ export default function HomePage() {
         <AbundantQuestionBank />
         <AiAcademicSupport />
         <Testimonials />
+        <DownloadMobileVersion />
       </div>
     </div>
   );

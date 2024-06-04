@@ -160,18 +160,17 @@ function HeroBanner() {
                           </div>
                         </div>
                       </div>
-                      <div id="powered-div">
-                        <p className="!text-[#1F4497]">
-                          Powered by
-                          <a
-                            href="https://study4as.com/"
-                            style={{ color: "#1F4497" }}
-                          >
-                            {" "}
-                            Study4A
-                          </a>
-                        </p>
-                      </div>
+                      <a
+                        href="https://study4as.com/"
+                        style={{ position: "relative", zIndex: 10000000 }}
+                      >
+                        <div id="powered-div">
+                          <p className="!text-[#1F4497]">
+                            Powered by
+                            <span style={{ color: "#1F4497" }}> Study4AS</span>
+                          </p>
+                        </div>
+                      </a>
                     </div>
                     <div
                       className="hero-banner__border wow fadeInUp"
