@@ -54,17 +54,17 @@ export const AmazingFeatures = () => {
             <AmazingFeaturesItem
               title="Grading"
               subtitle="Your quizzes and exams gets evaluated after practice. you get scores and feedback on how well you’ve performed"
-              icon="fa fa-question-circle"
+              icon="fa fa-graduation-cap"
             />
             <AmazingFeaturesItem
               title="Scaled Reports"
               subtitle="Status updates on your performances in your course is made available to you on weekly basis. You also see how you are ranking with other student’s on board"
-              icon="fa fa-question-circle"
+              icon="fa fa-line-chart"
             />
             <AmazingFeaturesItem
               title="Feedback"
               subtitle="Receive valuable and informative feedback on your performance. AI recommendation is also at your beckon"
-              icon="fa fa-question-circle"
+              icon="fa fa-refresh"
             />
           </>
         )}

@@ -12,22 +12,22 @@ function WhatWeOfferRightComponent() {
           subtitle="Courses, quizzes, forms, polls, etc. become reusable assets that can be
         used across different classes/groups. While still allowing the resources
         contents used to evolve overtime without loosing historical status"
-        iconName="recycle"
+          iconName="recycle"
         />
         <WhatWeOfferRightComponentItem
           title="Question Bank System"
           subtitle="Schools can use existing question bank available in the platform created by other schools or create their own question bank for their student's practice sessions."
-          iconName="battery-full"
+          iconName="unlock"
         />
         <WhatWeOfferRightComponentItem
           title="Grouping system"
           subtitle="Maximize course organization with Prepcohort’s flexibility, allowing educators to create and manage multiple classes/groups."
-          iconName="recycle"
+          iconName="users"
         />
         <WhatWeOfferRightComponentItem
           title="Teaching Tools"
           subtitle="Access a diverse array of innovative teaching tools. Our suite of tools is designed to amplify your teaching effectiveness and provide a dynamic learning experience."
-          iconName="recycle"
+          iconName="wrench"
         />
       </div>
       {/* <!-- about content end--> */}
@@ -52,7 +52,7 @@ const WhatWeOfferRightComponentItem = ({
         className="px-3 py-[10px] m-1 bg-[#1F44971F] rounded-lg self-start"
         style={{ color: "#1F4497", fontSize: 26 }}
       >
-        <span aria-hidden="true" className={`fa fa-question-circle`}></span>
+        <span aria-hidden="true" className={`fa fa-${iconName}`}></span>
       </div>
       <p className="m-0 p-0 text-2xl font-semibold my-3 text-[#062335]">
         {title}
