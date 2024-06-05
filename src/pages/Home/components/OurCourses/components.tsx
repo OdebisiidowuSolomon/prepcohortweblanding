@@ -33,9 +33,11 @@ export const _CourseItem = ({
 export const CourseItem = ({
   imageUrl,
   label,
+  institutionName,
 }: {
   imageUrl: string;
   label: string;
+  institutionName: string;
 }) => {
   return (
     <div className="item bg-white w-[300px]">
@@ -52,16 +54,22 @@ export const CourseItem = ({
         <div className="p-4">
           <div className="flex justify-between items-center my-3">
             <div>
-              <p className="p-0 m-0 font-medium">Biology</p>
-              <p className="p-0 m-0 text-sm">Institution name</p>
+              <p className="p-0 m-0 font-medium">{label}</p>
+              <p className="p-0 m-0 text-sm">{institutionName}</p>
             </div>
-            <span className="bg-green-400 text-sm p-1 font-medium">New</span>
+            <span className="bg-green-400 text-[12px] text-white p-1 font-medium">New</span>
           </div>
 
           <div className="flex justify-between items-center mt-4">
             <div className="flex items-center">
-              <p className="p-0 m-0 text-sm">4.5</p>
-              <i className="fa fa-star ml-3 text-yellow-300 text-sm"></i>
+              <p className="p-0 m-0 text-sm">5.0</p>
+              <div className="flex flex-row items-center ml-3">
+                <i className="fa fa-star text-yellow-300 text-sm"></i>
+                <i className="fa fa-star text-yellow-300 text-sm"></i>
+                <i className="fa fa-star text-yellow-300 text-sm"></i>
+                <i className="fa fa-star text-yellow-300 text-sm"></i>
+                <i className="fa fa-star text-yellow-300 text-sm"></i>
+              </div>
             </div>
             <div className="flex items-center">
               <i className="fa fa-users text-sm mr-2"></i>

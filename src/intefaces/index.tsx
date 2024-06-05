@@ -51,7 +51,7 @@ export interface SearchEngineResult {
     total: number;
   };
   subjects: {
-    subjects: any[];
+    subjects: SubjectFull[];
     total: number;
   };
   topics: {
@@ -62,6 +62,15 @@ export interface SearchEngineResult {
     tests: QuestionBank[];
     total: number;
   };
+}
+
+export interface Provider {
+  // createdBy: number;
+  description: string;
+  id: string;
+  masterGroupId: string;
+  title: string;
+  // updatedBy: number;
 }
 
 export interface SubTopic {
@@ -105,4 +114,39 @@ export interface QuestionBank {
   provider: {
     title: string;
   };
+}
+
+export interface Subject {
+  id: string;
+  name: string;
+  description: string;
+  subjectStructure: string;
+  syllabusId: number;
+  oneOnOneMeetingFee: string;
+}
+
+export interface SubjectFull extends Subject {
+  provider: Provider;
+  topics: Topic[];
+  prices: SubjectPriceObj[];
+  // provider: BaseProvider;
+}
+
+export interface SubjectPriceObj {
+  amount: number;
+  courseDiscount: CourseDiscountObj;
+  description: string;
+  id: number;
+  isActive: boolean;
+  numOfDuration: number;
+  typeOfDuration: string;
+}
+
+export interface CourseDiscountObj {
+  couponCode: string;
+  description: string;
+  expiryDate: string;
+  percentage: number;
+  subjectPriceId: number;
+  title: string;
 }

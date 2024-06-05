@@ -33,6 +33,10 @@ export const SEARCH_ENGINE = gql`
           id
           name
           description
+          provider {
+            id
+            title
+          }
           prices {
             amount
             courseDiscount {
