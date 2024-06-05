@@ -27,7 +27,7 @@ function WhatWeOffer() {
                   {/* <!-- About Start --> */}
                   <section
                     className="about-one"
-                    style={{ backgroundColor: "#F9F9F9" }}
+                    style={{ backgroundColor: "#F9F9F9", marginTop: "25px" }}
                   >
                     <div className="container">
                       <div className="section-title text-center">

@@ -81,12 +81,9 @@ export default function SchoolPage() {
                               For Students{" "}
                             </a>
                             {/* <!-- /.login btn --> */}
-                            <a
-                              href="https://console.prepcohort.com/"
-                              className="eduact-btn"
-                            >
-                              <span className="eduact-btn__curve"></span> Join
-                              now
+                            <a href="/school" className="eduact-btn">
+                              <span className="eduact-btn__curve"></span> For
+                              Schools
                             </a>
                             {/* ><!-- /.contact btn --> */}
                           </div>

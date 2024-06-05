@@ -89,12 +89,9 @@ export default function HomePage() {
                               For Schools{" "}
                             </a>
                             {/* <!-- /.login btn --> */}
-                            <a
-                              href="https://s4a-web-next-ten.vercel.app/"
-                              className="eduact-btn"
-                            >
-                              <span className="eduact-btn__curve"></span> Join
-                              for Free
+                            <a href="/" className="eduact-btn">
+                              <span className="eduact-btn__curve"></span> For
+                              Students{" "}
                             </a>
                             {/* ><!-- /.contact btn --> */}
                           </div>
