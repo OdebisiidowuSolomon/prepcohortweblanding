@@ -165,6 +165,7 @@ function OurCourses() {
                               label={item.name}
                               institutionName={item.provider.title}
                               key={item.id}
+                              id={item.id}
                             />
                           ))}
                         </div>

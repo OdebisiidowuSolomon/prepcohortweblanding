@@ -187,146 +187,281 @@ function QuestionBankSlider() {
         <Helmet>
           <script defer={true} src="/js/index_1.js" id="swv-js"></script>
 
-          <script defer={true} src="/js/index.js" id="contact-form-7-js"></script>
-          <script defer={true} src="/js/js.cookie.min.js" id="js-cookie-js"></script>
+          <script
+            defer={true}
+            src="/js/index.js"
+            id="contact-form-7-js"
+          ></script>
+          <script
+            defer={true}
+            src="/js/js.cookie.min.js"
+            id="js-cookie-js"
+          ></script>
 
           <script
-            defer={true} src="/js/regenerator-runtime.min.js"
+            defer={true}
+            src="/js/regenerator-runtime.min.js"
             id="regenerator-runtime-js"
           ></script>
 
           <script
-            defer={true} src="/js/tutor-elementor.js"
+            defer={true}
+            src="/js/tutor-elementor.js"
             id="tutor-elementor-js-js"
           ></script>
-          <script defer={true} src="/js/index.js" id="contact-form-7-js"></script>
-          <script defer={true} src="/js/js.cookie.min.js" id="js-cookie-js"></script>
           <script
-            defer={true} src="/js/jQuery.style.switcher.min.js"
+            defer={true}
+            src="/js/index.js"
+            id="contact-form-7-js"
+          ></script>
+          <script
+            defer={true}
+            src="/js/js.cookie.min.js"
+            id="js-cookie-js"
+          ></script>
+          <script
+            defer={true}
+            src="/js/jQuery.style.switcher.min.js"
             id="jquery-style-switcher-js"
           ></script>
           <script
-            defer={true} src="/js/color-switcher.js"
+            defer={true}
+            src="/js/color-switcher.js"
             id="layerdrops-toolbar-color-switcher-js"
           ></script>
           <script
-            defer={true} src="/js/wp-polyfill-inert.min.js"
+            defer={true}
+            src="/js/wp-polyfill-inert.min.js"
             id="wp-polyfill-inert-js"
           ></script>
           <script
-            defer={true} src="/js/regenerator-runtime.min.js"
+            defer={true}
+            src="/js/regenerator-runtime.min.js"
             id="regenerator-runtime-js"
           ></script>
-          <script defer={true} src="/js/wp-polyfill.min.js" id="wp-polyfill-js"></script>
+          <script
+            defer={true}
+            src="/js/wp-polyfill.min.js"
+            id="wp-polyfill-js"
+          ></script>
           <script defer={true} src="/js/hooks.min.js" id="wp-hooks-js"></script>
           <script defer={true} src="/js/i18n.min.js" id="wp-i18n-js"></script>
 
-          <script defer={true} src="/js/tutor.min.js" id="tutor-script-js"></script>
-
-          <script defer={true} src="/js/quicktags.min.js" id="quicktags-js"></script>
-          <script defer={true} src="/js/core.min.js" id="jquery-ui-core-js"></script>
-          <script defer={true} src="/js/mouse.min.js" id="jquery-ui-mouse-js"></script>
-          <script defer={true} src="/js/sortable.min.js" id="jquery-ui-sortable-js"></script>
           <script
-            defer={true} src="/js/jquery.ui.touch-punch.js"
+            defer={true}
+            src="/js/tutor.min.js"
+            id="tutor-script-js"
+          ></script>
+
+          <script
+            defer={true}
+            src="/js/quicktags.min.js"
+            id="quicktags-js"
+          ></script>
+          <script
+            defer={true}
+            src="/js/core.min.js"
+            id="jquery-ui-core-js"
+          ></script>
+          <script
+            defer={true}
+            src="/js/mouse.min.js"
+            id="jquery-ui-mouse-js"
+          ></script>
+          <script
+            defer={true}
+            src="/js/sortable.min.js"
+            id="jquery-ui-sortable-js"
+          ></script>
+          <script
+            defer={true}
+            src="/js/jquery.ui.touch-punch.js"
             id="jquery-touch-punch-js"
           ></script>
           <script
-            defer={true} src="/js/SocialShare.min.js"
+            defer={true}
+            src="/js/SocialShare.min.js"
             id="tutor-social-share-js"
           ></script>
 
-          <script defer={true} src="/js/tutor-front.min.js" id="tutor-frontend-js"></script>
           <script
-            defer={true} src="/js/datepicker.min.js"
+            defer={true}
+            src="/js/tutor-front.min.js"
+            id="tutor-frontend-js"
+          ></script>
+          <script
+            defer={true}
+            src="/js/datepicker.min.js"
             id="jquery-ui-datepicker-js"
           ></script>
 
           <script
-            defer={true} src="/js/jquery.blockUI.min.js"
+            defer={true}
+            src="/js/jquery.blockUI.min.js"
             id="jquery-blockui-js"
           ></script>
 
-          <script defer={true} src="/js/add-to-cart.min.js" id="wc-add-to-cart-js"></script>
-
-          <script defer={true} src="/js/woocommerce.min.js" id="woocommerce-js"></script>
-          <script defer={true} src="/js/bootstrap.min.js" id="bootstrap-js"></script>
           <script
-            defer={true} src="/js/bootstrap-select.min.js"
+            defer={true}
+            src="/js/add-to-cart.min.js"
+            id="wc-add-to-cart-js"
+          ></script>
+
+          <script
+            defer={true}
+            src="/js/woocommerce.min.js"
+            id="woocommerce-js"
+          ></script>
+          <script
+            defer={true}
+            src="/js/bootstrap.min.js"
+            id="bootstrap-js"
+          ></script>
+          <script
+            defer={true}
+            src="/js/bootstrap-select.min.js"
             id="bootstrap-select-js"
           ></script>
           <script
-            defer={true} src="/js/jquery.bxslider.min.js"
+            defer={true}
+            src="/js/jquery.bxslider.min.js"
             id="jquery-bxslider-js"
           ></script>
-          <script defer={true} src="/js/countdown.min.js" id="countdown-js"></script>
-          <script defer={true} src="/js/jarallax.min.js" id="jarallax-js"></script>
           <script
-            defer={true} src="/js/jquery.ajaxchimp.min.js"
+            defer={true}
+            src="/js/countdown.min.js"
+            id="countdown-js"
+          ></script>
+          <script
+            defer={true}
+            src="/js/jarallax.min.js"
+            id="jarallax-js"
+          ></script>
+          <script
+            defer={true}
+            src="/js/jquery.ajaxchimp.min.js"
             id="jquery-ajaxchimp-js"
           ></script>
-          <script defer={true} src="/js/jquery.appear.min.js" id="jquery-appear-js"></script>
           <script
-            defer={true} src="/js/jquery.magnific-popup.min.js"
+            defer={true}
+            src="/js/jquery.appear.min.js"
+            id="jquery-appear-js"
+          ></script>
+          <script
+            defer={true}
+            src="/js/jquery.magnific-popup.min.js"
             id="jquery-magnific-popup-js"
           ></script>
-          <script defer={true} src="/js/odometer.min.js" id="odometer-js"></script>
-          <script defer={true} src="/js/owl.carousel.min.js" id="owl-carousel-js"></script>
           <script
-            defer={true} src="/js/jquery.circle-progress.min.js"
+            defer={true}
+            src="/js/odometer.min.js"
+            id="odometer-js"
+          ></script>
+          <script
+            defer={true}
+            src="/js/owl.carousel.min.js"
+            id="owl-carousel-js"
+          ></script>
+          <script
+            defer={true}
+            src="/js/jquery.circle-progress.min.js"
             id="jquery-circle-progress-js"
           ></script>
           <script defer={true} src="/js/swiper.min.js" id="swiper-js"></script>
           <script defer={true} src="/js/wow.js" id="wow-js"></script>
           <script defer={true} src="/js/sharer.min.js" id="sharer-js"></script>
-          <script defer={true} src="/js/timePicker.js" id="timepicker-js"></script>
-          <script defer={true} src="/js/jquery.circleType.js" id="circletype-js"></script>
           <script
-            defer={true} src="/js/jquery.lettering.min.js"
+            defer={true}
+            src="/js/timePicker.js"
+            id="timepicker-js"
+          ></script>
+          <script
+            defer={true}
+            src="/js/jquery.circleType.js"
+            id="circletype-js"
+          ></script>
+          <script
+            defer={true}
+            src="/js/jquery.lettering.min.js"
             id="circleletter-js"
           ></script>
 
           <script
-            defer={true} src="/js/eduact-addon.js"
+            defer={true}
+            src="/js/eduact-addon.js"
             id="eduact-addon-script-js"
           ></script>
-          <script defer={true} src="/js/underscore.min.js" id="underscore-js"></script>
-          <script defer={true} src="/js/wp-util.min.js" id="wp-util-js"></script>
+          <script
+            defer={true}
+            src="/js/underscore.min.js"
+            id="underscore-js"
+          ></script>
+          <script
+            defer={true}
+            src="/js/wp-util.min.js"
+            id="wp-util-js"
+          ></script>
 
           <script
-            defer={true} src="/js/add-to-cart-variation.min.js"
+            defer={true}
+            src="/js/add-to-cart-variation.min.js"
             id="wc-add-to-cart-variation-js"
           ></script>
           <script defer={true} src="/js/slick.min_1.js" id="slick-js"></script>
           <script
-            defer={true} src="/js/perfect-scrollbar.jquery.min.js"
+            defer={true}
+            src="/js/perfect-scrollbar.jquery.min.js"
             id="perfect-scrollbar-js"
           ></script>
           <script
-            defer={true} src="/js/jquery.magnific-popup.min_1.js"
+            defer={true}
+            src="/js/jquery.magnific-popup.min_1.js"
             id="magnific-popup-js"
           ></script>
 
-          <script defer={true} src="/js/frontend_1.js" id="woosq-frontend-js"></script>
-
-          <script defer={true} src="/js/frontend.js" id="woosw-frontend-js"></script>
-          <script defer={true} src="/js/isotope.js" id="isotope-js"></script>
-          <script defer={true} src="/js/imagesloaded.min.js" id="imagesloaded-js"></script>
-          <script defer={true} src="/js/eduact-theme.js" id="eduact-theme-js"></script>
           <script
-            defer={true} src="/js/webpack.runtime.min.js"
+            defer={true}
+            src="/js/frontend_1.js"
+            id="woosq-frontend-js"
+          ></script>
+
+          <script
+            defer={true}
+            src="/js/frontend.js"
+            id="woosw-frontend-js"
+          ></script>
+          <script defer={true} src="/js/isotope.js" id="isotope-js"></script>
+          <script
+            defer={true}
+            src="/js/imagesloaded.min.js"
+            id="imagesloaded-js"
+          ></script>
+          <script
+            defer={true}
+            src="/js/eduact-theme.js"
+            id="eduact-theme-js"
+          ></script>
+          <script
+            defer={true}
+            src="/js/webpack.runtime.min.js"
             id="elementor-webpack-runtime-js"
           ></script>
           <script
-            defer={true} src="/js/frontend-modules.min.js"
+            defer={true}
+            src="/js/frontend-modules.min.js"
             id="elementor-frontend-modules-js"
           ></script>
           <script
-            defer={true} src="/js/waypoints.min.js"
+            defer={true}
+            src="/js/waypoints.min.js"
             id="elementor-waypoints-js"
           ></script>
 
-          <script defer={true} src="/js/frontend.min.js" id="elementor-frontend-js"></script>
+          <script
+            defer={true}
+            src="/js/frontend.min.js"
+            id="elementor-frontend-js"
+          ></script>
         </Helmet>
       </>
     );

@@ -34,10 +34,12 @@ export const CourseItem = ({
   imageUrl,
   label,
   institutionName,
+  id,
 }: {
   imageUrl: string;
   label: string;
   institutionName: string;
+  id: string;
 }) => {
   return (
     <div className="item bg-white w-[300px]">
@@ -54,10 +56,17 @@ export const CourseItem = ({
         <div className="p-4">
           <div className="flex justify-between items-center my-3">
             <div>
-              <p className="p-0 m-0 font-medium">{label}</p>
+              <a
+                href={`https://s4a-web-next-ten.vercel.app/explore/course-intro/${id}`}
+                className="p-0 m-0 font-medium"
+              >
+                {label}
+              </a>
               <p className="p-0 m-0 text-sm">{institutionName}</p>
             </div>
-            <span className="bg-green-400 text-[12px] text-white p-1 font-medium">New</span>
+            <span className="bg-green-400 text-[12px] text-white p-1 font-medium">
+              New
+            </span>
           </div>
 
           <div className="flex justify-between items-center mt-4">
