@@ -42,7 +42,10 @@ export const CourseItem = ({
   id: string;
 }) => {
   return (
-    <div className="item bg-white w-[300px]">
+    <a
+      href={`https://s4a-web-next-ten.vercel.app/explore/course-intro/${id}`}
+      className="item bg-white w-[300px]"
+    >
       <div className="category-one__item">
         <div className="w-full h-[150px]">
           <img
@@ -56,12 +59,7 @@ export const CourseItem = ({
         <div className="p-4">
           <div className="flex justify-between items-center my-3">
             <div>
-              <a
-                href={`https://s4a-web-next-ten.vercel.app/explore/course-intro/${id}`}
-                className="p-0 m-0 font-medium"
-              >
-                {label}
-              </a>
+              <p className="p-0 m-0 font-medium">{label}</p>
               <p className="p-0 m-0 text-sm">{institutionName}</p>
             </div>
             <span className="bg-green-400 text-[12px] text-white p-1 font-medium">
@@ -87,6 +85,6 @@ export const CourseItem = ({
           </div>
         </div>
       </div>
-    </div>
+    </a>
   );
 };

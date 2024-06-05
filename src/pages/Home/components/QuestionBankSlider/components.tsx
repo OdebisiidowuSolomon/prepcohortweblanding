@@ -11,14 +11,19 @@ export const questionBankData = [
 export const QuestionBankItem = ({
   imageUrl,
   label,
+  id,
   description,
 }: {
   imageUrl: string;
   label: string;
   description: string;
+  id: string;
 }) => {
   return (
-    <div className="item bg-white max-w-[80%] min-w-[300px] rounded-md overflow-hidden">
+    <a
+      href={`https://s4a-web-next-ten.vercel.app/quiz/quiz/MOCK/${id}`}
+      className="item bg-white max-w-[80%] min-w-[300px] rounded-md overflow-hidden"
+    >
       <div className="category-one__item">
         <div className="w-full h-[150px] bg-[#1F4497] flex-col p-4 justify-center items-center box-border">
           <div className="rounded-full w-[85px] h-[85px] mx-auto flex justify-center items-center bg-white mb-2">
@@ -26,7 +31,9 @@ export const QuestionBankItem = ({
               {label[0]}
             </p>
           </div>
-          <p className="p-0 m-0 text-center text-white font-medium">{label}</p>
+          <div className="p-0 m-0 text-center text-white font-medium">
+            {label}
+          </div>
         </div>
 
         <div className="p-4">
@@ -60,7 +67,7 @@ export const QuestionBankItem = ({
           </div>
         </div>
       </div>
-    </div>
+    </a>
   );
 };
 

@@ -82,6 +82,7 @@ function OurCourses() {
                     <section
                       className="category-one"
                       // style={{ backgroundImage: "url(images/category-bg-1.jpg)" }}
+                      style={{ paddingBottom:0 }}
                     >
                       <div className="container">
                         <div className="section-title">

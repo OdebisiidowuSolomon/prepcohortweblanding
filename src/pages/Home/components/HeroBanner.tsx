@@ -29,6 +29,7 @@ function HeroBanner() {
                     style={{
                       backgroundImage: "url(images/banner-bg-1.png)",
                       background: "#F4F4F4",
+                      paddingBottom: 0,
                     }}
                   >
                     <div className="container">

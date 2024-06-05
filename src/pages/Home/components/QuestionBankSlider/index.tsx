@@ -85,6 +85,7 @@ function QuestionBankSlider() {
                     <section
                       className="category-one"
                       // style={{ backgroundImage: "url(images/category-bg-1.jpg)" }}
+                      style={{ paddingBottom: 0 }}
                     >
                       <div className="container">
                         <div className="section-title">
@@ -167,7 +168,7 @@ function QuestionBankSlider() {
                             (item) => (
                               <QuestionBankItem
                                 imageUrl={"/images/jamb-img.png"}
-                                // label={"item.name"}
+                                id={item.id}
                                 label={item.name}
                                 description={item.description}
                                 key={item.id}

@@ -24,7 +24,7 @@ function OurAmazingSection() {
               >
                 <div className="elementor-widget-container">
                   {/* <!-- About Start --> */}
-                  <section className="about-one">
+                  <section className="about-one" style={{ paddingBottom: 0 }}>
                     <div className="container">
                       <div className="row">
                         <div className="col-xl-6">

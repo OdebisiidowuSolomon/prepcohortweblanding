@@ -6,7 +6,7 @@ export const DownloadMobileVersionButtons = ({
   title: string;
 }) => {
   return (
-    <div className="flex bg-black flex-row w[168px] p-[10px] items-center rounded-md mr-3">
+    <div className="flex bg-black flex-row w[168px] p-[10px] items-center rounded-md mr-3 mb-4 max-sm:!w-[80%]">
       <div className="w-[32px] h-[32px] mr-1">
         <img
         //   src="/images/logos_google-play-icon.png"

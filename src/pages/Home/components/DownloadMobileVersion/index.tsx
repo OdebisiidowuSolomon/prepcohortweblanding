@@ -141,7 +141,7 @@ function DownloadMobileVersion() {
                               please visit the Google Play Store or Apple App
                               Store on your mobile device.
                             </p>
-                            <div className="flex flex-row">
+                            <div className="flex flex-row flex-wrap">
                               <DownloadMobileVersionButtons
                                 imageUrl="/images/logos_google-play-icon.png"
                                 title="Google Play"
