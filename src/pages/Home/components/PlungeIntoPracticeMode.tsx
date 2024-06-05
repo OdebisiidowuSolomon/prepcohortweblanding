@@ -32,7 +32,8 @@ function PlungeIntoPracticeMode() {
                     <div
                       className="video-two__bg jarallax-img"
                       style={{
-                        backgroundImage: "url(/images/video-bg-2-1-scaled.jpg)",
+                        // backgroundImage: "url(/images/video-bg-2-1-scaled.jpg)",
+                        backgroundImage: "url(/images/PlungeInToPracticeImg.png)",
                       }}
                     ></div>
                     <div

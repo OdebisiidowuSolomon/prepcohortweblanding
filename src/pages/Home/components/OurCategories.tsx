@@ -60,7 +60,8 @@ function OurCategories() {
                             <div className="category-three__thumb">
                               <img
                                 decoding="async"
-                                src="/images/category-3-1-1.png"
+                                // src="/images/category-3-1-1.png"
+                                src="/images/InstitutionImg.png"
                                 alt="alt"
                                 title="category-3-1"
                               />
@@ -87,7 +88,8 @@ function OurCategories() {
                             <div className="category-three__thumb">
                               <img
                                 decoding="async"
-                                src="/images/category-3-2-1.png"
+                                src="/images/CourseImg.png"
+                                // src="/images/category-3-2-1.png"
                                 alt="alt"
                                 title="category-3-2"
                               />
@@ -114,7 +116,8 @@ function OurCategories() {
                             <div className="category-three__thumb">
                               <img
                                 decoding="async"
-                                src="/images/category-3-3-1.png"
+                                // src="/images/category-3-3-1.png"
+                                src="/images/QuestionBankImg.png"
                                 alt="alt"
                                 title="category-3-3"
                               />
@@ -141,7 +144,8 @@ function OurCategories() {
                             <div className="category-three__thumb">
                               <img
                                 decoding="async"
-                                src="/images/category-3-4-1.png"
+                                // src="/images/category-3-4-1.png"
+                                src="/images/TopicImg.png"
                                 alt="alt"
                                 title="category-3-4"
                               />
