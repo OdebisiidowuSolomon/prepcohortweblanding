@@ -30,7 +30,7 @@ export const QuestionBankItem = ({
         <div className="p-4">
           <div className="flex justify-between items-center">
             <p className="p-0 m-0 text-sm font-semibold text-[#1F4497]">
-              English Language
+              {label}
             </p>
             <div className="flex items-center">
               <i className="fa fa-star ml-3 text-yellow-300 text-sm"></i>

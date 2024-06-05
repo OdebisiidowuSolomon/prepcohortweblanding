@@ -56,10 +56,9 @@ function QuestionBankSlider() {
 
   if (loading) {
     return <p>Loading</p>;
-  } else if (
-    searchEngineQuestionBank &&
-    searchEngineQuestionBank.questionBank.tests
-  ) {
+  }
+
+  if (searchEngineQuestionBank && searchEngineQuestionBank.questionBank.tests) {
     return (
       <>
         <section
@@ -183,7 +182,7 @@ function QuestionBankSlider() {
             </div>
           </div>
         </section>
-        <Helmet>
+        {/* <Helmet>
           <script src="/js/index_1.js" id="swv-js"></script>
 
           <script src="/js/index.js" id="contact-form-7-js"></script>
@@ -326,11 +325,11 @@ function QuestionBankSlider() {
           ></script>
 
           <script src="/js/frontend.min.js" id="elementor-frontend-js"></script>
-        </Helmet>
+        </Helmet> */}
       </>
     );
   } else {
-    return <p>Nothing Here</p>;
+    return <p>Nothing</p>;
   }
 }
 

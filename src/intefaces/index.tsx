@@ -44,3 +44,65 @@ export interface SearchInputType {
   sortBy?: string;
   sortIn?: string;
 }
+
+export interface SearchEngineResult {
+  providers: {
+    providers: any[];
+    total: number;
+  };
+  subjects: {
+    subjects: any[];
+    total: number;
+  };
+  topics: {
+    topics: Topic[];
+    total: number;
+  };
+  questionBank: {
+    tests: QuestionBank[];
+    total: number;
+  };
+}
+
+export interface SubTopic {
+  description: string;
+  id: string | number;
+  name: string;
+}
+
+export interface Topic {
+  id: string;
+  description: string;
+  name: string;
+  subTopics?: SubTopic[];
+}
+
+export interface Visibility {
+  id: number;
+  name: string;
+  visibleTo: "ALL" | "TEACHER_ONLY" | "NOBODY";
+}
+
+export interface QuestionBank {
+  id: string;
+  name: string;
+  noOfQuestions: number;
+  description: string;
+  headerInstruction?: string;
+  isCancelable: boolean;
+  isRealTest: boolean;
+  isSearchable: boolean;
+  isTestQuestionPool: boolean;
+  isDeleted: boolean;
+  isInUse: boolean;
+  isCompleteSectionsValid: boolean;
+  preventReview: boolean;
+  retakeTimes: number;
+  retakePolicy: string;
+  status: string;
+  testType: string;
+  timeAlloted: number;
+  provider: {
+    title: string;
+  };
+}
