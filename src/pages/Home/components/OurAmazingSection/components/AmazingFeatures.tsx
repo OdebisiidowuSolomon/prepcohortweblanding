@@ -16,7 +16,7 @@ export const AmazingFeatures = () => {
         <AmazingFeaturesTopBtn
           isActive={!showingAmazingFeatures}
           onPress={() => setShowingAmazingFeatures(false)}
-          label="More amazing Features"
+          label="More Amazing Features"
         />
       </div>
       <div>
@@ -54,17 +54,17 @@ export const AmazingFeatures = () => {
             <AmazingFeaturesItem
               title="Grading"
               subtitle="Your quizzes and exams gets evaluated after practice. you get scores and feedback on how well you’ve performed"
-              icon="fa fa-question-circle"
+              icon="fa fa-graduation-cap"
             />
             <AmazingFeaturesItem
               title="Scaled Reports"
               subtitle="Status updates on your performances in your course is made available to you on weekly basis. You also see how you are ranking with other student’s on board"
-              icon="fa fa-question-circle"
+              icon="fa fa-line-chart"
             />
             <AmazingFeaturesItem
               title="Feedback"
               subtitle="Receive valuable and informative feedback on your performance. AI recommendation is also at your beckon"
-              icon="fa fa-question-circle"
+              icon="fa fa-refresh"
             />
           </>
         )}
@@ -86,13 +86,13 @@ const AmazingFeaturesTopBtn = ({
     <div
       className={`${
         isActive ? "bg-[#1F4497]" : "bg-[#EBF1FF]"
-      } rounded-2xl px-4 py-3 mr-3 cursor-pointer`}
+      } rounded-2xl px-4 py-3 mr-3 cursor-pointer max-sm:!py-4 max-sm:!px-2`}
       onClick={onPress}
     >
       <p
         className={`${
           isActive ? "text-white" : "text-black"
-        } text-xl font-semibold p-0 m-0`}
+        } text-xl font-semibold p-0 m-0 max-sm:!text-sm`}
       >
         {label}
       </p>

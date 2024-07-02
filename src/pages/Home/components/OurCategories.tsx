@@ -41,7 +41,7 @@ function OurCategories() {
                             xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 55 13"
                           >
-                            <g clip-path="url(#clip0_324_36194)">
+                            <g clipPath="url(#clip0_324_36194)">
                               <path d="M10.5406 6.49995L0.700562 12.1799V8.56995L4.29056 6.49995L0.700562 4.42995V0.819946L10.5406 6.49995Z"></path>
                               <path d="M25.1706 6.49995L15.3306 12.1799V8.56995L18.9206 6.49995L15.3306 4.42995V0.819946L25.1706 6.49995Z"></path>
                               <path d="M39.7906 6.49995L29.9506 12.1799V8.56995L33.5406 6.49995L29.9506 4.42995V0.819946L39.7906 6.49995Z"></path>
@@ -60,7 +60,8 @@ function OurCategories() {
                             <div className="category-three__thumb">
                               <img
                                 decoding="async"
-                                src="/images/category-3-1-1.png"
+                                // src="/images/category-3-1-1.png"
+                                src="/images/InstitutionImg.png"
                                 alt="alt"
                                 title="category-3-1"
                               />
@@ -87,7 +88,8 @@ function OurCategories() {
                             <div className="category-three__thumb">
                               <img
                                 decoding="async"
-                                src="/images/category-3-2-1.png"
+                                src="/images/CourseImg.png"
+                                // src="/images/category-3-2-1.png"
                                 alt="alt"
                                 title="category-3-2"
                               />
@@ -114,7 +116,8 @@ function OurCategories() {
                             <div className="category-three__thumb">
                               <img
                                 decoding="async"
-                                src="/images/category-3-3-1.png"
+                                // src="/images/category-3-3-1.png"
+                                src="/images/QuestionBankImg.png"
                                 alt="alt"
                                 title="category-3-3"
                               />
@@ -141,7 +144,8 @@ function OurCategories() {
                             <div className="category-three__thumb">
                               <img
                                 decoding="async"
-                                src="/images/category-3-4-1.png"
+                                // src="/images/category-3-4-1.png"
+                                src="/images/TopicImg.png"
                                 alt="alt"
                                 title="category-3-4"
                               />

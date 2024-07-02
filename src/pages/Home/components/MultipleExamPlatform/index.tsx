@@ -26,7 +26,10 @@ function MultipleExamPlatform() {
                   {/* <!-- Category Start --> */}
                   <section
                     className="category-one"
-                    style={{ backgroundImage: "url(images/category-bg-1.jpg)" }}
+                    style={{
+                      backgroundImage: "url(images/category-bg-1.jpg)",
+                      paddingBottom: 0,
+                    }}
                   >
                     <div className="container">
                       <div className="section-title text-center">

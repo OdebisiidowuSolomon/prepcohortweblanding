@@ -32,7 +32,8 @@ function PlungeIntoPracticeMode() {
                     <div
                       className="video-two__bg jarallax-img"
                       style={{
-                        backgroundImage: "url(/images/video-bg-2-1-scaled.jpg)",
+                        // backgroundImage: "url(/images/video-bg-2-1-scaled.jpg)",
+                        backgroundImage: "url(/images/PlungeInToPracticeImg.png)",
                       }}
                     ></div>
                     <div
@@ -58,10 +59,9 @@ function PlungeIntoPracticeMode() {
                               margin: "2rem 0",
                             }}
                           >
-                            Access diverse question bank that provides a wide
+                            Access diverse question bank that provides a wide{" "}
                             <br />
-                            range of practice questions to reinforce your
-                            <br />
+                            range of practice questions to reinforce your <br />
                             understanding and prepare you thoroughly for exams
                           </h6>
                           <a

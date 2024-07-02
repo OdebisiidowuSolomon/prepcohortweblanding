@@ -29,6 +29,7 @@ function HeroBanner() {
                     style={{
                       backgroundImage: "url(images/banner-bg-1.png)",
                       background: "#F4F4F4",
+                      paddingBottom: 0,
                     }}
                   >
                     <div className="container">
@@ -85,6 +86,23 @@ function HeroBanner() {
                                 a School<i className="icon-arrow"></i>
                               </a>
                             </div>
+                            <a
+                              href="https://study4as.com/"
+                              style={{
+                                position: "relative",
+                                zIndex: 10000000,
+                              }}
+                            >
+                              <div id="powered-div">
+                                <p className="!text-[#1F4497]">
+                                  Powered by
+                                  <span style={{ color: "#1F4497" }}>
+                                    {" "}
+                                    Study4AS
+                                  </span>
+                                </p>
+                              </div>
+                            </a>
                             {/* <!-- banner-btn --> */}
                           </div>
                           {/* <!-- banner-content --> */}
@@ -160,7 +178,7 @@ function HeroBanner() {
                           </div>
                         </div>
                       </div>
-                      <a
+                      {/* <a
                         href="https://study4as.com/"
                         style={{ position: "relative", zIndex: 10000000 }}
                       >
@@ -170,7 +188,7 @@ function HeroBanner() {
                             <span style={{ color: "#1F4497" }}> Study4AS</span>
                           </p>
                         </div>
-                      </a>
+                      </a> */}
                     </div>
                     <div
                       className="hero-banner__border wow fadeInUp"

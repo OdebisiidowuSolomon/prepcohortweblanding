@@ -11,3 +11,9 @@ div.p-change p {
 #black {
   color: black !important;
 }
+
+@media (max-width: 1000px) {
+  .hero-banner__thumb.school {
+    background: transparent !important;
+  }
+}
