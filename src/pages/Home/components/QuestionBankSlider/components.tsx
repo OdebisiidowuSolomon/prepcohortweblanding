@@ -1,4 +1,5 @@
 import { TruncateText } from "../../../../libs/truncateText";
+import { frontendUrl } from "../../../../services/graphqlClient";
 
 export const questionBankData = [
   { id: 1, imgSrc: "/images/waec-img.png", label: "WAEC" },
@@ -21,7 +22,7 @@ export const QuestionBankItem = ({
 }) => {
   return (
     <a
-      href={`https://s4a-web-next-ten.vercel.app/quiz/quiz/MOCK/${id}`}
+      href={`${frontendUrl}/quiz/quiz/MOCK/${id}`}
       className="item bg-white max-w-[80%] min-w-[300px] rounded-md overflow-hidden"
     >
       <div className="category-one__item">

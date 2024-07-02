@@ -1,4 +1,5 @@
 import React from "react";
+import { frontendUrl } from "../../../services/graphqlClient";
 
 function OurCategories() {
   return (
@@ -75,7 +76,9 @@ function OurCategories() {
                             </div>
                             {/* <!-- /.category-icon --> */}
                             <h3 className="category-three__title">
-                              <a href="https://s4a-web-next-ten.vercel.app/explore?">
+                              <a
+                                href={`${frontendUrl}/explore`}
+                              >
                                 Institutions
                               </a>
                             </h3>
@@ -103,7 +106,9 @@ function OurCategories() {
                             </div>
                             {/* <!-- /.category-icon --> */}
                             <h3 className="category-three__title">
-                              <a href="https://s4a-web-next-ten.vercel.app/explore?">
+                              <a
+                                href={`${frontendUrl}/explore`}
+                              >
                                 Courses
                               </a>
                             </h3>
@@ -131,7 +136,9 @@ function OurCategories() {
                             </div>
                             {/* <!-- /.category-icon --> */}
                             <h3 className="category-three__title">
-                              <a href="https://s4a-web-next-ten.vercel.app/explore?">
+                              <a
+                                href={`${frontendUrl}/explore`}
+                              >
                                 Question Banks
                               </a>
                             </h3>
@@ -159,7 +166,9 @@ function OurCategories() {
                             </div>
                             {/* <!-- /.category-icon --> */}
                             <h3 className="category-three__title">
-                              <a href="https://s4a-web-next-ten.vercel.app/explore?">
+                              <a
+                                href={`${frontendUrl}/explore`}
+                              >
                                 Topics
                               </a>
                             </h3>

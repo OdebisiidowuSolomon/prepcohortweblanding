@@ -1,4 +1,5 @@
 import React from "react";
+import { frontendUrl } from "../../../services/graphqlClient";
 
 function AiAcademicSupport() {
   return (
@@ -140,7 +141,7 @@ function AiAcademicSupport() {
                               based on your learning progress.
                             </p>
                             <a
-                              href="https://s4a-web-next-ten.vercel.app/explore"
+                              href={`${frontendUrl}/explore`}
                               className="eduact-btn"
                             >
                               <span className="eduact-btn__curve"></span>Start

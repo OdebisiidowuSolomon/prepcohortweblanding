@@ -24,8 +24,11 @@ const cache = new InMemoryCache({
 
 // 'https://console.prepcohort.com/graphiql'
 
+export const frontendUrl = "https://app.prepcohort.com";
+export const consoleUrl = "https://console.prepcohort.com";
+
 const baseUrl = "study4as-dev.fly.dev";
-const _baseUrl = "console.prepcohort.com";
+// const _baseUrl = "console.prepcohort.com";
 
 const httpLink = createHttpLink({
   uri: `https://${baseUrl}/api`,
@@ -43,7 +46,7 @@ const retryLink = new RetryLink({
   },
 });
 
-console.log(process.env.REACT_APP_API_Token, 1);
+// console.log(process.env.REACT_APP_API_Token, 1);
 
 const errorLink = onError(({ networkError, graphQLErrors }) => {
   if (graphQLErrors) {
@@ -52,7 +55,7 @@ const errorLink = onError(({ networkError, graphQLErrors }) => {
       if (message === "TokenExpiredError: jwt expired") {
       }
       if (message === "Not authorized.") {
-        console.log("Nottt");
+        // console.log("Nottt");
       }
     });
   }

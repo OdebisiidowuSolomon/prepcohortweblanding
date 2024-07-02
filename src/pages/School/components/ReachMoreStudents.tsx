@@ -1,4 +1,5 @@
 import React from "react";
+import { consoleUrl } from "../../../services/graphqlClient";
 
 function ReachMoreStudents() {
   return (
@@ -142,7 +143,7 @@ function ReachMoreStudents() {
                               the specific course
                             </p>
                             <a
-                              href="https://console.prepcohort.com/"
+                              href={`${consoleUrl}`}
                               className="eduact-btn eduact-btn-second"
                             >
                               <span className="eduact-btn__curve"></span>

@@ -1,3 +1,5 @@
+import { consoleUrl } from "../../../services/graphqlClient";
+
 function HeroBanner() {
   return (
     <>
@@ -67,7 +69,7 @@ function HeroBanner() {
                               data-wow-delay="600ms"
                             >
                               <a
-                                href="https://console.prepcohort.com/"
+                                href={`${consoleUrl}`}
                                 className="eduact-btn eduact-btn-second"
                               >
                                 <span className="eduact-btn__curve"></span>

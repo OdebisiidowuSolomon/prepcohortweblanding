@@ -1,4 +1,5 @@
 import React from "react";
+import { frontendUrl } from "../../../services/graphqlClient";
 
 function AbundantQuestionBank() {
   return (
@@ -142,7 +143,7 @@ function AbundantQuestionBank() {
                               multiple-choice to in-depth problem-solving.
                             </p>
                             <a
-                              href="https://s4a-web-next-ten.vercel.app/explore"
+                              href={`${frontendUrl}/explore`}
                               className="eduact-btn eduact-btn-second"
                             >
                               <span className="eduact-btn__curve"></span>Start

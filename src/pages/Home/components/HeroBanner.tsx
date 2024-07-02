@@ -1,4 +1,5 @@
 import React from "react";
+import { frontendUrl } from "../../../services/graphqlClient";
 
 function HeroBanner() {
   return (
@@ -72,14 +73,14 @@ function HeroBanner() {
                               data-wow-delay="600ms"
                             >
                               <a
-                                href="https://s4a-web-next-ten.vercel.app/explore?"
+                                href={`${frontendUrl}/explore`}
                                 className="eduact-btn eduact-btn-second"
                               >
                                 <span className="eduact-btn__curve"></span>Start
                                 Practicing<i className="icon-arrow"></i>
                               </a>
                               <a
-                                href="https://s4a-web-next-ten.vercel.app/"
+                                href={`${frontendUrl}`}
                                 className="eduact-btn text-black hover:text-[#1F4497]"
                               >
                                 <span className="eduact-btn__curve"></span>Join

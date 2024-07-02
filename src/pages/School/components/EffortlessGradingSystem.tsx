@@ -1,4 +1,5 @@
 import React from "react";
+import { consoleUrl } from "../../../services/graphqlClient";
 
 function EffortlessGradingSystem() {
   return (
@@ -143,7 +144,7 @@ function EffortlessGradingSystem() {
                               grades or learning status.
                             </p>
                             <a
-                              href="https://console.prepcohort.com/"
+                              href={`${consoleUrl}`}
                               className="eduact-btn eduact-btn-second"
                             >
                               <span className="eduact-btn__curve"></span>

@@ -1,4 +1,5 @@
 import React from "react";
+import { frontendUrl } from "../../../services/graphqlClient";
 
 function InterwovenPractice() {
   return (
@@ -143,7 +144,7 @@ function InterwovenPractice() {
                               courses and related practice questions with ease
                             </p>
                             <a
-                              href="https://s4a-web-next-ten.vercel.app/explore"
+                              href={`${frontendUrl}/explore`}
                               className="eduact-btn eduact-btn-second"
                             >
                               <span className="eduact-btn__curve"></span>Start

@@ -1,4 +1,5 @@
 import React from "react";
+import { frontendUrl } from "../../../services/graphqlClient";
 
 function PlungeIntoPracticeMode() {
   return (
@@ -65,7 +66,7 @@ function PlungeIntoPracticeMode() {
                             understanding and prepare you thoroughly for exams
                           </h6>
                           <a
-                            href="https://s4a-web-next-ten.vercel.app/explore"
+                            href={`${frontendUrl}/explore`}
                             className="eduact-btn eduact-btn-second"
                           >
                             <span className="eduact-btn__curve"></span>Start

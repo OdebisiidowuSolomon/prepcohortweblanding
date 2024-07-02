@@ -1,3 +1,5 @@
+import { frontendUrl } from "../../../../services/graphqlClient";
+
 export const courseData = [
   { id: 1, imgSrc: "/images/waec-img.png", label: "WAEC" },
   { id: 2, imgSrc: "/images/jamb-img.png", label: "JAMB" },
@@ -43,7 +45,7 @@ export const CourseItem = ({
 }) => {
   return (
     <a
-      href={`https://s4a-web-next-ten.vercel.app/explore/course-intro/${id}`}
+      href={`${frontendUrl}/explore/course-intro/${id}`}
       className="item bg-white w-[300px]"
     >
       <div className="category-one__item">

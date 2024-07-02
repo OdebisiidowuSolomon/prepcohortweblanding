@@ -1,4 +1,5 @@
 import React from "react";
+import { consoleUrl } from "../../../services/graphqlClient";
 
 function OurCategories() {
   return (
@@ -74,9 +75,7 @@ function OurCategories() {
                             </div>
                             {/* <!-- /.category-icon --> */}
                             <h3 className="category-three__title">
-                              <a href="https://s4a-web-next-ten.vercel.app/explore?">
-                                Institutions
-                              </a>
+                              <a href={`${consoleUrl}`}>Institutions</a>
                             </h3>
                             {/* <!-- /.category-title --> */}
                           </div>
@@ -101,9 +100,7 @@ function OurCategories() {
                             </div>
                             {/* <!-- /.category-icon --> */}
                             <h3 className="category-three__title">
-                              <a href="https://s4a-web-next-ten.vercel.app/explore?">
-                                Courses
-                              </a>
+                              <a href={`${consoleUrl}`}>Courses</a>
                             </h3>
                             {/* <!-- /.category-title --> */}
                           </div>
@@ -128,9 +125,7 @@ function OurCategories() {
                             </div>
                             {/* <!-- /.category-icon --> */}
                             <h3 className="category-three__title">
-                              <a href="https://s4a-web-next-ten.vercel.app/explore?">
-                                Question Banks
-                              </a>
+                              <a href={`${consoleUrl}`}>Question Banks</a>
                             </h3>
                             {/* <!-- /.category-title --> */}
                           </div>
@@ -155,9 +150,7 @@ function OurCategories() {
                             </div>
                             {/* <!-- /.category-icon --> */}
                             <h3 className="category-three__title">
-                              <a href="https://s4a-web-next-ten.vercel.app/explore?">
-                                Topics
-                              </a>
+                              <a href={`${consoleUrl}`}>Topics</a>
                             </h3>
                             {/* <!-- /.category-title --> */}
                           </div>
