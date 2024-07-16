@@ -44,7 +44,7 @@ function QuestionBankSlider() {
 
       if (res) {
         setSearchEngineQuestionBank({ questionBank: res.questionBank });
-        console.log(res, "res");
+        // console.log(res, "res");
       }
       setLoading(false);
     } catch (error: any) {
@@ -55,7 +55,7 @@ function QuestionBankSlider() {
   }, [runSearch, searchFilter]);
 
   if (loading) {
-    return <p>Loading</p>;
+    return <p className="mx-auto">Loading</p>;
   } else if (
     searchEngineQuestionBank &&
     searchEngineQuestionBank.questionBank.tests

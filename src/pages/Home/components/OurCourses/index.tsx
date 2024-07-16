@@ -43,7 +43,7 @@ function OurCourses() {
 
       if (res) {
         setSearchEngineCourses({ subjects: res.subjects });
-        console.log(res, "res");
+        // console.log(res, "res");
       }
       setLoading(false);
     } catch (error: any) {
@@ -54,7 +54,7 @@ function OurCourses() {
   }, [runSearch, searchFilter]);
 
   if (loading) {
-    return <p>Loading</p>;
+    return <p className="mx-auto">Loading</p>;
   } else if (searchEngineCourses && searchEngineCourses.subjects.subjects) {
     return (
       <>

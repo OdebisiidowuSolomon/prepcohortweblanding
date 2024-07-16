@@ -209,8 +209,8 @@ export default function HomePage() {
           <OurGoals />
           <PlungeIntoPracticeMode />
           <OurAmazingSection />
-          {/* <OurCourses />
-          <QuestionBankSlider /> */}
+          <OurCourses />
+          <QuestionBankSlider />
           <MultipleExamPlatform />
           <WhyStudyWithUs />
           <OurCategories />
