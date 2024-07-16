@@ -203,18 +203,7 @@ export default function SchoolPage() {
         <ReachMoreStudents />
         <EffortlessGradingSystem />
         <AITeachingSupport />
-        {/* <OurGoals /> */}
-        {/* <PlungeIntoPracticeMode /> */}
-        {/* <OurAmazingSection /> */}
-        {/* <OurCourses /> */}
-        {/* <QuestionBankSlider /> */}
-        {/* <WhyStudyWithUs /> */}
-        {/* <OurCategories /> */}
-        {/* <QualifiedInstructor /> */}
-        {/* <AbundantQuestionBank /> */}
-        {/* <AiAcademicSupport /> */}
         <Testimonials />
-        {/* <DownloadMobileVersion /> */}
       </div>
     </div>
   );

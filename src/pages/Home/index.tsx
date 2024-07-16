@@ -92,7 +92,7 @@ export default function HomePage() {
                                 For Schools{" "}
                               </a>
                               {/* <!-- /.login btn --> */}
-                              <a href="/" className="eduact-btn">
+                              <a href="#" className="eduact-btn">
                                 <span className="eduact-btn__curve"></span> For
                                 Students{" "}
                               </a>
@@ -209,9 +209,8 @@ export default function HomePage() {
           <OurGoals />
           <PlungeIntoPracticeMode />
           <OurAmazingSection />
-          <OurCourses />
-          <QuestionBankSlider />
-          {/* <MoreAmazingSection /> */}
+          {/* <OurCourses />
+          <QuestionBankSlider /> */}
           <MultipleExamPlatform />
           <WhyStudyWithUs />
           <OurCategories />
