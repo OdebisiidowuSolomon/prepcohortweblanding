@@ -16,7 +16,7 @@ function HomePage() {
       <HomeHeader />
       <HomeOurCoreFeatures />
       <HomeAdvanceTabs />
-      <HomeSwipeableLeftTab />
+      {/* <HomeSwipeableLeftTab /> */}
       <HomeOurCourses />
       <HomeWhyChooseUs />
       <HomeFeaturesList />

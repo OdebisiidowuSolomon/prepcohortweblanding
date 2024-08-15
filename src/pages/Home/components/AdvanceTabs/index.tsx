@@ -149,9 +149,9 @@ function HomeAdvanceTabs() {
                       >
                         <div className="thumbnail">
                           <img
-                            src="/images/courses-layout.png"
+                            // src="/images/courses-layout.png"
                             style={{ height: "50%", width: "100%" }}
-                            // src="/images/courses-image.png"
+                            src="/images/courses-image.png"
                             alt="advance-tab-image"
                           />
                         </div>
