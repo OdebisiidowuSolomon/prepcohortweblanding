@@ -1,5 +1,4 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import React from "react";
 
 function HomeTestimonial() {
   // <!-- Start Testimonial Area  -->
@@ -19,12 +18,7 @@ function HomeTestimonial() {
                   <span className="header-caption">
                     <span className="cd-headline zoom">
                       <span className="cd-words-wrapper">
-                        <b className="theme-gradient is-visible">
-                          Rainbow Themes.
-                        </b>
-                        <b className="theme-gradient is-hidden">
-                          HiStudy Template.
-                        </b>
+                        <b className="theme-gradient is-visible">PrepCohort.</b>
                       </span>
                     </span>
                   </span>
@@ -772,7 +766,7 @@ function HomeTestimonial() {
           <div className="section-title text-center mb--30">
             <h5 className="title color-white">
               Our Fantastic <br />
-              Envato Customers Reviews
+              Student Reviews
             </h5>
           </div>
           <div className="section-title text-center mt--20">

@@ -22,7 +22,7 @@ function HomePage() {
       <HomeFeaturesList />
       <HomeTestimonial />
       <HomeAccordionArea />
-      <HomeCallToAction />
+      {/* <HomeCallToAction /> */}
     </>
   );
 }
