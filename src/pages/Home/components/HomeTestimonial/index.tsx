@@ -9,16 +9,19 @@ function HomeTestimonial() {
           <div className="row">
             <div className="col-lg-12">
               <div className="section-title text-center">
-                <span className="subtitle bg-primary-opacity">
-                  A FEW WORDS FROM OUR CLIENTS
+                <span className="subtitle bg-primary-opacity" style={{marginTop:10}}>
+                  A FEW WORDS FROM OUR STUDENTS
                 </span>
                 <h2 className="title">
                   What People Are <br />
-                  Saying About
+                  Saying About{" "}
                   <span className="header-caption">
                     <span className="cd-headline zoom">
                       <span className="cd-words-wrapper">
-                        <b className="theme-gradient is-visible">PrepCohort.</b>
+                        <b className="theme-gradient is-visible">
+                          {" "}
+                          PrepCohort.
+                        </b>
                       </span>
                     </span>
                   </span>

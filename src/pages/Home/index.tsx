@@ -2,7 +2,7 @@ import React from "react";
 import HomeHeader from "./components/HomeHeader/index";
 import HomeAdvanceTabs from "./components/AdvanceTabs";
 import HomeOurCoreFeatures from "./components/OurCoreFeatures/index";
-import HomeFeaturesList from "./components/FeaturesList/index";
+// import HomeFeaturesList from "./components/FeaturesList/index";
 // import HomeSwipeableLeftTab from "./components/SwipeableLeftTab/index";
 import HomeAccordionArea from "./components/AccordionArea";
 // import HomeCallToAction from "./components/CallToAction";
@@ -19,7 +19,7 @@ function HomePage() {
       {/* <HomeSwipeableLeftTab /> */}
       <HomeOurCourses />
       <HomeWhyChooseUs />
-      <HomeFeaturesList />
+      {/* <HomeFeaturesList /> */}
       <HomeTestimonial />
       <HomeAccordionArea />
       {/* <HomeCallToAction /> */}

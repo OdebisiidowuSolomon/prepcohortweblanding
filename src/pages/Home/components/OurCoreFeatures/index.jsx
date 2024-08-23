@@ -31,7 +31,7 @@ function HomeOurCoreFeatures() {
                 </div>
                 <div className="content">
                   <h5 className="title">Quiz and Exams</h5>
-                  <span className="rbt-badge">CSS Framework</span>
+                  {/* <span className="rbt-badge">CSS Framework</span> */}
                 </div>
               </div>
             </div>
@@ -55,7 +55,7 @@ function HomeOurCoreFeatures() {
                 </div>
                 <div className="content">
                   <h5 className="title">Test Generation</h5>
-                  <span className="rbt-badge">Exclusive Fonts</span>
+                  {/* <span className="rbt-badge">Exclusive Fonts</span> */}
                 </div>
               </div>
             </div>
@@ -79,7 +79,7 @@ function HomeOurCoreFeatures() {
                 </div>
                 <div className="content">
                   <h5 className="title">Tailored Feedback</h5>
-                  <span className="rbt-badge">Photo and Video</span>
+                  {/* <span className="rbt-badge">Photo and Video</span> */}
                 </div>
               </div>
             </div>
@@ -103,7 +103,7 @@ function HomeOurCoreFeatures() {
                 </div>
                 <div className="content">
                   <h5 className="title">Test and quiz</h5>
-                  <span className="rbt-badge">Email Platform</span>
+                  {/* <span className="rbt-badge">Email Platform</span> */}
                 </div>
               </div>
             </div>
@@ -127,7 +127,7 @@ function HomeOurCoreFeatures() {
                 </div>
                 <div className="content">
                   <h5 className="title">Lesson Buckets</h5>
-                  <span className="rbt-badge">Markup Validity</span>
+                  {/* <span className="rbt-badge">Markup Validity</span> */}
                 </div>
               </div>
             </div>
@@ -151,7 +151,7 @@ function HomeOurCoreFeatures() {
                 </div>
                 <div className="content">
                   <h5 className="title">Sample, Rubric and Peer Grading </h5>
-                  <span className="rbt-badge">ImagesLoaded</span>
+                  {/* <span className="rbt-badge">ImagesLoaded</span> */}
                 </div>
               </div>
             </div>
@@ -175,7 +175,7 @@ function HomeOurCoreFeatures() {
                 </div>
                 <div className="content">
                   <h5 className="title">Integrated Forms</h5>
-                  <span className="rbt-badge">Slider Plugin</span>
+                  {/* <span className="rbt-badge">Slider Plugin</span> */}
                 </div>
               </div>
             </div>
@@ -199,7 +199,7 @@ function HomeOurCoreFeatures() {
                 </div>
                 <div className="content">
                   <h5 className="title">Integrated Polls</h5>
-                  <span className="rbt-badge">Dynamic Form</span>
+                  {/* <span className="rbt-badge">Dynamic Form</span> */}
                 </div>
               </div>
             </div>
@@ -223,7 +223,7 @@ function HomeOurCoreFeatures() {
                 </div>
                 <div className="content">
                   <h5 className="title">Scoped Announcements</h5>
-                  <span className="rbt-badge">Lightbox &amp; Dialog</span>
+                  {/* <span className="rbt-badge">Lightbox &amp; Dialog</span> */}
                 </div>
               </div>
             </div>
@@ -247,7 +247,7 @@ function HomeOurCoreFeatures() {
                 </div>
                 <div className="content">
                   <h5 className="title">Scaled Reports</h5>
-                  <span className="rbt-badge">Search Engine</span>
+                  {/* <span className="rbt-badge">Search Engine</span> */}
                 </div>
               </div>
             </div>
@@ -271,7 +271,7 @@ function HomeOurCoreFeatures() {
                 </div>
                 <div className="content">
                   <h5 className="title">Grading</h5>
-                  <span className="rbt-badge">Pro Support</span>
+                  {/* <span className="rbt-badge">Pro Support</span> */}
                 </div>
               </div>
             </div>
@@ -295,7 +295,7 @@ function HomeOurCoreFeatures() {
                 </div>
                 <div className="content">
                   <h5 className="title">Feedback</h5>
-                  <span className="rbt-badge">Traditional Animation</span>
+                  {/* <span className="rbt-badge">Traditional Animation</span> */}
                 </div>
               </div>
             </div>

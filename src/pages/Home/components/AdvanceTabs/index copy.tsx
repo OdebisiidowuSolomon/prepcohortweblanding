@@ -150,8 +150,8 @@ function HomeAdvanceTabs() {
                         <div className="thumbnail">
                           <img
                             // src="/images/courses-layout.png"
-                            // style={{ height: "50%", width: "100%" }}
-                            src="/images/Export2.png"
+                            style={{ height: "50%", width: "100%" }}
+                            src="/images/courses-image.png"
                             alt="advance-tab-image"
                           />
                         </div>
@@ -165,8 +165,7 @@ function HomeAdvanceTabs() {
                         <div className="thumbnail">
                           <img
                             // src="/images/header-layout.png"
-                            // src="/images/courses-image.png"
-                            src="/images/Export1.png"
+                            src="/images/courses-image.png"
                             alt="advance-tab-image"
                           />
                         </div>
@@ -180,8 +179,7 @@ function HomeAdvanceTabs() {
                       >
                         <div className="thumbnail">
                           <img
-                            // src="/images/elements.png"
-                            src="/images/Export3.png"
+                            src="/images/elements.png"
                             alt="advance-tab-image"
                           />
                         </div>
@@ -194,10 +192,7 @@ function HomeAdvanceTabs() {
                         aria-labelledby="layouttab4-tab"
                       >
                         <div className="thumbnail">
-                          <img
-                            src="/images/Export4.png"
-                            alt="advance-tab-image"
-                          />
+                          <img src="/images/code.png" alt="advance-tab-image" />
                         </div>
                       </div>
                     </div>
@@ -207,7 +202,7 @@ function HomeAdvanceTabs() {
             </div>
           </div>
 
-          {/* <div className="row">
+          <div className="row">
             <div className="col-lg-12">
               <ul className="plan-offer-list d-block d-sm-flex justify-content-center">
                 <li>
@@ -221,7 +216,7 @@ function HomeAdvanceTabs() {
                 </li>
               </ul>
             </div>
-          </div> */}
+          </div>
         </div>
       </div>
     </div>

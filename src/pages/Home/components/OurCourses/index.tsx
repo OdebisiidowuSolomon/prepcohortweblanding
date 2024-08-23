@@ -13,8 +13,8 @@ function HomeOurCourses() {
                 Top Popular Course
               </span>
               <h2 className="title">
-                Histudy Course student <br />
-                can join with us.
+                Courses student <br />
+                can learn from us.
               </h2>
             </div>
           </div>
@@ -281,7 +281,7 @@ function HomeOurCourses() {
         </div>
         {/* <!-- End Card Area --> */}
 
-        <div className="row">
+        {/* <div className="row">
           <div className="col-lg-12">
             <div className="load-more-btn mt--60 text-center">
               <a
@@ -300,7 +300,7 @@ function HomeOurCourses() {
               </a>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
     /* <!-- End Course Area --> */
