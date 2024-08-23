@@ -9,6 +9,7 @@ import HomeAccordionArea from "./components/AccordionArea";
 import HomeTestimonial from "./components/HomeTestimonial";
 import HomeWhyChooseUs from "./components/WhyChooseUs";
 import HomeOurCourses from "./components/OurCourses";
+import HomeOurQuestionBank from "./components/OurQuestionBanks";
 
 function HomePage() {
   return (
@@ -18,6 +19,7 @@ function HomePage() {
       <HomeAdvanceTabs />
       {/* <HomeSwipeableLeftTab /> */}
       <HomeOurCourses />
+      <HomeOurQuestionBank />
       <HomeWhyChooseUs />
       {/* <HomeFeaturesList /> */}
       <HomeTestimonial />

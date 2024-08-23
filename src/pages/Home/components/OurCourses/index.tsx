@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 /* eslint-disable jsx-a11y/img-redundant-alt */
 import React, { useCallback, useEffect, useState } from "react";
 import SubjectService from "../../../../graphql/hooks/subjects";
@@ -10,6 +11,7 @@ import {
   TruncateText,
 } from "../../../../libs";
 import CustomAvatar from "../../../../components/CustomAvatar";
+import { frontendUrl } from "../../../../services/graphqlClient";
 
 function HomeOurCourses() {
   const [loading, setLoading] = useState(false);
@@ -83,10 +85,15 @@ export default HomeOurCourses;
 
 const SingleCourseItem = ({ course }: { course: ISubjectFull }) => {
   return (
-    <div className="col-lg-4 col-md-6 col-12">
+    <a
+      href={`${frontendUrl}/explore/course-intro/${course.id}`}
+      target="_blank"
+      rel="noreferrer"
+      className="col-lg-4 col-md-6 col-12"
+    >
       <div className="rbt-card variation-01 rbt-hover">
         <div className="rbt-card-img">
-          <a href="https://rainbowit.net/html/histudy/course-details.html">
+          <a>
             <img src="/images/course-03.jpg" alt="Card image" />
             {/* <div className="rbt-badge-3 bg-white">
               <span>-40%</span>
@@ -96,7 +103,10 @@ const SingleCourseItem = ({ course }: { course: ISubjectFull }) => {
         </div>
         <div className="rbt-card-body">
           <div className="rbt-card-top">
-            <div className="rbt-review">
+            <div
+              className="rbt-review"
+              style={{ display: "flex", alignItems: "center" }}
+            >
               <div className="rating">
                 <RatingComponent
                   ratingCount={course.extraParams.countOfRatings || 0}
@@ -117,10 +127,10 @@ const SingleCourseItem = ({ course }: { course: ISubjectFull }) => {
             </div>
           </div>
           <h4 className="rbt-card-title">
-            <a href="https://rainbowit.net/html/histudy/course-details.html">
+            <span>
               {course.name}
               {/* Angular Zero to Mastery */}
-            </a>
+            </span>
           </h4>
           {/* <ul className="rbt-meta">
             <li>
@@ -140,10 +150,7 @@ const SingleCourseItem = ({ course }: { course: ISubjectFull }) => {
             </div>
             <div className="rbt-author-info">
               By
-              <a href="https://rainbowit.net/html/histudy/profile.html">
-                {" "}
-                {course.provider.title}
-              </a>
+              <a> {course.provider.title}</a>
             </div>
           </div>
           <div className="rbt-card-bottom">
@@ -174,7 +181,7 @@ const SingleCourseItem = ({ course }: { course: ISubjectFull }) => {
           </div>
         </div>
       </div>
-    </div>
+    </a>
   );
 };
 
