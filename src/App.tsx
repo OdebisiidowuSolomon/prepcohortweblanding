@@ -1,10 +1,12 @@
+import { ApolloProvider } from "@apollo/client";
 import "./App.css";
 import HomePage from "./pages/Home";
 import Helmet from "react-helmet";
+import ApolloClientInstance from "./services/graphqlClient";
 
 function App() {
   return (
-    <>
+    <ApolloProvider client={ApolloClientInstance}>
       <HomePage />
       <Helmet>
         {/* <script async src="/js/modernizr.min.js"></script> */}
@@ -39,7 +41,7 @@ function App() {
         {/* <!-- Main JS --> */}
         {/* <script async src="/js/main.js"></script> */}
       </Helmet>
-    </>
+    </ApolloProvider>
   );
 }
 
