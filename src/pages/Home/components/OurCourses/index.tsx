@@ -2,11 +2,18 @@
 import React, { useCallback, useEffect, useState } from "react";
 import SubjectService from "../../../../graphql/hooks/subjects";
 import { ERROR_POLICY } from "../../../../contracts";
-import { ISubject } from "../../../../contracts/subjects";
+import { ISubjectFull } from "../../../../contracts/subjects";
+import { FaStar, FaStarHalfAlt } from "react-icons/fa";
+import {
+  formatCurrency,
+  splitNumberToArray,
+  TruncateText,
+} from "../../../../libs";
+import CustomAvatar from "../../../../components/CustomAvatar";
 
 function HomeOurCourses() {
   const [loading, setLoading] = useState(false);
-  const [allSubjects, setAllSubjects] = useState<ISubject[] | null>(null);
+  const [allSubjects, setAllSubjects] = useState<ISubjectFull[] | null>(null);
 
   const { useGetSubjects } = SubjectService;
   const { getSubjects } = useGetSubjects({});
@@ -14,7 +21,7 @@ function HomeOurCourses() {
   const fetchAllSubjects = useCallback(() => {
     setLoading(true);
     getSubjects({
-      variables: { page: 1, perPage: 10 },
+      variables: { page: 1, perPage: 9 },
       errorPolicy: ERROR_POLICY.ALL,
       onCompleted(data) {
         if (data) {
@@ -74,39 +81,39 @@ function HomeOurCourses() {
 
 export default HomeOurCourses;
 
-const SingleCourseItem = ({ course }: { course: ISubject }) => {
+const SingleCourseItem = ({ course }: { course: ISubjectFull }) => {
   return (
     <div className="col-lg-4 col-md-6 col-12">
       <div className="rbt-card variation-01 rbt-hover">
         <div className="rbt-card-img">
           <a href="https://rainbowit.net/html/histudy/course-details.html">
             <img src="/images/course-03.jpg" alt="Card image" />
-            <div className="rbt-badge-3 bg-white">
+            {/* <div className="rbt-badge-3 bg-white">
               <span>-40%</span>
               <span>Off</span>
-            </div>
+            </div> */}
           </a>
         </div>
         <div className="rbt-card-body">
           <div className="rbt-card-top">
             <div className="rbt-review">
               <div className="rating">
-                <i className="fas fa-star"></i>
-                <i className="fas fa-star"></i>
-                <i className="fas fa-star"></i>
-                <i className="fas fa-star"></i>
-                <i className="fas fa-star"></i>
+                <RatingComponent
+                  ratingCount={course.extraParams.countOfRatings || 0}
+                  ratingValue={
+                    !course.extraParams
+                      ? 0
+                      : course.extraParams.countOfRatings > 0
+                      ? course.extraParams.sumOfRatings /
+                        course.extraParams.countOfRatings
+                      : 0
+                  }
+                />
               </div>
-              <span className="rating-count"> (5 Reviews)</span>
-            </div>
-            <div className="rbt-bookmark-btn">
-              <a
-                className="rbt-round-btn"
-                title="Bookmark"
-                href="https://rainbowit.net/html/histudy/01-main-demo.html#"
-              >
-                <i className="feather-bookmark"></i>
-              </a>
+              <span className="rating-count">
+                {" "}
+                ({course.extraParams.countOfRatings || 0} Reviews)
+              </span>
             </div>
           </div>
           <h4 className="rbt-card-title">
@@ -115,47 +122,104 @@ const SingleCourseItem = ({ course }: { course: ISubject }) => {
               {/* Angular Zero to Mastery */}
             </a>
           </h4>
-          <ul className="rbt-meta">
+          {/* <ul className="rbt-meta">
             <li>
               <i className="feather-book"></i>8 Lessons
             </li>
             <li>
               <i className="feather-users"></i>30 Students
             </li>
-          </ul>
-          <p className="rbt-card-text">{course.description}</p>
+          </ul> */}
+          <p className="rbt-card-text">
+            {TruncateText(course.description, 25)}
+          </p>
 
           <div className="rbt-author-meta mb--20">
             <div className="rbt-avater">
-              <a href="https://rainbowit.net/html/histudy/01-main-demo.html#">
-                <img src="/images/avatar-03.png" alt="Sophia Jaymes" />
-              </a>
+              <CustomAvatar name={course.provider.title} />
             </div>
             <div className="rbt-author-info">
               By
               <a href="https://rainbowit.net/html/histudy/profile.html">
-                Slaughter
-              </a>
-              In
-              <a href="https://rainbowit.net/html/histudy/01-main-demo.html#">
-                Languages
+                {" "}
+                {course.provider.title}
               </a>
             </div>
           </div>
           <div className="rbt-card-bottom">
             <div className="rbt-price">
-              <span className="current-price">$80</span>
-              <span className="off-price">$100</span>
+              {/* <span className="current-price">$80</span>
+              <span className="off-price">$100</span> */}
+              {course.prices.length === 0 ? (
+                <p className={`text-xs my-1`}>FREE</p>
+              ) : course.prices[0].courseDiscount ? (
+                <p className={`text-xs my-1`}>
+                  <p className="line-through text-error font-medium">
+                    ${formatCurrency(course.prices[0].amount)}
+                  </p>
+                  <p className="font-medium">
+                    {"  "}$
+                    {formatCurrency(
+                      course.prices[0].amount *
+                        (course.prices[0].courseDiscount.percentage / 100)
+                    )}
+                  </p>
+                </p>
+              ) : (
+                <p className={`text-xs my-1`}>
+                  ${formatCurrency(course.prices[0].amount)}
+                </p>
+              )}
             </div>
-            <a
-              className="rbt-btn-link"
-              href="https://rainbowit.net/html/histudy/course-details.html"
-            >
-              Learn More<i className="feather-arrow-right"></i>
-            </a>
           </div>
         </div>
       </div>
+    </div>
+  );
+};
+
+const RatingComponent = ({
+  ratingValue,
+  ratingCount,
+}: {
+  ratingValue: number;
+  ratingCount: number;
+}) => {
+  return (
+    <div className="flex-row items-center">
+      <FiveStar size={14} value={ratingValue} />
+    </div>
+  );
+};
+
+export const FiveStar = ({
+  size,
+  value = 5,
+}: {
+  size?: number;
+  value?: number;
+}) => {
+  return (
+    <div className="flex-row mx-[0px]">
+      {splitNumberToArray(value).map((i, _) =>
+        i >= 1 ? (
+          <FaStar
+            key={_}
+            size={size || 13}
+            // name={i >= 1 ? "star" : i === 0 ? "star-o" : "star-half-full"}
+            color={"orange"}
+          />
+        ) : i === 0 ? (
+          <FaStar key={_} size={size || 13} color={""} />
+        ) : (
+          <FaStarHalfAlt
+            key={_}
+            size={size || 13}
+            // name={i >= 1 ? "star" : i === 0 ? "star-o" : "star-half-full"}
+            color={"orange"}
+          />
+        )
+      )}
     </div>
   );
 };

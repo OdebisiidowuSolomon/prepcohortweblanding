@@ -8,10 +8,17 @@ export interface ISubject {
   subjectStructure: string;
   syllabusId: number;
   oneOnOneMeetingFee: string;
+  extraParams: ISubjectExtraParams;
+}
+
+export interface ISubjectExtraParams {
+  countOfRatings: number;
+  sumOfRatings: number;
 }
 
 export interface ISubjectFull extends ISubject {
   provider: IProvider;
+  providerId: number;
   topics: ITopic[];
   prices: ISubjectPriceObj[];
   // provider: BaseProvider;
