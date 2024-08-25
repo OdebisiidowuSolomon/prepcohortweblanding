@@ -22,7 +22,7 @@ function HomeAccordionArea() {
             <AccordionItem />
             <AccordionItem />
 
-            <div className="rbt-accordion-style rbt-accordion-02 accordion">
+            {/* <div className="rbt-accordion-style rbt-accordion-02 accordion">
               <div className="accordion" id="accordionExamplea1">
                 <div className="accordion-item card">
                   <h2 className="accordion-header card-header" id="headingOne">
@@ -55,38 +55,8 @@ function HomeAccordionArea() {
                   </div>
                 </div>
 
-                {/* <div className="accordion-item card">
-                  <h2 className="accordion-header card-header" id="headingFour">
-                    <button
-                      className="accordion-button collapsed"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#collapseFour"
-                      aria-expanded="false"
-                      aria-controls="collapseFour"
-                    >
-                      What is PrepCohort? How does it work?
-                    </button>
-                  </h2>
-                  <div
-                    id="collapseFour"
-                    className="accordion-collapse collapse"
-                    aria-labelledby="headingFour"
-                    data-bs-parent="#accordionExamplea1"
-                  >
-                    <div className="accordion-body card-body">
-                      <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Doloremque assumenda eos eum recusandae, eveniet
-                        dignissimos, nulla voluptas aut nisi labore officia?
-                        Deleniti eligendi officia, dolore labore soluta iusto
-                        nostrum culpa.
-                      </p>
-                    </div>
-                  </div>
-                </div> */}
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

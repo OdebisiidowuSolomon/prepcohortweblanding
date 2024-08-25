@@ -1,5 +1,149 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 
+const ReviewsRow1 = [
+  {
+    name: "Adeola Johnson",
+    review:
+      "PrepCohort has completely transformed my learning experience. The interactive content and easy access to resources have made studying more enjoyable. I can track my progress and revisit lectures anytime, which helps me understand complex topics better.",
+  },
+  {
+    name: "Chidinma Okeke",
+    review:
+      "I love how PrepCohort makes learning fun with quizzes and interactive lessons. It feels like a game! The discussion forums are great for connecting with my classmates and sharing ideas, especially when we're working on group projects.",
+  },
+  {
+    name: "Emeka Nwosu",
+    review:
+      "Using PrepCohort has been a game-changer. The platform is user-friendly, and I can access all my course materials from my phone. The video tutorials are clear, and the assignments are well-organized. It has made learning so much more efficient.",
+  },
+  {
+    name: "Fatima Suleiman",
+    review:
+      "PrepCohort has been instrumental in my postgraduate studies. The range of resources available is impressive, and the ability to submit assignments and receive feedback online is very convenient. It has helped me manage my time better and stay on top of my coursework.",
+  },
+  {
+    name: "Tunde Adebayo",
+    review:
+      "As a vocational student, PrepCohort provides practical, hands-on lessons that I can apply directly in my work. The tutorials are straightforward, and the platform is easy to navigate, making it an essential tool in my learning process.",
+  },
+  {
+    name: "Ngozi Eze",
+    review:
+      "PrepCohort has helped me excel in my studies. The platform’s interactive features, like quizzes and live sessions, keep me engaged and motivated. I also appreciate how I can track my progress and get instant feedback on assignments.",
+  },
+  {
+    name: "Ibrahim Bello",
+    review:
+      "PrepCohort is the best educational platform I have used. The resources are extensive, and the ability to access materials anytime has made learning flexible and convenient. The support from instructors and peers has also been invaluable.",
+  },
+  {
+    name: "Yemi Adeyemi",
+    review:
+      "PrepCohort has exceeded my expectations. The user interface is intuitive, and the quality of the content is top-notch. The platform has greatly contributed to my academic success, and I highly recommend it to other students.",
+  },
+  {
+    name: "Esther Ojo",
+    review:
+      "PrepCohort offers a personalized learning experience that caters to my needs. The ability to learn at my own pace, combined with the wealth of resources available, has made it easier for me to grasp difficult concepts and excel in my studies.",
+  },
+];
+
+const ReviewsRow2 = [
+  {
+    name: "Oluwatobi Adekunle",
+    review:
+      "PrepCohort has been a fantastic tool in my studies. The platform is easy to use, and the lessons are well-structured. I can learn at my own pace and revisit difficult topics until I fully understand them. It’s been a tremendous help in preparing for exams.",
+  },
+  {
+    name: "Amara Nwachukwu",
+    review:
+      "I’ve been using PrepCohort for a few months now, and I must say it’s been a great experience. The interactive sessions are engaging, and the feedback from instructors is prompt and constructive. I feel more confident in my academic abilities.",
+  },
+  {
+    name: "Samuel Oladipo",
+    review:
+      "PrepCohort’s resources are top-notch. The platform offers a wide range of study materials, including videos, quizzes, and practice tests. It’s been incredibly helpful in supplementing my classroom learning and enhancing my understanding of complex subjects.",
+  },
+  {
+    name: "Aisha Usman",
+    review:
+      "The best thing about PrepCohort is the flexibility it offers. I can access course materials anytime, which fits perfectly with my busy schedule. The quality of the content is excellent, and the platform’s support system is always available when I need help.",
+  },
+  {
+    name: "Chukwudi Anya",
+    review:
+      "PrepCohort has made learning so much easier. The interface is user-friendly, and the lessons are interactive, which keeps me engaged. I also love the fact that I can track my progress and see where I need to improve. It’s been a game-changer for me.",
+  },
+  {
+    name: "Zainab Lawal",
+    review:
+      "Using PrepCohort has been a great decision. The platform offers a variety of learning tools that cater to different learning styles. The assignments and quizzes are challenging but fair, and they really help reinforce what I’ve learned.",
+  },
+  {
+    name: "Kunle Ogunleye",
+    review:
+      "PrepCohort is a must-have for any serious student. The platform’s resources are comprehensive, and the ability to interact with peers and instructors in real-time is invaluable. It has greatly improved my study habits and academic performance.",
+  },
+  {
+    name: "Grace Ezeani",
+    review:
+      "I appreciate how PrepCohort makes learning accessible and enjoyable. The lessons are well-organized, and the ability to go back and review previous materials is extremely helpful. It’s the best learning platform I’ve used so far.",
+  },
+  {
+    name: "Ifeanyi Okoro",
+    review:
+      "PrepCohort has exceeded my expectations. The platform is well-designed, and the content is both informative and engaging. The support team is also very responsive, which makes the whole learning experience smooth and enjoyable.",
+  },
+];
+
+const ReviewsRow3 = [
+  {
+    name: "Michael Adesanya",
+    review:
+      "PrepCohort has significantly improved my academic performance. The structured lessons and practice tests have made it easier for me to understand and retain information. The platform’s design is intuitive, making learning both effective and enjoyable.",
+  },
+  {
+    name: "Blessing Okafor",
+    review:
+      "I can’t recommend PrepCohort enough. The platform’s variety of resources, from video lectures to quizzes, has been incredibly helpful. It allows me to study at my own pace, and I’ve noticed a considerable improvement in my grades since I started using it.",
+  },
+  {
+    name: "David Olatunji",
+    review:
+      "PrepCohort is a fantastic tool for any student. The content is well-organized, and the interactive features keep me engaged. The ability to track my progress and identify areas that need more attention has been invaluable in my study routine.",
+  },
+  {
+    name: "Ngozi Chukwu",
+    review:
+      "What I love most about PrepCohort is the accessibility. I can study anywhere, anytime, which is perfect for my busy schedule. The quality of the content is excellent, and the platform is very user-friendly. It’s definitely a must-have for students.",
+  },
+  {
+    name: "Sola Ibitoye",
+    review:
+      "PrepCohort has exceeded all my expectations. The platform’s comprehensive resources have made studying so much easier. I particularly like the quizzes and practice exams that help reinforce what I’ve learned. It’s been a huge boost to my confidence.",
+  },
+  {
+    name: "Hadiza Bello",
+    review:
+      "The best thing about PrepCohort is how it adapts to my learning style. The platform offers various formats like videos, readings, and interactive sessions, allowing me to choose what works best for me. It has made learning more effective and enjoyable.",
+  },
+  {
+    name: "John Okechukwu",
+    review:
+      "PrepCohort is an excellent platform for students at all levels. The content is rich and diverse, catering to different subjects and learning styles. The support from instructors and the community is fantastic, making it easier to stay motivated and succeed.",
+  },
+  {
+    name: "Maryam Yusuf",
+    review:
+      "Using PrepCohort has been a great experience. The platform’s features, such as progress tracking and instant feedback, have helped me stay on top of my studies. The content is engaging, and the lessons are well-organized, making learning a breeze.",
+  },
+  {
+    name: "Tosin Afolayan",
+    review:
+      "PrepCohort has truly been a game-changer for me. The platform is well-designed, with a user-friendly interface and high-quality content. The ability to revisit materials and practice with quizzes has made a significant difference in my academic journey.",
+  },
+];
+
 function HomeTestimonial() {
   // <!-- Start Testimonial Area  -->
   return (
@@ -9,7 +153,10 @@ function HomeTestimonial() {
           <div className="row">
             <div className="col-lg-12">
               <div className="section-title text-center">
-                <span className="subtitle bg-primary-opacity" style={{marginTop:10}}>
+                <span
+                  className="subtitle bg-primary-opacity"
+                  style={{ marginTop: 10 }}
+                >
                   A FEW WORDS FROM OUR STUDENTS
                 </span>
                 <h2 className="title">
@@ -35,243 +182,29 @@ function HomeTestimonial() {
         <div className="scroll-animation-wrapper no-overlay mt--50">
           <div className="scroll-animation scroll-right-left">
             {/* <!-- Start Single Testimonial  --> */}
-            <div className="single-column-20 bg-theme-gradient-odd">
-              <div className="rbt-testimonial-box style-2">
-                <div className="inner">
-                  <div className="icons">
-                    <img src="./images/rating.png" alt="Clint Images" />
-                  </div>
-                  <div className="description">
-                    <p className="subtitle-3">
-                      <strong>Beautiful theme!</strong> (Of course, that’s why I
-                      got it). But most importantly, thank you for the quick
-                      responses from your customer support. I was finding it
-                      hard to install and customise the demo but he guided
-                    </p>
-                    <div className="clint-info-wrapper">
-                      <div className="thumb">
-                        <img src="./images/envato.png" alt="Clint Images" />
-                      </div>
-                      <div className="client-info">
-                        <h5 className="title">teechelle</h5>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            {/* <!-- End Single Testimonial  --> */}
 
-            {/* <!-- Start Single Testimonial  --> */}
-            <div className="single-column-20 bg-theme-gradient-odd">
-              <div className="rbt-testimonial-box style-2">
-                <div className="inner">
-                  <div className="icons">
-                    <img src="./images/rating.png" alt="Clint Images" />
-                  </div>
-                  <div className="description">
-                    <p className="subtitle-3">
-                      <strong>The design Quality is perfect!</strong> Customer
-                      Support is the best so far. Thank you!
-                    </p>
-                    <div className="clint-info-wrapper">
-                      <div className="thumb">
-                        <img src="./images/envato.png" alt="Clint Images" />
-                      </div>
-                      <div className="client-info">
-                        <h5 className="title">3anbo3d</h5>
+            {ReviewsRow1.map(({ name, review }) => (
+              <div
+                className="single-column-20 bg-theme-gradient-odd"
+                key={name}
+              >
+                <div className="rbt-testimonial-box style-2">
+                  <div className="inner">
+                    <div className="icons">
+                      <img src="./images/rating.png" alt="Client Images" />
+                    </div>
+                    <div className="description">
+                      <p className="subtitle-3">{review}</p>
+                      <div className="clint-info-wrapper">
+                        <div className="client-info">
+                          <h5 className="title">{name}</h5>
+                        </div>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-            </div>
-            {/* <!-- End Single Testimonial  --> */}
-
-            {/* <!-- Start Single Testimonial  --> */}
-            <div className="single-column-20 bg-theme-gradient-odd">
-              <div className="rbt-testimonial-box style-2">
-                <div className="inner">
-                  <div className="icons">
-                    <img src="./images/rating.png" alt="Clint Images" />
-                  </div>
-                  <div className="description">
-                    <p className="subtitle-3">
-                      The theme itself suits my needs, but the support is the
-                      superstar that earns this theme and the team behind
-                      <strong>it a 5 stars rating</strong>. Kudos!
-                    </p>
-                    <div className="clint-info-wrapper">
-                      <div className="thumb">
-                        <img src="./images/envato.png" alt="Clint Images" />
-                      </div>
-                      <div className="client-info">
-                        <h5 className="title">arikurnia1</h5>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            {/* <!-- End Single Testimonial  --> */}
-
-            {/* <!-- Start Single Testimonial  --> */}
-            <div className="single-column-20 bg-theme-gradient-odd">
-              <div className="rbt-testimonial-box style-2">
-                <div className="inner">
-                  <div className="icons">
-                    <img src="./images/rating.png" alt="Clint Images" />
-                  </div>
-                  <div className="description">
-                    <p className="subtitle-3">
-                      I needed support on a issue to install the theme demo, the
-                      CS team is super efficient, they
-                      <strong>fixed the issue in few hours.</strong> Thank you!
-                    </p>
-                    <div className="clint-info-wrapper">
-                      <div className="thumb">
-                        <img src="./images/envato.png" alt="Clint Images" />
-                      </div>
-                      <div className="client-info">
-                        <h5 className="title">stephanieprugne</h5>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            {/* <!-- End Single Testimonial  --> */}
-            {/* <!-- Start Single Testimonial  --> */}
-            <div className="single-column-20 bg-theme-gradient-odd">
-              <div className="rbt-testimonial-box style-2">
-                <div className="inner">
-                  <div className="icons">
-                    <img src="./images/rating.png" alt="Clint Images" />
-                  </div>
-                  <div className="description">
-                    <p className="subtitle-3">
-                      <strong>Awesome Customer support.</strong> Fixed issues in
-                      less than 24 Hours. Very professional and prompt.
-                    </p>
-                    <div className="clint-info-wrapper">
-                      <div className="thumb">
-                        <img src="./images/envato.png" alt="Clint Images" />
-                      </div>
-                      <div className="client-info">
-                        <h5 className="title">taggrwal</h5>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            {/* <!-- End Single Testimonial  --> */}
-
-            {/* <!-- Start Single Testimonial  --> */}
-            <div className="single-column-20 bg-theme-gradient-odd">
-              <div className="rbt-testimonial-box style-2">
-                <div className="inner">
-                  <div className="icons">
-                    <img src="./images/rating.png" alt="Clint Images" />
-                  </div>
-                  <div className="description">
-                    <p className="subtitle-3">
-                      These guys are the REAL deal. Fantastic website and even
-                      <strong>better customer support</strong>. Highly recommend
-                      and will work with them again.
-                    </p>
-                    <div className="clint-info-wrapper">
-                      <div className="thumb">
-                        <img src="./images/envato.png" alt="Clint Images" />
-                      </div>
-                      <div className="client-info">
-                        <h5 className="title">phil148</h5>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            {/* <!-- End Single Testimonial  --> */}
-
-            {/* <!-- Start Single Testimonial  --> */}
-            <div className="single-column-20 bg-theme-gradient-odd">
-              <div className="rbt-testimonial-box style-2">
-                <div className="inner">
-                  <div className="icons">
-                    <img src="./images/rating.png" alt="Clint Images" />
-                  </div>
-                  <div className="description">
-                    <p className="subtitle-3">
-                      The theme itself suits my needs, but the support is the
-                      superstar that earns this theme and the team behind it a
-                      <strong>5 stars rating</strong>. Kudos!
-                    </p>
-                    <div className="clint-info-wrapper">
-                      <div className="thumb">
-                        <img src="./images/envato.png" alt="Clint Images" />
-                      </div>
-                      <div className="client-info">
-                        <h5 className="title">arikurnia1</h5>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            {/* <!-- End Single Testimonial  --> */}
-
-            {/* <!-- Start Single Testimonial  --> */}
-            <div className="single-column-20 bg-theme-gradient-odd">
-              <div className="rbt-testimonial-box style-2">
-                <div className="inner">
-                  <div className="icons">
-                    <img src="./images/rating.png" alt="Clint Images" />
-                  </div>
-                  <div className="description">
-                    <p className="subtitle-3">
-                      I can only <strong>recommend the theme!</strong> Very nice
-                      design, good adjustment options.The support is very
-                      friendly and incredibly helpful. Thanks!
-                    </p>
-                    <div className="clint-info-wrapper">
-                      <div className="thumb">
-                        <img src="./images/envato.png" alt="Clint Images" />
-                      </div>
-                      <div className="client-info">
-                        <h5 className="title">timofk</h5>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            {/* <!-- End Single Testimonial  --> */}
-
-            {/* <!-- Start Single Testimonial  --> */}
-            <div className="single-column-20 bg-theme-gradient-odd">
-              <div className="rbt-testimonial-box style-2">
-                <div className="inner">
-                  <div className="icons">
-                    <img src="./images/rating.png" alt="Clint Images" />
-                  </div>
-                  <div className="description">
-                    <p className="subtitle-3">
-                      The theme is awesome,and the support it's just fantastic,
-                      solved my problems in few hours.5 stars are not enough
-                    </p>
-                    <div className="clint-info-wrapper">
-                      <div className="thumb">
-                        <img src="./images/envato.png" alt="Clint Images" />
-                      </div>
-                      <div className="client-info">
-                        <h5 className="title">alesmp82</h5>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+            ))}
             {/* <!-- End Single Testimonial  --> */}
           </div>
         </div>
@@ -279,240 +212,28 @@ function HomeTestimonial() {
         <div className="scroll-animation-wrapper no-overlay mt--30">
           <div className="scroll-animation scroll-left-right">
             {/* <!-- Start Single Testimonial  --> */}
-            <div className="single-column-20 bg-theme-gradient-even">
-              <div className="rbt-testimonial-box style-2">
-                <div className="inner">
-                  <div className="icons">
-                    <img src="./images/rating.png" alt="Clint Images" />
-                  </div>
-                  <div className="description">
-                    <p className="subtitle-3">
-                      They assist me very well and did everything I asked !
-                      Quick answer to <strong>So yes I recommand :)</strong>
-                    </p>
-                    <div className="clint-info-wrapper">
-                      <div className="thumb">
-                        <img src="./images/envato.png" alt="Clint Images" />
-                      </div>
-                      <div className="client-info">
-                        <h5 className="title">saverysyoann</h5>
+            {ReviewsRow2.map(({ name, review }) => (
+              <div
+                className="single-column-20 bg-theme-gradient-even"
+                key={name}
+              >
+                <div className="rbt-testimonial-box style-2">
+                  <div className="inner">
+                    <div className="icons">
+                      <img src="./images/rating.png" alt="Client Images" />
+                    </div>
+                    <div className="description">
+                      <p className="subtitle-3">{review}</p>
+                      <div className="clint-info-wrapper">
+                        <div className="client-info">
+                          <h5 className="title">{name}</h5>
+                        </div>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-            </div>
-            {/* <!-- End Single Testimonial  --> */}
-
-            {/* <!-- Start Single Testimonial  --> */}
-            <div className="single-column-20 bg-theme-gradient-even">
-              <div className="rbt-testimonial-box style-2">
-                <div className="inner">
-                  <div className="icons">
-                    <img src="./images/rating.png" alt="Clint Images" />
-                  </div>
-                  <div className="description">
-                    <p className="subtitle-3">
-                      I have zero experience with web design and found this
-                      template super easy to use. Very helpful support team too.
-                    </p>
-                    <div className="clint-info-wrapper">
-                      <div className="thumb">
-                        <img src="./images/envato.png" alt="Clint Images" />
-                      </div>
-                      <div className="client-info">
-                        <h5 className="title">thomasmcbrien00</h5>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            {/* <!-- End Single Testimonial  --> */}
-
-            {/* <!-- Start Single Testimonial  --> */}
-            <div className="single-column-20 bg-theme-gradient-even">
-              <div className="rbt-testimonial-box style-2">
-                <div className="inner">
-                  <div className="icons">
-                    <img src="./images/rating.png" alt="Clint Images" />
-                  </div>
-                  <div className="description">
-                    <p className="subtitle-3">
-                      they was so kindly and replay so fast and they fixed all
-                      what i want, thank you so much !
-                    </p>
-                    <div className="clint-info-wrapper">
-                      <div className="thumb">
-                        <img src="./images/envato.png" alt="Clint Images" />
-                      </div>
-                      <div className="client-info">
-                        <h5 className="title">ordersgate</h5>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            {/* <!-- End Single Testimonial  --> */}
-
-            {/* <!-- Start Single Testimonial  --> */}
-            <div className="single-column-20 bg-theme-gradient-even">
-              <div className="rbt-testimonial-box style-2">
-                <div className="inner">
-                  <div className="icons">
-                    <img src="./images/rating.png" alt="Clint Images" />
-                  </div>
-                  <div className="description">
-                    <p className="subtitle-3">
-                      <strong>Responsive and competent support.</strong> They
-                      perfectly answer the questions of use and the various
-                      problems that one can have. A big thank-you !
-                    </p>
-                    <div className="clint-info-wrapper">
-                      <div className="thumb">
-                        <img src="./images/envato.png" alt="Clint Images" />
-                      </div>
-                      <div className="client-info">
-                        <h5 className="title">couletcorentin</h5>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            {/* <!-- End Single Testimonial  --> */}
-            {/* <!-- Start Single Testimonial  --> */}
-            <div className="single-column-20 bg-theme-gradient-even">
-              <div className="rbt-testimonial-box style-2">
-                <div className="inner">
-                  <div className="icons">
-                    <img src="./images/rating.png" alt="Clint Images" />
-                  </div>
-                  <div className="description">
-                    <p className="subtitle-3">
-                      They are really amazing, the customization is really dope,
-                      and Support is really awesome
-                    </p>
-                    <div className="clint-info-wrapper">
-                      <div className="thumb">
-                        <img src="./images/envato.png" alt="Clint Images" />
-                      </div>
-                      <div className="client-info">
-                        <h5 className="title">rohithaditya</h5>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            {/* <!-- End Single Testimonial  --> */}
-
-            {/* <!-- Start Single Testimonial  --> */}
-            <div className="single-column-20 bg-theme-gradient-even">
-              <div className="rbt-testimonial-box style-2">
-                <div className="inner">
-                  <div className="icons">
-                    <img src="./images/rating.png" alt="Clint Images" />
-                  </div>
-                  <div className="description">
-                    <p className="subtitle-3">
-                      One of the best support and clean code on codecanyon!
-                      <strong>Highly recommended!</strong>
-                    </p>
-                    <div className="clint-info-wrapper">
-                      <div className="thumb">
-                        <img src="./images/envato.png" alt="Clint Images" />
-                      </div>
-                      <div className="client-info">
-                        <h5 className="title">neosofts</h5>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            {/* <!-- End Single Testimonial  --> */}
-
-            {/* <!-- Start Single Testimonial  --> */}
-            <div className="single-column-20 bg-theme-gradient-even">
-              <div className="rbt-testimonial-box style-2">
-                <div className="inner">
-                  <div className="icons">
-                    <img src="./images/rating.png" alt="Clint Images" />
-                  </div>
-                  <div className="description">
-                    <p className="subtitle-3">
-                      I have never seen support as fast and efficient as this
-                      one. I can't say anything about the theme yet since I just
-                      started building the site, but with this kind of support,
-                      <strong>I am confident it will be awesome</strong>.
-                    </p>
-                    <div className="clint-info-wrapper">
-                      <div className="thumb">
-                        <img src="./images/envato.png" alt="Clint Images" />
-                      </div>
-                      <div className="client-info">
-                        <h5 className="title">desdizajn</h5>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            {/* <!-- End Single Testimonial  --> */}
-
-            {/* <!-- Start Single Testimonial  --> */}
-            <div className="single-column-20 bg-theme-gradient-even">
-              <div className="rbt-testimonial-box style-2">
-                <div className="inner">
-                  <div className="icons">
-                    <img src="./images/rating.png" alt="Clint Images" />
-                  </div>
-                  <div className="description">
-                    <p className="subtitle-3">
-                      The customer support for this theme is top notch. They
-                      have been on the ball answering my questions, especially
-                      when it came to fixing bugs I was experiencing.
-                    </p>
-                    <div className="clint-info-wrapper">
-                      <div className="thumb">
-                        <img src="./images/envato.png" alt="Clint Images" />
-                      </div>
-                      <div className="client-info">
-                        <h5 className="title">nyyankster71</h5>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            {/* <!-- End Single Testimonial  --> */}
-
-            {/* <!-- Start Single Testimonial  --> */}
-            <div className="single-column-20 bg-theme-gradient-even">
-              <div className="rbt-testimonial-box style-2">
-                <div className="inner">
-                  <div className="icons">
-                    <img src="./images/rating.png" alt="Clint Images" />
-                  </div>
-                  <div className="description">
-                    <p className="subtitle-3">
-                      Very Beautiful theme and great support team and fast
-                      response from author team.
-                    </p>
-                    <div className="clint-info-wrapper">
-                      <div className="thumb">
-                        <img src="./images/envato.png" alt="Clint Images" />
-                      </div>
-                      <div className="client-info">
-                        <h5 className="title">pranavkumbhare</h5>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+            ))}
             {/* <!-- End Single Testimonial  --> */}
           </div>
         </div>
@@ -520,248 +241,28 @@ function HomeTestimonial() {
         <div className="scroll-animation-wrapper no-overlay mt--50">
           <div className="scroll-animation scroll-right-left">
             {/* <!-- Start Single Testimonial  --> */}
-            <div className="single-column-20 bg-theme-gradient-odd">
-              <div className="rbt-testimonial-box style-2">
-                <div className="inner">
-                  <div className="icons">
-                    <img src="./images/rating.png" alt="Clint Images" />
-                  </div>
-                  <div className="description">
-                    <p className="subtitle-3">
-                      Beautiful theme! (Of course, that’s why I got it). But
-                      most importantly, thank you for the quick responses from
-                      your customer support. I was finding it hard to install
-                      and customise the demo but he guided
-                    </p>
-                    <div className="clint-info-wrapper">
-                      <div className="thumb">
-                        <img src="./images/envato.png" alt="Clint Images" />
-                      </div>
-                      <div className="client-info">
-                        <h5 className="title">teechelle</h5>
+            {ReviewsRow3.map(({ name, review }) => (
+              <div
+                className="single-column-20 bg-theme-gradient-odd"
+                key={name}
+              >
+                <div className="rbt-testimonial-box style-2">
+                  <div className="inner">
+                    <div className="icons">
+                      <img src="./images/rating.png" alt="Client Images" />
+                    </div>
+                    <div className="description">
+                      <p className="subtitle-3">{review}</p>
+                      <div className="clint-info-wrapper">
+                        <div className="client-info">
+                          <h5 className="title">{name}</h5>
+                        </div>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-            </div>
-            {/* <!-- End Single Testimonial  --> */}
-
-            {/* <!-- Start Single Testimonial  --> */}
-            <div className="single-column-20 bg-theme-gradient-odd">
-              <div className="rbt-testimonial-box style-2">
-                <div className="inner">
-                  <div className="icons">
-                    <img src="./images/rating.png" alt="Clint Images" />
-                  </div>
-                  <div className="description">
-                    <p className="subtitle-3">
-                      The design Quality is perfect! Customer Support is the
-                      best so far. Thank you!
-                    </p>
-                    <div className="clint-info-wrapper">
-                      <div className="thumb">
-                        <img src="./images/envato.png" alt="Clint Images" />
-                      </div>
-                      <div className="client-info">
-                        <h5 className="title">3anbo3d</h5>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            {/* <!-- End Single Testimonial  --> */}
-
-            {/* <!-- Start Single Testimonial  --> */}
-            <div className="single-column-20 bg-theme-gradient-odd">
-              <div className="rbt-testimonial-box style-2">
-                <div className="inner">
-                  <div className="icons">
-                    <img src="./images/rating.png" alt="Clint Images" />
-                  </div>
-                  <div className="description">
-                    <p className="subtitle-3">
-                      The theme itself suits my needs, but the support is the
-                      superstar that earns this theme and the team behind it a 5
-                      stars rating. Kudos!
-                    </p>
-                    <div className="clint-info-wrapper">
-                      <div className="thumb">
-                        <img src="./images/envato.png" alt="Clint Images" />
-                      </div>
-                      <div className="client-info">
-                        <h5 className="title">arikurnia1</h5>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            {/* <!-- End Single Testimonial  --> */}
-
-            {/* <!-- Start Single Testimonial  --> */}
-            <div className="single-column-20 bg-theme-gradient-odd">
-              <div className="rbt-testimonial-box style-2">
-                <div className="inner">
-                  <div className="icons">
-                    <img src="./images/rating.png" alt="Clint Images" />
-                  </div>
-                  <div className="description">
-                    <p className="subtitle-3">
-                      A really great theme and a great design at a low price.
-                      <strong>All in all Excellent</strong>. Best. Best wishes
-                      for rainbow team.
-                    </p>
-                    <div className="clint-info-wrapper">
-                      <div className="thumb">
-                        <img src="./images/envato.png" alt="Clint Images" />
-                      </div>
-                      <div className="client-info">
-                        <h5 className="title">gorillacomputer1</h5>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            {/* <!-- End Single Testimonial  --> */}
-
-            {/* <!-- Start Single Testimonial  --> */}
-            <div className="single-column-20 bg-theme-gradient-odd">
-              <div className="rbt-testimonial-box style-2">
-                <div className="inner">
-                  <div className="icons">
-                    <img src="./images/rating.png" alt="Clint Images" />
-                  </div>
-                  <div className="description">
-                    <p className="subtitle-3">
-                      <strong>Great support,</strong> we have an issue with the
-                      theme and they solve it in the same day!! Thanks so much!!
-                    </p>
-                    <div className="clint-info-wrapper">
-                      <div className="thumb">
-                        <img src="./images/envato.png" alt="Clint Images" />
-                      </div>
-                      <div className="client-info">
-                        <h5 className="title">granviamarketing</h5>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            {/* <!-- End Single Testimonial  --> */}
-
-            {/* <!-- Start Single Testimonial  --> */}
-            <div className="single-column-20 bg-theme-gradient-odd">
-              <div className="rbt-testimonial-box style-2">
-                <div className="inner">
-                  <div className="icons">
-                    <img src="./images/rating.png" alt="Clint Images" />
-                  </div>
-                  <div className="description">
-                    <p className="subtitle-3">
-                      This theme is beautiful, well crafted elements and the
-                      support is top notch! This team deserve everything!
-                      <strong>I recommend this 100%.</strong>
-                    </p>
-                    <div className="clint-info-wrapper">
-                      <div className="thumb">
-                        <img src="./images/envato.png" alt="Clint Images" />
-                      </div>
-                      <div className="client-info">
-                        <h5 className="title">dasantos97</h5>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            {/* <!-- End Single Testimonial  --> */}
-
-            {/* <!-- Start Single Testimonial  --> */}
-            <div className="single-column-20 bg-theme-gradient-odd">
-              <div className="rbt-testimonial-box style-2">
-                <div className="inner">
-                  <div className="icons">
-                    <img src="./images/rating.png" alt="Clint Images" />
-                  </div>
-                  <div className="description">
-                    <p className="subtitle-3">
-                      The theme is
-                      <strong>great and the support is even better</strong>.
-                      They helped my with installation and everything. Thank
-                      you!
-                    </p>
-                    <div className="clint-info-wrapper">
-                      <div className="thumb">
-                        <img src="./images/envato.png" alt="Clint Images" />
-                      </div>
-                      <div className="client-info">
-                        <h5 className="title">hudecvfx</h5>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            {/* <!-- End Single Testimonial  --> */}
-
-            {/* <!-- Start Single Testimonial  --> */}
-            <div className="single-column-20 bg-theme-gradient-odd">
-              <div className="rbt-testimonial-box style-2">
-                <div className="inner">
-                  <div className="icons">
-                    <img src="./images/rating.png" alt="Clint Images" />
-                  </div>
-                  <div className="description">
-                    <p className="subtitle-3">
-                      It is a very minimal beautiful theme. I really like these
-                      types of themes.
-                      <strong>They are also very good at support</strong>. They
-                      answered almost all my questions :)
-                    </p>
-                    <div className="clint-info-wrapper">
-                      <div className="thumb">
-                        <img src="./images/envato.png" alt="Clint Images" />
-                      </div>
-                      <div className="client-info">
-                        <h5 className="title">mrtyildiz</h5>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            {/* <!-- End Single Testimonial  --> */}
-
-            {/* <!-- Start Single Testimonial  --> */}
-            <div className="single-column-20 bg-theme-gradient-odd">
-              <div className="rbt-testimonial-box style-2">
-                <div className="inner">
-                  <div className="icons">
-                    <img src="./images/rating.png" alt="Clint Images" />
-                  </div>
-                  <div className="description">
-                    <p className="subtitle-3">
-                      Just downloaded the theme. never used it yet but I'm sure
-                      that it's amazing because the HTML version was mind
-                      blowing so the WordPress is
-                      <strong>gonna be mind-blowing too :)</strong>
-                    </p>
-                    <div className="clint-info-wrapper">
-                      <div className="thumb">
-                        <img src="./images/envato.png" alt="Clint Images" />
-                      </div>
-                      <div className="client-info">
-                        <h5 className="title">ranawebdesign</h5>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+            ))}
             {/* <!-- End Single Testimonial  --> */}
           </div>
         </div>
