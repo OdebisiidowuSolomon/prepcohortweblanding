@@ -158,9 +158,9 @@ const SingleCourseItem = ({ course }: { course: ISubjectFull }) => {
               {/* <span className="current-price">$80</span>
               <span className="off-price">$100</span> */}
               {course.prices.length === 0 ? (
-                <p className={`text-xs my-1`}>FREE</p>
+                <p className={`my-1`}>FREE</p>
               ) : course.prices[0].courseDiscount ? (
-                <p className={`text-xs my-1`}>
+                <p className={`my-1`}>
                   <p className="line-through text-error font-medium">
                     ${formatCurrency(course.prices[0].amount)}
                   </p>
@@ -173,7 +173,7 @@ const SingleCourseItem = ({ course }: { course: ISubjectFull }) => {
                   </p>
                 </p>
               ) : (
-                <p className={`text-xs my-1`}>
+                <p className={`my-1`}>
                   ${formatCurrency(course.prices[0].amount)}
                 </p>
               )}
