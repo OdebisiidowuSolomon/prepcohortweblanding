@@ -25,8 +25,8 @@ function HomeOurCoreFeatures() {
               <div className="inner">
                 <div className="thumbnail">
                   <img
-                    src="./images/bootstrap.png"
-                    alt="Plugin Images"
+                    src="/images/Quiz and Exams.png"
+                    alt="Core Images"
                   />
                 </div>
                 <div className="content">
@@ -49,8 +49,8 @@ function HomeOurCoreFeatures() {
               <div className="inner">
                 <div className="thumbnail">
                   <img
-                    src="./images/font.png"
-                    alt="Plugin Images"
+                    src="/images/Test Generation.png"
+                    alt="Core Images"
                   />
                 </div>
                 <div className="content">
@@ -73,8 +73,8 @@ function HomeOurCoreFeatures() {
               <div className="inner">
                 <div className="thumbnail">
                   <img
-                    src="./images/instagram.png"
-                    alt="Plugin Images"
+                    src="/images/Tailored Feedback.png"
+                    alt="Core Images"
                   />
                 </div>
                 <div className="content">
@@ -97,8 +97,8 @@ function HomeOurCoreFeatures() {
               <div className="inner">
                 <div className="thumbnail">
                   <img
-                    src="./images/mainchimp.png"
-                    alt="Plugin Images"
+                    src="/images/Test and Quiz.png"
+                    alt="Core Images"
                   />
                 </div>
                 <div className="content">
@@ -121,8 +121,8 @@ function HomeOurCoreFeatures() {
               <div className="inner">
                 <div className="thumbnail">
                   <img
-                    src="./images/validation.png"
-                    alt="Plugin Images"
+                    src="/images/Lesson Bucket.png"
+                    alt="Core Images"
                   />
                 </div>
                 <div className="content">
@@ -145,8 +145,8 @@ function HomeOurCoreFeatures() {
               <div className="inner">
                 <div className="thumbnail">
                   <img
-                    src="./images/isotop.png"
-                    alt="Plugin Images"
+                    src="/images/Peer, Sample, and Rubric Grading.png"
+                    alt="Core Images"
                   />
                 </div>
                 <div className="content">
@@ -169,8 +169,8 @@ function HomeOurCoreFeatures() {
               <div className="inner">
                 <div className="thumbnail">
                   <img
-                    src="./images/slider.png"
-                    alt="Plugin Images"
+                    src="/images/Integrated Forms.png"
+                    alt="Core Images"
                   />
                 </div>
                 <div className="content">
@@ -193,8 +193,8 @@ function HomeOurCoreFeatures() {
               <div className="inner">
                 <div className="thumbnail">
                   <img
-                    src="./images/contact.png"
-                    alt="Plugin Images"
+                    src="/images/Integrated Polls.png"
+                    alt="Core Images"
                   />
                 </div>
                 <div className="content">
@@ -217,8 +217,8 @@ function HomeOurCoreFeatures() {
               <div className="inner">
                 <div className="thumbnail">
                   <img
-                    src="./images/popup.png"
-                    alt="Plugin Images"
+                    src="/images/Scoped Announcement.png"
+                    alt="Core Images"
                   />
                 </div>
                 <div className="content">
@@ -241,8 +241,8 @@ function HomeOurCoreFeatures() {
               <div className="inner">
                 <div className="thumbnail">
                   <img
-                    src="./images/seo.png"
-                    alt="Plugin Images"
+                    src="/images/Scaled Report.png"
+                    alt="Core Images"
                   />
                 </div>
                 <div className="content">
@@ -265,8 +265,8 @@ function HomeOurCoreFeatures() {
               <div className="inner">
                 <div className="thumbnail">
                   <img
-                    src="./images/support.png"
-                    alt="Plugin Images"
+                    src="/images/Grading.png"
+                    alt="Core Images"
                   />
                 </div>
                 <div className="content">
@@ -289,8 +289,8 @@ function HomeOurCoreFeatures() {
               <div className="inner">
                 <div className="thumbnail">
                   <img
-                    src="./images/animation.png"
-                    alt="Plugin Images"
+                    src="/images/Feedback.png"
+                    alt="Core Images"
                   />
                 </div>
                 <div className="content">
