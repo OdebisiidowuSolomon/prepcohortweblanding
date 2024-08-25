@@ -1,11 +1,10 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 /* eslint-disable jsx-a11y/img-redundant-alt */
-import React, { useCallback, useEffect, useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 import { ERROR_POLICY } from "../../../../contracts";
 import { FaStar } from "react-icons/fa";
-import { MdAccessTime, MdOutlinePeople } from "react-icons/md";
+import { MdAccessTime } from "react-icons/md";
 import { BsQuestionCircle } from "react-icons/bs";
-import { RiPercentFill } from "react-icons/ri";
 import { frontendUrl } from "../../../../services/graphqlClient";
 import QuestionBankService from "../../../../graphql/hooks/questionBank";
 import { ITestObj } from "../../../../contracts/questionBank";

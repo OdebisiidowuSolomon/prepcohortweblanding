@@ -1,6 +1,5 @@
 import { useLazyQuery } from "@apollo/client";
 import { FETCH_POLICY, GraphiqlProps } from "../../contracts";
-import { GET_SUBJECTS } from "../queries/subject";
 import { GET_QUESTION_BANKS } from "../queries/questionBank";
 
 const useGetQuestionBanks = ({
