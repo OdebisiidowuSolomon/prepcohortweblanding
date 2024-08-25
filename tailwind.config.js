@@ -6,6 +6,11 @@ module.exports = {
       color: {
         baseColor: "#1F4497",
       },
+      screens: {
+        tablet: "992px",
+        phone: "767px",
+        miniphone: "307px",
+      },
     },
   },
   plugins: [],

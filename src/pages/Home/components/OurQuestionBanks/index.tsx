@@ -67,7 +67,7 @@ function HomeOurQuestionBank() {
           </div>
           {/* <!-- Start QuestionBanks Area --> */}
           {/* <div className="row g-5"> */}
-          <div className="flex items-center! justify-between flex-wrap bg-yellow-300e">
+          <div className="flex max-phone:flex-col items-center justify-between flex-wrap">
             {allQuestionBanks.map((questionBank) => (
               <SingleQuestionBankItem questionBank={questionBank} />
             ))}
@@ -94,18 +94,20 @@ const SingleQuestionBankItem = ({
       href={`${frontendUrl}/quiz/quiz/MOCK/${questionBank.id}`}
       target="_blank"
       rel="noreferrer"
-      className="shadow-md w-[32%] h-[450px] mb-10 p-10 rounded-xl"
+      className="shadow-md w-[32%] max-tablet:w-[48%] max-phone:w-[90%] h-[450px] mb-10 p-10 rounded-xl"
     >
       <div className="h-[236px] bg-[#1F4497] flex flex-col justify-center items-center rounded-xl">
-        <div className="h-[110px] w-[110px] bg-white mx-auto rounded-full flex justify-center items-center">
-          <p className="text-[64px] text-black">{questionBank?.name[0]}</p>
+        <div className="h-[110px] w-[110px] max-miniphone:h-[90px] max-miniphone:w-[90px] bg-white mx-auto rounded-full flex justify-center items-center">
+          <p className="text-[64px] max-miniphone:text-5xl text-black">
+            {questionBank?.name[0]}
+          </p>
         </div>
-        <p className="text-white mt-3">{questionBank?.name}</p>
+        <p className="text-white text-center mt-3">{questionBank?.name}</p>
       </div>
       <div className="mt-4">
         <div className="flex items-center! justify-between">
           <p
-            className="font-semibold text-[#1F4497]"
+            className="font-semibold text-[#1F4497] max-miniphone:text-[13px]"
             style={{ margin: 0, padding: 0 }}
           >
             {TruncateText(questionBank?.name)}
@@ -134,7 +136,7 @@ const SingleQuestionBankItem = ({
               </div>
               <p className="text-black font-medium">Total Questions:</p>
             </div>
-            <p className="text-black font-medium">
+            <p className="text-black font-medium max-miniphone:text-sm">
               {questionBank?.noOfQuestions}
             </p>
           </div>

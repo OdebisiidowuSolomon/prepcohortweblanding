@@ -1,5 +1,6 @@
 /* eslint-disable jsx-a11y/img-redundant-alt */
-import React from "react";
+import React, { useRef, useState } from "react";
+import { FaAngleDown, FaAngleUp } from "react-icons/fa";
 
 function HomeAccordionArea() {
   // <!-- Start Accordion Area  -->
@@ -16,6 +17,11 @@ function HomeAccordionArea() {
                 Do you have any Question
               </h2>
             </div>
+
+            <AccordionItem />
+            <AccordionItem />
+            <AccordionItem />
+
             <div className="rbt-accordion-style rbt-accordion-02 accordion">
               <div className="accordion" id="accordionExamplea1">
                 <div className="accordion-item card">
@@ -33,19 +39,23 @@ function HomeAccordionArea() {
                   </h2>
                   <div
                     id="collapseOne"
-                    className="accordion-collapse collapse show"
+                    // className="accordion-collapse collapsel show"
+                    className="accordion-collapse show"
                     aria-labelledby="headingOne"
                     data-bs-parent="#accordionExamplea1"
                   >
                     <div className="accordion-body card-body">
-                      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                      Sapiente iste harum optio recusandae! Neque at, adipisci
-                      ipsa sequi corporis rem deleniti facilis.
+                      <p className="text-white" style={{ color: "red" }}>
+                        Lorem Lorem Lorem ipsum dolor sit amet consectetur,
+                        adipisicing elit. Sapiente iste harum optio recusandae!
+                        Neque at, adipisci ipsa sequi corporis rem deleniti
+                        facilis.
+                      </p>
                     </div>
                   </div>
                 </div>
 
-                <div className="accordion-item card">
+                {/* <div className="accordion-item card">
                   <h2 className="accordion-header card-header" id="headingFour">
                     <button
                       className="accordion-button collapsed"
@@ -65,14 +75,16 @@ function HomeAccordionArea() {
                     data-bs-parent="#accordionExamplea1"
                   >
                     <div className="accordion-body card-body">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Doloremque assumenda eos eum recusandae, eveniet
-                      dignissimos, nulla voluptas aut nisi labore officia?
-                      Deleniti eligendi officia, dolore labore soluta iusto
-                      nostrum culpa.
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Doloremque assumenda eos eum recusandae, eveniet
+                        dignissimos, nulla voluptas aut nisi labore officia?
+                        Deleniti eligendi officia, dolore labore soluta iusto
+                        nostrum culpa.
+                      </p>
                     </div>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
@@ -84,3 +96,57 @@ function HomeAccordionArea() {
 }
 
 export default HomeAccordionArea;
+
+const AccordionItem = ({
+  label,
+  subLabel,
+}: {
+  label?: string;
+  subLabel?: string;
+}) => {
+  const [isOpen, setIsOpen] = useState(false);
+  const [height, setHeight] = useState(0);
+  const divRef = useRef<HTMLDivElement>(null);
+
+  const handleToggleExpandHeight = () => {
+    const current = divRef.current;
+    if (current) {
+      const { scrollHeight } = current;
+      const _height = isOpen ? 0 : scrollHeight;
+      setIsOpen((p) => !p);
+      setHeight(_height);
+    }
+  };
+
+  return (
+    <div className="mb-4">
+      <div
+        className="flex justify-between items-center! pb-4 cursor-pointer"
+        style={{ borderBottom: "1.5px solid", borderColor: "#A1A9AC" }}
+        onClick={handleToggleExpandHeight}
+      >
+        <p
+          className={`text-3xl font-bold text-[#A1A9AC] ${
+            isOpen && "text-white"
+          }`}
+          style={{ margin: 0, padding: 0 }}
+        >
+          {label || "What is PrepCohort? How does it work?"}
+        </p>
+        {isOpen ? <FaAngleUp /> : <FaAngleDown color="#A1A9AC" />}
+      </div>
+      <div
+        className={`pt-4 text-[#A1A9AC] transition-all ${
+          isOpen && "text-white "
+        } ${!isOpen && "overflow-hidden"}`}
+        style={{ height }}
+        ref={divRef}
+      >
+        {subLabel ||
+          `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam,
+        natus repudiandae commodi perspiciatis doloribus id assumenda
+        consequatur quia necessitatibus sunt aspernatur, sapiente nobis? Quasi?`}
+      </div>
+    </div>
+  );
+};
